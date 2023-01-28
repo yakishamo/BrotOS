@@ -62,7 +62,7 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	
 	if(Error err = InitializeHeap(*memory_manager)) {
 		Printf("InitializeHeap returned error.\n");
-		Printf("err : %s\n", err.Name());
+		Printf("err : %d\n", err.Cause());
 		stop();
 	}
 	
