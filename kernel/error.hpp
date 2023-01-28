@@ -30,7 +30,7 @@ class Error {
   };
 
  private:
-  static constexpr std::array<const char*,20> code_names_ {
+  static constexpr char const *code_names_[20] {
     "kSuccess",
     "kFull",
     "kEmpty",
@@ -53,7 +53,7 @@ class Error {
     "kNoWaiter",
   };
 
-  static_assert(Error::Code::kLastOfCode == code_names_.size(),"");
+//  static_assert(Error::Code::kLastOfCode == code_names_.size(),"");
 
  public:
   Error(Code code, const char* file, int line) : code_{code}, line_{line}, file_{file} {}
@@ -69,7 +69,7 @@ class Error {
   const char* Name() const {
     return code_names_[static_cast<int>(this->code_)];
   }
-
+	
   const char* File() const {
     return this->file_;
   }

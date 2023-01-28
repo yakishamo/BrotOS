@@ -59,10 +59,10 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 
 	memory_manager = new(memory_manager_buf) BitmapMemoryManager;
 	InitializeMemoryManager(memory_manager, mmap);
-	
+
 	if(Error err = InitializeHeap(*memory_manager)) {
 		Printf("InitializeHeap returned error.\n");
-		Printf("err : %d\n", err.Cause());
+		Printf("err : %s\n", err.Name());
 		stop();
 	}
 	
