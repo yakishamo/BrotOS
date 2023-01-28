@@ -1,2 +1,1 @@
-# myos
 # BrotOS
