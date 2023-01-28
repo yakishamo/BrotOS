@@ -1,4 +1,5 @@
 #include <stddef.h>
+#include "error.hpp"
 #include "asmfunc.hpp"
 #include <stdint.h>
 #include "boot_types.h"
