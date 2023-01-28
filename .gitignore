@@ -1,0 +1,15 @@
+*.o
+disk.img
+*.efi
+*.elf
+lib/
+build_libcxx/
+edk2/
+fs/
+kernel.bak/
+libcxx/
+llvm-project/
+mnt/
+old_lib/
+qemu/
+
