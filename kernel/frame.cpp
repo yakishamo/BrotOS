@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#define line_len_max 40
+#define line_len_max 100
 
 video_info_t *vinfo;
 FONT *ascii_font;

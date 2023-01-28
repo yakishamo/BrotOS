@@ -69,4 +69,4 @@ inline FrameID AddressToFrameID(uintptr_t ptr) {
 	return FrameID{ptr/kBytesPerFrame};
 }
 void InitializeMemoryManager(BitmapMemoryManager *memory_manager, MemoryMap *mmap);
-Error InitializeHeap(BitmapMemoryManager& memory_manager);
+WithError<void*> InitializeHeap(BitmapMemoryManager& memory_manager);

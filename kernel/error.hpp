@@ -30,7 +30,7 @@ class Error {
   };
 
  private:
-  static constexpr std::array<const char *, 20> code_names_ {
+  static constexpr char const  *code_names_[20] {
     "kSuccess",
     "kFull",
     "kEmpty",

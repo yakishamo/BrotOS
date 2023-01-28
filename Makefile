@@ -5,7 +5,8 @@ run:
 	sudo cp kernel/kernel.elf mnt/
 	sudo cp font.bin mnt/
 	sudo umount mnt
-	qemu-system-x86_64\
+	qemu-system-x86_64 \
+		-m 1G \
 		-drive if=pflash,format=raw,readonly=on,file=tool/OVMF_CODE.fd \
 		-drive if=pflash,format=raw,file=tool/OVMF_VARS.fd \
 		-drive if=ide,index=0,media=disk,format=raw,file=./disk.img \
@@ -22,6 +23,7 @@ debug:
 	sudo umount mnt
 	ulimit -c unlimited
 	./qemu/build/x86_64-softmmu/qemu-system-x86_64 \
+		-m 1G \
 		-drive if=pflash,format=raw,readonly=on,file=tool/OVMF_CODE.fd \
 		-drive if=pflash,format=raw,file=tool/OVMF_VARS.fd \
 		-drive if=ide,index=0,media=disk,format=raw,file=./disk.img \

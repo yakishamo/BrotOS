@@ -22,7 +22,12 @@ void show_memory_map() {
 	Printf("desc size : %d\n", mmap->descriptor_size);
 	Printf("sizeof(MemoryDescriptor) : %d\n", sizeof(MemoryDescriptor));
 
-	//for(i = 0; i < mmap->map_size/mmap->descriptor_size; i++) show_memdesc(mmap, i);
+	int sum_of_pages = 0;
+	for(i = 0; i <  10/*mmap->map_size/mmap->descriptor_size*/; i++) {
+		show_memdesc(i);
+		sum_of_pages += DESC(i)->number_of_pages;
+	}
+	Printf("sum of pages : %d\n", sum_of_pages);
 
 	return;
 }

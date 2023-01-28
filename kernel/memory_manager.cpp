@@ -95,14 +95,14 @@ void InitializeMemoryManager(BitmapMemoryManager *memory_manager, MemoryMap *mma
 	return;
 }
 
-Error InitializeHeap(BitmapMemoryManager& memory_manager) {
+WithError<void*> InitializeHeap(BitmapMemoryManager& memory_manager) {
 	const int kHeapFrames = 64 * 512;
 	const auto heap_start = memory_manager.Allocate(kHeapFrames);
 	if(heap_start.error) {
-		return heap_start.error;
+		return {(void*)0, heap_start.error};
 	}
 
 	program_break = reinterpret_cast<caddr_t>(heap_start.value.ID() * kBytesPerFrame);
 	program_break_end = program_break + kHeapFrames * kBytesPerFrame;
-	return MAKE_ERROR(Error::kSuccess);
+	return {(void*)program_break, MAKE_ERROR(Error::kSuccess)};
 }
