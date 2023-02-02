@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#define line_len_max 100
+#define line_len_max 40
 
 video_info_t *vinfo;
 FONT *ascii_font;
@@ -16,10 +16,16 @@ int line_queue_end = 0;
 int max_line = 0;
 char line_queue[200][100];
 
+int WritePixelRGB(Color,int,int);
+int WritePixelBGR(Color,int,int);
+
 void InitializeFrame(bootinfo_t *binfo) {
 	vinfo = &binfo->vinfo;
 	ascii_font = binfo->ascii_font;
 	max_line = vinfo->y_axis/17;
+	if(vinfo->format == RGB) WritePixel = WritePixelRGB;
+	else if(vinfo->format == BGR) WritePixel = WritePixelBGR;
+	else while(1) __asm__("hlt");
 }
 
 Color HashtoColor(uint8_t c) {
@@ -42,25 +48,25 @@ Color HSVtoRGB(int c) {
 	return ret;
 }
 
-int WritePixel(Color c, int x, int y) {
+int WritePixelRGB(Color c, int x, int y) {
 	int pixelposition = vinfo->x_axis * y + x;
-	char *dst = (char *)vinfo->fb + pixelposition*4;
-	switch(vinfo->format) {
-		case RGB:
-			dst[0] = c.r;
-			dst[1] = c.g;
-			dst[2] = c.b;
-			break;
-		case BGR:
-			dst[0] = c.b;
-			dst[1] = c.g;
-			dst[2] = c.r;
-			break;
-		default:
-			return 1;
-	}
+	char *dst = (char *)vinfo->fb + pixelposition * 4;
+	dst[0] = c.r;
+	dst[1] = c.g;
+	dst[2] = c.b;
 	return 0;
 }
+
+int WritePixelBGR(Color c, int x, int y) {
+	int pixelposition = vinfo->x_axis * y + x;
+	char *dst = (char *)vinfo->fb + pixelposition * 4;
+	dst[0] = c.b;
+	dst[1] = c.g;
+	dst[2] = c.r;
+	return 0;
+}
+
+
 
 int WriteAscii(char c, Color color, int x, int y) {
 	for(int i = 0; i < 16; i++) {
@@ -162,7 +168,7 @@ extern "C" int Print(const char *str) {
 
 int Printf(const char *format, ...) {
 	va_list ap;
-	static char str_for_Printf[500];
+	static char str_for_Printf[1000];   //= reinterpret_cast<char *>(malloc(strlen(format) + 500));
 	va_start(ap, format);
 	vsprintf(str_for_Printf, format, ap);
 	va_end(ap);
@@ -214,8 +220,11 @@ void WriteMandelbrot(int time){
 	for(int i = 0; i < vinfo->y_axis; i++) {
 		for(int j = 0; j < vinfo->x_axis; j++) {
 			color_num = CalcMandelbrot(j, i, time);
+			WritePixel(HashtoColor(color_num),vinfo->x_axis-j, i);
+			/*
 			WritePixel({static_cast<uint8_t>(color_num*4), 0, 0},
 					vinfo->x_axis - j, i);
+			// */
 		}
 	}
 	return;

@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <stdio.h>
 #include "interrupt.hpp"
 #include "asmfunc.hpp"
 #include "pic.hpp"

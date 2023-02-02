@@ -5,7 +5,7 @@
 #include "../boot/boot_types.h"
 
 void InitializeFrame(bootinfo_t *binfo);
-int WritePixel(Color c, int x, int y);
+int (*WritePixel)(Color c, int x, int y);
 int WriteAscii(char c, Color color, int x, int y);
 int WriteSquare(Vector p1, Vector p2, Color c);
 int PrintLine(char const *str, Vector point, Color c);

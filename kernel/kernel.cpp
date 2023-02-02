@@ -60,7 +60,6 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	memory_manager = new(memory_manager_buf) BitmapMemoryManager;
 	InitializeMemoryManager(memory_manager, mmap);
 
-	show_memory_map();
 	WithError<void*> ret = InitializeHeap(*memory_manager);
 	if(ret.error) {
 		Printf("InitializeHeap returned error.\n");
@@ -73,11 +72,7 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	char *heap = (char *)malloc(16);
 	Printf("malloc : %p\n", heap);
 	free(heap);
-	heap = new char;
-	Printf("new ; %p\n", heap);
-	delete heap;
 
-	Printf("mmap : %d\n", search_mem_type(reinterpret_cast<uintptr_t>(&mmap)));
 	char str[1000];
 	Printf("kernel : %p\n", kernel_main);
 	Printf("kernel stack : %p\n", kernel_main_stack);
