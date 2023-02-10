@@ -15,6 +15,7 @@ int line_queue_head = 0;
 int line_queue_end = 0;
 int max_line = 0;
 char line_queue[200][100];
+int (*WritePixel)(Color c, int x, int y);
 
 int WritePixelRGB(Color,int,int);
 int WritePixelBGR(Color,int,int);
