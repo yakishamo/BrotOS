@@ -6,6 +6,22 @@
 
 extern BitmapMemoryManager* memory_manager;
 
+char **tokenize(char *str) {
+	int len = strlen(str);
+	int i = 0;
+	int token_num = 1;
+	for(i = 0; i < len; i++) {
+		if(str[i] == ' ') {
+			while(str[i] == ' ' && i < len) 
+				i++;
+			if(i != len) 
+				token_num++;
+		}
+	}
+	Printf("token num : %d\n", token_num);
+	return NULL;
+}
+
 int command(char *str) {
 	uintptr_t ptr;
 	if(strcmp(str, "") == 0) { // no input

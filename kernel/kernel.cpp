@@ -81,6 +81,7 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	while(1) {
 		Printf("Enter command >");
 		GetString(str);
+		tokenize(str);
 		command(str);
 	}
 	stop();
