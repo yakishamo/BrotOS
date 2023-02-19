@@ -81,7 +81,10 @@ void KeyboardInterrupt(InterruptFrame* frame) {
 
 void DefaultInterrupt(InterruptFrame* frame) {
 //	WriteMandelbrot(300);
+	char str[100];
 	PrintLine("some interrupt", InterruptMessagePosition, {255,0,0});
+	sprintf(str, "rip : %p\n", frame->rip);
+	PrintLine(str, {400,317}, {255,0,0});
 	stop();
 	NotifyEndOfInterrupt();
 }

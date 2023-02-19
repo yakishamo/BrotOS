@@ -67,24 +67,18 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 		stop();
 	}
 
-	Printf("program_break : %p\n", ret.value);
-	
-	char *heap = (char *)malloc(16);
-	Printf("malloc : %p\n", heap);
-	free(heap);
-
 	char str[1000];
+	char **token;
+	int i = 0;
+	Printf("Welcome to BrotOS!!\n");
 	Printf("kernel : %p\n", kernel_main);
 	Printf("kernel stack : %p\n", kernel_main_stack);
-	Printf("kernel stack end : %p\n", kernel_main_stack + 1024*1024);
-	Printf("keycode : %p\n", keycode);
 	while(1) {
 		Printf("Enter command >");
 		GetString(str);
-		tokenize(str);
-		command(str);
+		token = tokenize(str);
+		command(token);
+		free_token(token);
 	}
 	stop();
-
 }
-
