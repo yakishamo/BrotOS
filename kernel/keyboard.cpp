@@ -1,6 +1,6 @@
 #include "keyboard.hpp"
 
-char keycode[0x100] = "\000\0001234567890-^\\\0qwertyuiop@[\0\0asdfghjkl;:]\0\0zxcvbnm,./";
+char keycode[0x100] = "\000\0001234567890-^\b\0qwertyuiop@[\0\0asdfghjkl;:]\0\0zxcvbnm,./";
 
 void InitializeKeycode () {
 

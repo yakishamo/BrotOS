@@ -79,6 +79,16 @@ void KeyboardInterrupt(InterruptFrame* frame) {
 	return;
 }
 
+__attribute__((interrupt))
+void ShowKeycodeInterrupt(InterruptFrame* frame) {
+	unsigned int data;
+	IoOut8(PIC0_OCW2, 0x61);
+	data = IoIn8(PORT_KEYDAT);
+	Printf("%d : %c\n", data, keycode[data]);
+	NotifyEndOfInterrupt();
+	return;
+}
+
 void DefaultInterrupt(InterruptFrame* frame) {
 //	WriteMandelbrot(300);
 	char str[100];

@@ -5,6 +5,12 @@
 extern InputBuffer Input_Buffer;
 
 int InputBuffer::add(char c) {
+	if(c == '\b' && input_size > 0) {
+		last = (last-1) % buffer_size;
+		buffer[last] = '\0';
+		input_size--;
+		return 0;
+	}
 	if(input_size < buffer_size) {
 		buffer[last] = c;
 		last = (last+1) % buffer_size;

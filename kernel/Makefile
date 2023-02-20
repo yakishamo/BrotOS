@@ -12,6 +12,7 @@ CPPFLAGS += -g -O0 \
 						-fPIE \
 						-fno-builtin -fno-common -fno-stack-protector \
 						-nostdlib \
+						-ffreestanding \
 						-mno-red-zone \
 						-std=c++20
 LDFLAGS = -Map kernel.map -e entry_point -z norelro --image-base 0x100000 -static \
