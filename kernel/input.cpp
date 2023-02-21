@@ -13,8 +13,9 @@ int InputBuffer::add(char c) {
 		buffer[last] = '\0';
 		input_size--;
 		return 0;
-	}
-	if(input_size < buffer_size) {
+	} else if(c == '\b' && input_size == 0) {
+		return 0;
+	} else if(input_size < buffer_size) {
 		buffer[last] = c;
 		last = (last+1) % buffer_size;
 		input_size++;

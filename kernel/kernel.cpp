@@ -1,7 +1,9 @@
 #include <stddef.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdint.h>
 #include "error.hpp"
 #include "asmfunc.hpp"
-#include <stdint.h>
 #include "boot_types.h"
 #include "type.hpp"
 #include "macro.hpp"
@@ -16,8 +18,7 @@
 #include "input.hpp"
 #include "command.hpp"
 #include "memory_manager.hpp"
-#include <string.h>
-#include <stdio.h>
+#include "timer.hpp"
 
 extern video_info_t *vinfo;
 extern InterruptDescriptor idt[256];
@@ -67,18 +68,24 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 		stop();
 	}
 
+	InitializeLAPICTimer(); //タイマー初期化
+
 	char str[1000];
 	char **token;
 	int i = 0;
 	Printf("Welcome to BrotOS!!\n");
 	Printf("kernel : %p\n", kernel_main);
 	Printf("kernel stack : %p\n", kernel_main_stack);
-	while(1) {
+	while(1) { //main loop
+		Printf("%u\n", LAPICTimer());
+		/*
 		Printf("Enter command >");
 		GetString(str);
 		token = tokenize(str);
 		command(token);
 		free_token(token);
+		*/
+
 	}
 	stop();
 }

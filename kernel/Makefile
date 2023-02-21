@@ -20,6 +20,7 @@ LDFLAGS = -Map kernel.map -e entry_point -z norelro --image-base 0x100000 -stati
 
 OBJS = kernel.o frame.o asmfunc.o pci.o memory_map.o newlib.o \
 			 segment.o interrupt.o paging.o keyboard.o input.o command.o memory_manager.o \
+			 timer.o
 
 .PHONY: clean
 

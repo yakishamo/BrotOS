@@ -9,10 +9,20 @@ namespace {
 }
 
 void InitializeLAPICTimer() {
-	divide_config = 0b1011;
+	divide_config = 0b000;
 	lvt_timer = (0b001 << 16) | 32;
 	return;
 }
 
 void StartLAPICTimer() {
 	initial_count = kCountMax;
+}
+
+uint32_t LAPICTimer() {
+	return kCountMax - current_count;
+}
+
+void StopLAPICTimer() {
+	initial_count = 0;
+}
+
