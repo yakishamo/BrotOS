@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdlib.h>
+#include "timer.hpp"
 #include "frame.hpp"
 #include "memory_map.hpp"
 #include "memory_manager.hpp"
@@ -133,6 +134,12 @@ int command(char **tok) {
 			Printf("check: illegal operation\n");
 			return 1;
 		}
+	} else if(strcmp(tok[0], "time") == 0) {
+		uint32_t time = LAPICTimer();
+		command(tok+1);
+		time = LAPICTimer() - time;
+		Printf("time : %d\n", time);
+		return 0;		
 	} else {
 		Printf("%s is not found.\n", tok[0]);
 		return 1;

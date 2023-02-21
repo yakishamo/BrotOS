@@ -221,11 +221,8 @@ void WriteMandelbrot(int time){
 	for(int i = 0; i < vinfo->y_axis; i++) {
 		for(int j = 0; j < vinfo->x_axis; j++) {
 			color_num = CalcMandelbrot(j, i, time);
-			//WritePixel(HashtoColor(color_num),vinfo->x_axis-j, i);
-			
 			WritePixel({static_cast<uint8_t>(color_num*4), 0, 0},
 					vinfo->x_axis - j, i);
-			// */
 		}
 	}
 	return;
