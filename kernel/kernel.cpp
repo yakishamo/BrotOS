@@ -77,10 +77,10 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	Printf("kernel : %p\n", kernel_main);
 	Printf("kernel stack : %p\n", kernel_main_stack);
 	while(1) { //main loop
-//		Printf("%u\n", LAPICTimer());
 		Printf("Enter command >");
 		GetString(str);
 		token = tokenize(str);
+		Printf("token : %p\n", token);
 		command(token);
 		free_token(token);
 
