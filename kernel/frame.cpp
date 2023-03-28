@@ -7,12 +7,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#define line_len_max 40
-
 video_info_t *vinfo;
 FONT *ascii_font;
 int line_queue_head = 0;
 int line_queue_end = 0;
+int line_len_max = 40;
 int max_line = 0;
 char line_queue[200][100];
 int (*WritePixel)(Color c, int x, int y);

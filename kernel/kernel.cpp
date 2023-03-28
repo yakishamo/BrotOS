@@ -80,10 +80,8 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 		Printf("Enter command >");
 		GetString(str);
 		token = tokenize(str);
-		Printf("token : %p\n", token);
 		command(token);
 		free_token(token);
-
 	}
 	stop();
 }

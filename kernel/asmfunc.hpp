@@ -17,4 +17,5 @@ extern "C" {
 	void LoadIDT(uint16_t limit, uint64_t offset);
 	void SetCR3(uint64_t value);
 	void NotifyEndOfInterrupt();
+	uint64_t rdtsc();
 }
