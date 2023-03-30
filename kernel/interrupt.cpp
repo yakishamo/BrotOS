@@ -184,6 +184,13 @@ void Interrupt_31(InterruptFrame *frame) {
 	stop();
 	NotifyEndOfInterrupt();
 }
+
+__attribute__((interrupt))
+void InterruptTimer(InterruptFrame* frame) {
+	Printf("Timer Interrupt\n");
+	NotifyEndOfInterrupt();
+}
+
 __attribute__((interrupt))
 void BreakpointInterrupt(InterruptFrame* frame) {
 	Printf("\nrip : %p", frame->rip);
@@ -369,6 +376,8 @@ void InitializeInterrupt() {
 				reinterpret_cast<uint64_t>(Interrupt_30), cs);
 	SetIDTEntry(&idt[31], MakeIDTAttr(DescriptorType::kInterruptGate, 0),
 				reinterpret_cast<uint64_t>(Interrupt_31), cs);
+	SetIDTEntry(&idt[0x41], MakeIDTAttr(DescriptorType::kInterruptGate, 0),
+			reinterpret_cast<uint64_t>(InterruptTimer), cs);
 
 
 	LoadIDT(sizeof(idt)-1, reinterpret_cast<uintptr_t>(idt));

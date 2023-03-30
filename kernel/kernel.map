@@ -1,671 +1,673 @@
              VMA              LMA     Size Align Out     In      Symbol
-          100160           100160     1110    32 .rodata
-          100160           100160      6c7     1         <internal>:(.rodata)
-          100828           100828       68     8         <internal>:(.rodata)
-          100890           100890      190    16         ../lib/libc.a(libc_a-svfprintf.o):(.rodata)
-          100a00           100a00       10     1                 zeroes.0
-          100a10           100a10       10     1                 blanks.1
-          100a20           100a20       40    16         <internal>:(.rodata)
-          100a60           100a60      2a0    32         ../lib/libc.a(libc_a-ctype_.o):(.rodata)
-          100a60           100a60      101     1                 _ctype_
-          100b80           100b80      180     1                 _ctype_b
-          100d00           100d00      190    16         ../lib/libc.a(libc_a-svfiprintf.o):(.rodata)
-          100e70           100e70       10     1                 zeroes.0
-          100e80           100e80       10     1                 blanks.1
-          100ea0           100ea0      168    32         ../lib/libc.a(libc_a-mprec.o):(.rodata)
-          100ea0           100ea0        c     1                 p05.0
-          100ec0           100ec0       28     1                 __mprec_tinytens
-          100f00           100f00       28     1                 __mprec_bigtens
-          100f40           100f40       c8     1                 __mprec_tens
-          101008           101008       2f     8         <internal>:(.rodata)
-          101040           101040      190    16         ../lib/libc.a(libc_a-vfiprintf.o):(.rodata)
-          1011b0           1011b0       10     1                 zeroes.0
-          1011c0           1011c0       10     1                 blanks.1
-          1011d0           1011d0       87     1         newlib.o:(.rodata)
-          101258           101258       18     8         timer.o:(.rodata)
-          101258           101258        8     1                 (anonymous namespace)::divide_config
-          101260           101260        8     1                 (anonymous namespace)::lvt_timer
-          101268           101268        8     1                 (anonymous namespace)::initial_count
-          101270           101270     2da4     8 .eh_frame
-          101270           101270       d4     1         kernel.o:(.eh_frame+0x0)
-          101348           101348       3c     1         kernel.o:(.eh_frame+0xd4)
-          101388           101388       a0     1         kernel.o:(.eh_frame+0x110)
-          101428           101428      220     1         frame.o:(.eh_frame+0x18)
-          101648           101648       18     1         ../lib/libc.a(libc_a-strcpy.o):(.eh_frame+0x18)
-          101660           101660       20     1         ../lib/libc.a(libc_a-strcat.o):(.eh_frame+0x18)
-          101680           101680       18     1         ../lib/libc.a(libc_a-strlen.o):(.eh_frame+0x18)
-          101698           101698       1c     1         ../lib/libc.a(libc_a-vsprintf.o):(.eh_frame+0x18)
-          1016b8           1016b8       1c     1         ../lib/libc.a(libc_a-vsprintf.o):(.eh_frame+0x34)
-          1016d8           1016d8       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x18)
-          1016f0           1016f0       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x2c)
-          101708           101708       34     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x40)
-          101740           101740       3c     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x74)
-          101780           101780       44     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0xb0)
-          1017c8           1017c8       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0xf4)
-          1017e0           1017e0       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x108)
-          1017f8           1017f8       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x11c)
-          101810           101810       18     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x130)
-          101828           101828       3c     1         ../lib/libc.a(libc_a-fclose.o):(.eh_frame+0x18)
-          101868           101868       14     1         ../lib/libc.a(libc_a-fclose.o):(.eh_frame+0x54)
-          101880           101880       90     1         ../lib/libc.a(libc_a-fflush.o):(.eh_frame+0x18)
-          101910           101910       3c     1         ../lib/libc.a(libc_a-freer.o):(.eh_frame+0x18)
-          101950           101950       5c     1         ../lib/libc.a(libc_a-freer.o):(.eh_frame+0x54)
-          1019b0           1019b0       14     1         ../lib/libc.a(libc_a-mlock.o):(.eh_frame+0x18)
-          1019c8           1019c8       14     1         ../lib/libc.a(libc_a-mlock.o):(.eh_frame+0x2c)
-          1019e0           1019e0       80     1         ../lib/libc.a(libc_a-mallocr.o):(.eh_frame+0x18)
-          101a60           101a60       20     1         ../lib/libc.a(libc_a-sbrkr.o):(.eh_frame+0x18)
-          101a80           101a80       40     1         ../lib/libc.a(libc_a-reent.o):(.eh_frame+0x18)
-          101ac0           101ac0       48     1         ../lib/libc.a(libc_a-fwalk.o):(.eh_frame+0x18)
-          101b08           101b08       34     1         ../lib/libc.a(libc_a-stdio.o):(.eh_frame+0x18)
-          101b40           101b40       34     1         ../lib/libc.a(libc_a-stdio.o):(.eh_frame+0x4c)
-          101b78           101b78       38     1         ../lib/libc.a(libc_a-stdio.o):(.eh_frame+0x80)
-          101bb0           101bb0       20     1         ../lib/libc.a(libc_a-readr.o):(.eh_frame+0x18)
-          101bd0           101bd0       20     1         ../lib/libc.a(libc_a-writer.o):(.eh_frame+0x18)
-          101bf0           101bf0       20     1         ../lib/libc.a(libc_a-lseekr.o):(.eh_frame+0x18)
-          101c10           101c10       20     1         ../lib/libc.a(libc_a-closer.o):(.eh_frame+0x18)
-          101c30           101c30       50     1         ../lib/libc.a(libc_a-svfprintf.o):(.eh_frame+0x18)
-          101c80           101c80       14     1         ../lib/libc.a(libc_a-localeconv.o):(.eh_frame+0x18)
-          101c98           101c98       14     1         ../lib/libc.a(libc_a-localeconv.o):(.eh_frame+0x2c)
-          101cb0           101cb0       18     1         ../lib/libc.a(libc_a-localeconv.o):(.eh_frame+0x40)
-          101cc8           101cc8       24     1         ../lib/libc.a(libc_a-locale.o):(.eh_frame+0x18)
-          101cf0           101cf0       14     1         ../lib/libc.a(libc_a-locale.o):(.eh_frame+0x3c)
-          101d08           101d08       28     1         ../lib/libc.a(libc_a-locale.o):(.eh_frame+0x50)
-          101d30           101d30       18     1         ../lib/libc.a(libc_a-strcmp.o):(.eh_frame+0x18)
-          101d48           101d48       14     1         ../lib/libc.a(libc_a-wctomb_r.o):(.eh_frame+0x18)
-          101d60           101d60       14     1         ../lib/libc.a(libc_a-wctomb_r.o):(.eh_frame+0x2c)
-          101d78           101d78       14     1         ../lib/libc.a(libc_a-mbtowc_r.o):(.eh_frame+0x18)
-          101d90           101d90       1c     1         ../lib/libc.a(libc_a-mbtowc_r.o):(.eh_frame+0x2c)
-          101db0           101db0       14     1         ../lib/libc.a(libc_a-stack_protector.o):(.eh_frame+0x18)
-          101dc8           101dc8       1c     1         ../lib/libc.a(libc_a-stack_protector.o):(.eh_frame+0x2c)
-          101de8           101de8       20     1         ../lib/libc.a(libc_a-stack_protector.o):(.eh_frame+0x48)
-          101e08           101e08       4c     1         ../lib/libc.a(libc_a-signal.o):(.eh_frame+0x18)
-          101e58           101e58      184     1         ../lib/libc.a(libc_a-signal.o):(.eh_frame+0x64)
-          101fe0           101fe0       38     1         ../lib/libc.a(libc_a-signalr.o):(.eh_frame+0x18)
-          102018           102018       4c     1         ../lib/libc.a(libc_a-svfiprintf.o):(.eh_frame+0x18)
-          102068           102068       54     1         ../lib/libc.a(libc_a-svfiprintf.o):(.eh_frame+0x64)
-          1020c0           1020c0       18     1         ../lib/libc.a(libc_a-memmove.o):(.eh_frame+0x18)
-          1020d8           1020d8       68     1         ../lib/libc.a(libc_a-reallocr.o):(.eh_frame+0x18)
-          102140           102140       18     1         ../lib/libc.a(libc_a-memchr.o):(.eh_frame+0x18)
-          102158           102158       4c     1         ../lib/libc.a(libc_a-dtoa.o):(.eh_frame+0x18)
-          1021a8           1021a8       4c     1         ../lib/libc.a(libc_a-dtoa.o):(.eh_frame+0x64)
-          1021f8           1021f8       2c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x18)
-          102228           102228       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x44)
-          102240           102240       8c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x58)
-          1022d0           1022d0       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0xe4)
-          1022e8           1022e8       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0xf8)
-          102300           102300       24     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x10c)
-          102328           102328       4c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x130)
-          102378           102378       3c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x17c)
-          1023b8           1023b8       4c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x1b8)
-          102408           102408       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x204)
-          102420           102420       64     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x218)
-          102488           102488       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x27c)
-          1024a0           1024a0       34     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x290)
-          1024d8           1024d8       34     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x2c4)
-          102510           102510       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x2f8)
-          102528           102528       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x30c)
-          102540           102540       18     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x320)
-          102558           102558       28     1         ../lib/libc.a(libc_a-callocr.o):(.eh_frame+0x18)
-          102580           102580       18     1         ../lib/libc.a(libc_a-errno.o):(.eh_frame+0x18)
-          102598           102598       24     1         ../lib/libc.a(libc_a-assert.o):(.eh_frame+0x18)
-          1025c0           1025c0       1c     1         ../lib/libc.a(libc_a-assert.o):(.eh_frame+0x3c)
-          1025e0           1025e0       1c     1         ../lib/libc.a(libc_a-fiprintf.o):(.eh_frame+0x18)
-          102600           102600       1c     1         ../lib/libc.a(libc_a-fiprintf.o):(.eh_frame+0x34)
-          102620           102620       4c     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0x18)
-          102670           102670       14     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0x64)
-          102688           102688       7c     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0x78)
-          102708           102708       3c     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0xf4)
-          102748           102748       44     1         ../lib/libc.a(libc_a-fputwc.o):(.eh_frame+0x18)
-          102790           102790       14     1         ../lib/libc.a(libc_a-fputwc.o):(.eh_frame+0x5c)
-          1027a8           1027a8       28     1         ../lib/libc.a(libc_a-fputwc.o):(.eh_frame+0x70)
-          1027d0           1027d0       2c     1         ../lib/libc.a(libc_a-wcrtomb.o):(.eh_frame+0x18)
-          102800           102800       2c     1         ../lib/libc.a(libc_a-wcrtomb.o):(.eh_frame+0x44)
-          102830           102830       3c     1         ../lib/libc.a(libc_a-wbuf.o):(.eh_frame+0x18)
-          102870           102870       14     1         ../lib/libc.a(libc_a-wbuf.o):(.eh_frame+0x54)
-          102888           102888       30     1         ../lib/libc.a(libc_a-wsetup.o):(.eh_frame+0x18)
-          1028b8           1028b8       44     1         ../lib/libc.a(libc_a-makebuf.o):(.eh_frame+0x18)
-          102900           102900       34     1         ../lib/libc.a(libc_a-makebuf.o):(.eh_frame+0x5c)
-          102938           102938       20     1         ../lib/libc.a(libc_a-fstatr.o):(.eh_frame+0x18)
-          102958           102958       20     1         ../lib/libc.a(libc_a-isattyr.o):(.eh_frame+0x18)
-          102978           102978       78     1         ../lib/libc.a(libc_a-fvwrite.o):(.eh_frame+0x18)
-          1029f0           1029f0       20     1         ../lib/libc.a(libc_a-abort.o):(.eh_frame+0x18)
-          102a10           102a10       1c     1         ../lib/libc.a(libc_a-sprintf.o):(.eh_frame+0x18)
-          102a30           102a30       24     1         ../lib/libc.a(libc_a-sprintf.o):(.eh_frame+0x34)
-          102a58           102a58      200     1         pci.o:(.eh_frame+0x18)
-          102c58           102c58       60     1         memory_map.o:(.eh_frame+0x18)
-          102cb8           102cb8       3c     1         newlib.o:(.eh_frame+0x18)
-          102cf8           102cf8       1c     1         newlib.o:(.eh_frame+0x54)
-          102d18           102d18       1c     1         newlib.o:(.eh_frame+0x70)
-          102d38           102d38       1c     1         newlib.o:(.eh_frame+0x8c)
-          102d58           102d58       1c     1         newlib.o:(.eh_frame+0xa8)
-          102d78           102d78       1c     1         newlib.o:(.eh_frame+0xc4)
-          102d98           102d98       1c     1         newlib.o:(.eh_frame+0xe0)
-          102db8           102db8       1c     1         newlib.o:(.eh_frame+0xfc)
-          102dd8           102dd8       20     1         newlib.o:(.eh_frame+0x118)
-          102df8           102df8       80     1         segment.o:(.eh_frame+0x18)
-          102e78           102e78       54     1         interrupt.o:(.eh_frame+0x18)
-          102ed0           102ed0       54     1         interrupt.o:(.eh_frame+0x6c)
-          102f28           102f28       54     1         interrupt.o:(.eh_frame+0xc0)
-          102f80           102f80       54     1         interrupt.o:(.eh_frame+0x114)
-          102fd8           102fd8       54     1         interrupt.o:(.eh_frame+0x168)
-          103030           103030       54     1         interrupt.o:(.eh_frame+0x1bc)
-          103088           103088       54     1         interrupt.o:(.eh_frame+0x210)
-          1030e0           1030e0       54     1         interrupt.o:(.eh_frame+0x264)
-          103138           103138       54     1         interrupt.o:(.eh_frame+0x2b8)
-          103190           103190       54     1         interrupt.o:(.eh_frame+0x30c)
-          1031e8           1031e8       54     1         interrupt.o:(.eh_frame+0x360)
-          103240           103240       54     1         interrupt.o:(.eh_frame+0x3b4)
-          103298           103298       54     1         interrupt.o:(.eh_frame+0x408)
-          1032f0           1032f0       54     1         interrupt.o:(.eh_frame+0x45c)
-          103348           103348       54     1         interrupt.o:(.eh_frame+0x4b0)
-          1033a0           1033a0       54     1         interrupt.o:(.eh_frame+0x504)
-          1033f8           1033f8       54     1         interrupt.o:(.eh_frame+0x558)
-          103450           103450       54     1         interrupt.o:(.eh_frame+0x5ac)
-          1034a8           1034a8       54     1         interrupt.o:(.eh_frame+0x600)
-          103500           103500       54     1         interrupt.o:(.eh_frame+0x654)
-          103558           103558       54     1         interrupt.o:(.eh_frame+0x6a8)
-          1035b0           1035b0       54     1         interrupt.o:(.eh_frame+0x6fc)
-          103608           103608       54     1         interrupt.o:(.eh_frame+0x750)
-          103660           103660       54     1         interrupt.o:(.eh_frame+0x7a4)
-          1036b8           1036b8       54     1         interrupt.o:(.eh_frame+0x7f8)
-          103710           103710       54     1         interrupt.o:(.eh_frame+0x84c)
-          103768           103768       54     1         interrupt.o:(.eh_frame+0x8a0)
-          1037c0           1037c0       54     1         interrupt.o:(.eh_frame+0x8f4)
-          103818           103818       54     1         interrupt.o:(.eh_frame+0x948)
-          103870           103870       54     1         interrupt.o:(.eh_frame+0x99c)
-          1038c8           1038c8       54     1         interrupt.o:(.eh_frame+0x9f0)
-          103920           103920       54     1         interrupt.o:(.eh_frame+0xa44)
-          103978           103978       74     1         interrupt.o:(.eh_frame+0xa98)
-          1039f0           1039f0       a4     1         interrupt.o:(.eh_frame+0xb0c)
-          103a98           103a98       80     1         paging.o:(.eh_frame+0x18)
-          103b18           103b18       c4     1         input.o:(.eh_frame+0x18)
-          103be0           103be0       24     1         input.o:(.eh_frame+0xdc)
-          103c08           103c08       20     1         command.o:(.eh_frame+0x18)
-          103c28           103c28       a0     1         command.o:(.eh_frame+0x78)
-          103cc8           103cc8       20     1         command.o:(.eh_frame+0x138)
-          103ce8           103ce8       14     1         ../lib/libc.a(libc_a-malloc.o):(.eh_frame+0x18)
-          103d00           103d00       14     1         ../lib/libc.a(libc_a-malloc.o):(.eh_frame+0x2c)
-          103d18           103d18       88     1         ../lib/libc.a(libc_a-strtol.o):(.eh_frame+0x18)
-          103da0           103da0       30     1         ../lib/libc.a(libc_a-atoi.o):(.eh_frame+0x18)
-          103dd0           103dd0       20     1         memory_manager.o:(.eh_frame+0x18)
-          103df0           103df0      200     1         memory_manager.o:(.eh_frame+0x78)
-          103ff0           103ff0       20     1         memory_manager.o:(.eh_frame+0x2b8)
-          105020           105020    13693    16 .text
-          105020           105020      21c    16         kernel.o:(.text)
-          105020           105020        f     1                 stop()
-          105030           105030       29     1                 entry_point
-          105060           105060      1dc     1                 kernel_main
-          105240           105240       50    16         kernel.o:(.text.startup)
-          105240           105240       1a     1                 __cxx_global_var_init
-          105260           105260       12     1                 __cxx_global_var_init.1
-          105280           105280       10     1                 _GLOBAL__sub_I_kernel.cpp
-          105290           105290        b    16         kernel.o:(.text._ZNSt3__114numeric_limitsImE3maxEv)
-          105290           105290        b     1                 std::__1::numeric_limits<unsigned long>::max()
-          1052a0           1052a0       21    16         kernel.o:(.text._ZN7FrameIDC2Em)
-          1052a0           1052a0       21     1                 FrameID::FrameID(unsigned long)
-          1052d0           1052d0       4c    16         kernel.o:(.text._ZN11InputBufferC2Ev)
-          1052d0           1052d0       4c     1                 InputBuffer::InputBuffer()
-          105320           105320       1e    16         kernel.o:(.text._ZNK5ErrorcvbEv)
-          105320           105320       1e     1                 Error::operator bool() const
-          105340           105340       29    16         kernel.o:(.text._ZNK5Error4NameEv)
-          105340           105340       29     1                 Error::Name() const
-          105370           105370        d    16         kernel.o:(.text._ZNSt3__123__libcpp_numeric_limitsImLb1EE3maxEv)
-          105370           105370        d     1                 std::__1::__libcpp_numeric_limits<unsigned long, true>::max()
-          105380           105380       25    16         kernel.o:(.text._ZNKSt3__15arrayIPKcLm20EEixEm)
-          105380           105380       25     1                 std::__1::array<char const*, 20ul>::operator[](unsigned long) const
-          1053b0           1053b0      f1e    16         frame.o:(.text)
-          1053b0           1053b0       9a     1                 InitializeFrame(bootinfo_t*)
-          105450           105450       7f     1                 WritePixelRGB(Color, int, int)
-          1054d0           1054d0       7f     1                 WritePixelBGR(Color, int, int)
-          105550           105550       3d     1                 HashtoColor(unsigned char)
-          105590           105590      191     1                 HSVtoRGB(int)
-          105730           105730       f5     1                 WriteAscii(char, Color, int, int)
-          105830           105830      136     1                 WriteSquare(Vector, Vector, Color)
-          105970           105970      11b     1                 PrintLine(char const*, Vector, Color)
-          105a90           105a90       7e     1                 RegisterLine(char const*)
-          105b10           105b10      457     1                 Print
-          105f70           105f70       b3     1                 Printf
-          106030           106030       6c     1                 dPrint(char*, int)
-          1060a0           1060a0       6c     1                 udPrint(char*, unsigned int)
-          106110           106110       6c     1                 uxdPrint(char*, unsigned int)
-          106180           106180       c2     1                 WriteMandelbrot(int)
-          106250           106250       7e     1                 clear()
-          1062d0           1062d0      1ad    16         frame.o:(.text._Z14CalcMandelbrotiii)
-          1062d0           1062d0      1ad     1                 CalcMandelbrot(int, int, int)
-          106480           106480       85    16         ../lib/libc.a(libc_a-strcpy.o):(.text)
-          106480           106480       85     1                 strcpy
-          106510           106510       6c    16         ../lib/libc.a(libc_a-strcat.o):(.text)
-          106510           106510       6c     1                 strcat
-          106580           106580       7d    16         ../lib/libc.a(libc_a-strlen.o):(.text)
-          106580           106580       7d     1                 strlen
-          106600           106600       ed    16         ../lib/libc.a(libc_a-vsprintf.o):(.text)
-          106600           106600       7d     1                 vsprintf
-          106680           106680       6d     1                 _vsprintf_r
-          1066ed           1066ed        0     1         ../lib/libc.a(libc_a-impure.o):(.text)
-          1066f0           1066f0      469    16         ../lib/libc.a(libc_a-findfp.o):(.text)
-          1066f0           1066f0        7     1                 __fp_lock
-          106700           106700       1e     1                 stdio_exit_handler
-          106720           106720       52     1                 cleanup_stdio
-          106780           106780        7     1                 __fp_unlock
-          106790           106790      1d1     1                 global_stdio_init.part.0
-          106970           106970      156     1                 __sfp
-          106ad0           106ad0       2a     1                 __sinit
-          106b00           106b00        5     1                 __sfp_lock_acquire
-          106b10           106b10        5     1                 __sfp_lock_release
-          106b20           106b20       19     1                 __fp_lock_all
-          106b40           106b40       19     1                 __fp_unlock_all
-          106b60           106b60       f3    16         ../lib/libc.a(libc_a-fclose.o):(.text)
-          106b60           106b60       de     1                 _fclose_r
-          106c40           106c40       13     1                 fclose
-          106c60           106c60      321    16         ../lib/libc.a(libc_a-fflush.o):(.text)
-          106c60           106c60      225     1                 __sflush_r
-          106e90           106e90       5f     1                 _fflush_r
-          106ef0           106ef0       91     1                 fflush
-          106f90           106f90      47e    16         ../lib/libc.a(libc_a-freer.o):(.text)
-          106f90           106f90       e7     1                 _malloc_trim_r
-          107080           107080      38e     1                 _free_r
-          107410           107410       15    16         ../lib/libc.a(libc_a-mlock.o):(.text)
-          107410           107410        5     1                 __malloc_lock
-          107420           107420        5     1                 __malloc_unlock
-          107430           107430      8d4    16         ../lib/libc.a(libc_a-mallocr.o):(.text)
-          107430           107430      8d4     1                 _malloc_r
-          107d10           107d10       36    16         ../lib/libc.a(libc_a-sbrkr.o):(.text)
-          107d10           107d10       36     1                 _sbrk_r
-          107d50           107d50       9e    16         ../lib/libc.a(libc_a-reent.o):(.text)
-          107d50           107d50       9e     1                 _reclaim_reent
-          107df0           107df0       89    16         ../lib/libc.a(libc_a-fwalk.o):(.text)
-          107df0           107df0       89     1                 _fwalk_sglue
-          107e80           107e80       e0    16         ../lib/libc.a(libc_a-memset.o):(.text)
-          107e80           107e80        0     1                 memset
-          107eae           107eae        0     1                 quadword_aligned
-          107ed0           107ed0        0     1                 loop
-          107f3b           107f3b        0     1                 byte_set
-          107f41           107f41        0     1                 quadword_set
-          107f60           107f60       ed    16         ../lib/libc.a(libc_a-stdio.o):(.text)
-          107f60           107f60       30     1                 __sread
-          107f90           107f90        7     1                 __seofread
-          107fa0           107fa0       60     1                 __swrite
-          108000           108000       38     1                 __sseek
-          108040           108040        d     1                 __sclose
-          108050           108050       41    16         ../lib/libc.a(libc_a-readr.o):(.text)
-          108050           108050       41     1                 _read_r
-          1080a0           1080a0       41    16         ../lib/libc.a(libc_a-writer.o):(.text)
-          1080a0           1080a0       41     1                 _write_r
-          1080f0           1080f0       3e    16         ../lib/libc.a(libc_a-lseekr.o):(.text)
-          1080f0           1080f0       3e     1                 _lseek_r
-          108130           108130       2e    16         ../lib/libc.a(libc_a-closer.o):(.text)
-          108130           108130       2e     1                 _close_r
-          108160           108160     2557    16         ../lib/libc.a(libc_a-svfprintf.o):(.text)
-          108160           108160     2557     1                 _svfprintf_r
-          10a6c0           10a6c0       2c    16         ../lib/libc.a(libc_a-localeconv.o):(.text)
-          10a6c0           10a6c0        c     1                 __localeconv_l
-          10a6d0           10a6d0        c     1                 _localeconv_r
-          10a6e0           10a6e0        c     1                 localeconv
-          10a6f0           10a6f0       ea    16         ../lib/libc.a(libc_a-locale.o):(.text)
-          10a6f0           10a6f0       6a     1                 _setlocale_r
-          10a760           10a760        c     1                 __locale_mb_cur_max
-          10a770           10a770       6a     1                 setlocale
-          10a7e0           10a7e0       83    16         ../lib/libc.a(libc_a-strcmp.o):(.text)
-          10a7e0           10a7e0       83     1                 strcmp
-          10a870           10a870       43    16         ../lib/libc.a(libc_a-wctomb_r.o):(.text)
-          10a870           10a870        a     1                 _wctomb_r
-          10a880           10a880       33     1                 __ascii_wctomb
-          10a8c0           10a8c0       70    16         ../lib/libc.a(libc_a-mbtowc_r.o):(.text)
-          10a8c0           10a8c0        a     1                 _mbtowc_r
-          10a8d0           10a8d0       60     1                 __ascii_mbtowc
-          10a930           10a930       8f    16         ../lib/libc.a(libc_a-stack_protector.o):(.text)
-          10a930           10a930       7d     1                 __stack_chk_fail
-          10a9b0           10a9b0        f     1                 __stack_chk_fail_local
-          10a9c0           10a9c0       19    16         ../lib/libc.a(libc_a-stack_protector.o):(.text.startup)
-          10a9c0           10a9c0       19     1                 __stack_chk_init
-          10a9e0           10a9e0      50e    16         ../lib/libc.a(libc_a-signal.o):(.text)
-          10a9e0           10a9e0       59     1                 _init_signal_r
-          10aa40           10aa40       98     1                 _signal_r
-          10aae0           10aae0       ad     1                 _raise_r
-          10ab90           10ab90       ca     1                 __sigtramp_r
-          10ac60           10ac60       b7     1                 raise
-          10ad20           10ad20       98     1                 signal
-          10adc0           10adc0       59     1                 _init_signal
-          10ae20           10ae20       ce     1                 __sigtramp
-          10aef0           10aef0       49    16         ../lib/libc.a(libc_a-signalr.o):(.text)
-          10aef0           10aef0       36     1                 _kill_r
-          10af30           10af30        9     1                 _getpid_r
-          10af39           10af39        0     1         ../lib/libc.a(libc_a-ctype_.o):(.text)
-          10af40           10af40     1408    16         ../lib/libc.a(libc_a-svfiprintf.o):(.text)
-          10af40           10af40      1e9     1                 __ssprint_r
-          10b130           10b130     1218     1                 _svfiprintf_r
-          10c350           10c350      124    16         ../lib/libc.a(libc_a-memmove.o):(.text)
-          10c350           10c350      124     1                 memmove
-          10c480           10c480      12d    16         ../lib/libc.a(libc_a-memcpy.o):(.text)
-          10c480           10c480        0     1                 memcpy
-          10c4a5           10c4a5        0     1                 quadword_aligned
-          10c4c0           10c4c0        0     1                 loop
-          10c587           10c587        0     1                 byte_copy
-          10c58d           10c58d        0     1                 quadword_copy
-          10c5b0           10c5b0      53a    16         ../lib/libc.a(libc_a-reallocr.o):(.text)
-          10c5b0           10c5b0      53a     1                 _realloc_r
-          10caf0           10caf0       c5    16         ../lib/libc.a(libc_a-memchr.o):(.text)
-          10caf0           10caf0       c5     1                 memchr
-          10cbc0           10cbc0     1636    16         ../lib/libc.a(libc_a-dtoa.o):(.text)
-          10cbc0           10cbc0      19c     1                 quorem
-          10cd60           10cd60     1496     1                 _dtoa_r
-          10e200           10e200     10ba    16         ../lib/libc.a(libc_a-mprec.o):(.text)
-          10e200           10e200       9e     1                 _Balloc
-          10e2a0           10e2a0       1f     1                 _Bfree
-          10e2c0           10e2c0      101     1                 __multadd
-          10e3d0           10e3d0      139     1                 __s2b
-          10e510           10e510       56     1                 __hi0bits
-          10e570           10e570       8f     1                 __lo0bits
-          10e600           10e600       a4     1                 __i2b
-          10e6b0           10e6b0      241     1                 __multiply
-          10e900           10e900      12e     1                 __pow5mult
-          10ea30           10ea30      158     1                 __lshift
-          10eb90           10eb90       4e     1                 __mcmp
-          10ebe0           10ebe0      217     1                 __mdiff
-          10ee00           10ee00       7d     1                 __ulp
-          10ee80           10ee80       fc     1                 __b2d
-          10ef80           10ef80      158     1                 __d2b
-          10f0e0           10f0e0       c0     1                 __ratio
-          10f1a0           10f1a0       40     1                 _mprec_log10
-          10f1e0           10f1e0       60     1                 __copybits
-          10f240           10f240       7a     1                 __any_on
-          10f2c0           10f2c0       c6    16         ../lib/libc.a(libc_a-callocr.o):(.text)
-          10f2c0           10f2c0       c6     1                 _calloc_r
-          10f390           10f390        c    16         ../lib/libc.a(libc_a-errno.o):(.text)
-          10f390           10f390        c     1                 __errno
-          10f3a0           10f3a0       74    16         ../lib/libc.a(libc_a-assert.o):(.text)
-          10f3a0           10f3a0       54     1                 __assert_func
-          10f400           10f400       14     1                 __assert
-          10f420           10f420      178    16         ../lib/libc.a(libc_a-fiprintf.o):(.text)
-          10f420           10f420       b0     1                 _fiprintf_r
-          10f4d0           10f4d0       c8     1                 fiprintf
-          10f5a0           10f5a0     1750    16         ../lib/libc.a(libc_a-vfiprintf.o):(.text)
-          10f5a0           10f5a0       d7     1                 __sprint_r.part.0
-          10f680           10f680       1a     1                 __sprint_r
-          10f6a0           10f6a0     154f     1                 _vfiprintf_r
-          110bf0           110bf0       19     1                 vfiprintf
-          110c10           110c10       e0     1                 __sbprintf
-          110cf0           110cf0      1b9    16         ../lib/libc.a(libc_a-fputwc.o):(.text)
-          110cf0           110cf0      119     1                 __fputwc
-          110e10           110e10       23     1                 _fputwc_r
-          110e40           110e40       69     1                 fputwc
-          110eb0           110eb0      112    16         ../lib/libc.a(libc_a-wcrtomb.o):(.text)
-          110eb0           110eb0       7c     1                 _wcrtomb_r
-          110f30           110f30       92     1                 wcrtomb
-          110fd0           110fd0      135    16         ../lib/libc.a(libc_a-wbuf.o):(.text)
-          110fd0           110fd0      112     1                 __swbuf_r
-          1110f0           1110f0       15     1                 __swbuf
-          111110           111110      143    16         ../lib/libc.a(libc_a-wsetup.o):(.text)
-          111110           111110      143     1                 __swsetup_r
-          111260           111260      1e6    16         ../lib/libc.a(libc_a-makebuf.o):(.text)
-          111260           111260      139     1                 __smakebuf_r
-          1113a0           1113a0       a6     1                 __swhatbuf_r
-          111450           111450       36    16         ../lib/libc.a(libc_a-fstatr.o):(.text)
-          111450           111450       36     1                 _fstat_r
-          111490           111490       2e    16         ../lib/libc.a(libc_a-isattyr.o):(.text)
-          111490           111490       2e     1                 _isatty_r
-          1114c0           1114c0      55c    16         ../lib/libc.a(libc_a-fvwrite.o):(.text)
-          1114c0           1114c0      55c     1                 __sfvwrite_r
-          111a20           111a20       1e    16         ../lib/libc.a(libc_a-abort.o):(.text)
-          111a20           111a20       1e     1                 abort
-          111a40           111a40      211    16         ../lib/libc.a(libc_a-sprintf.o):(.text)
-          111a40           111a40       fc     1                 _sprintf_r
-          111b40           111b40      111     1                 sprintf
-          111c60           111c60       c1    16         asmfunc.o:(.text)
-          111c60           111c60        0     1                 IoOut32
-          111c67           111c67        0     1                 IoIn32
-          111c6c           111c6c        0     1                 IoIn16
-          111c72           111c72        0     1                 IoOut8
-          111c7a           111c7a        0     1                 IoIn8
-          111c7f           111c7f        0     1                 call_kernel_main
-          111c8f           111c8f        0     1                 _hlt
-          111c92           111c92        0     1                 LoadGDT
-          111cac           111cac        0     1                 SetDSAll
-          111cb5           111cb5        0     1                 SetCSSS
-          111cc9           111cc9        0     1                 SetCSSS.next
-          111cce           111cce        0     1                 SetCSSS.stop
-          111cd1           111cd1        0     1                 GetCS
-          111cd7           111cd7        0     1                 LoadIDT
-          111cf1           111cf1        0     1                 SetCR3
-          111cf5           111cf5        0     1                 NotifyEndOfInterrupt
-          111d03           111d03        0     1                 rdtsc
-          111d30           111d30      809    16         pci.o:(.text)
-          111d30           111d30       4f     1                 MakeAddr(unsigned char, unsigned char, unsigned char, unsigned char)
-          111d80           111d80       1e     1                 WriteAddr(unsigned int)
-          111da0           111da0       1e     1                 WriteData(unsigned int)
-          111dc0           111dc0       10     1                 ReadData()
-          111dd0           111dd0       4a     1                 ReadVendorId(unsigned char, unsigned char, unsigned char)
-          111e20           111e20       67     1                 ReadVendorId(Device)
-          111e90           111e90       50     1                 ReadHeaderType(unsigned char, unsigned char, unsigned char)
-          111ee0           111ee0       70     1                 ReadBar(Device, int)
-          111f50           111f50       71     1                 ReadClassCode(unsigned char, unsigned char, unsigned char)
-          111fd0           111fd0       45     1                 ReadBusNumbers(unsigned char, unsigned char, unsigned char)
-          112020           112020       af     1                 AddDevice(unsigned char, unsigned char, unsigned char, unsigned char)
-          1120d0           1120d0       28     1                 IsSingleFunctionDevice(unsigned char)
-          112100           112100      13f     1                 ScanAllBus()
-          112240           112240       b7     1                 ScanBus(unsigned char)
-          112300           112300      126     1                 ScanDevice(unsigned char, unsigned char)
-          112430           112430      109     1                 ScanFunction(unsigned char, unsigned char, unsigned char)
-          112540           112540      27f    16         memory_map.o:(.text)
-          112540           112540       83     1                 show_memdesc(int)
-          1125d0           1125d0      12d     1                 show_memory_map()
-          112700           112700       bf     1                 search_mem_type(unsigned long)
-          1127bf           1127bf      1c5     1         newlib.o:(.text)
-          1127bf           1127bf       6f     1                 sbrk
-          11282e           11282e       29     1                 read
-          112857           112857       35     1                 write
-          11288c           11288c       21     1                 _exit
-          1128ad           1128ad       28     1                 lseek
-          1128d5           1128d5       21     1                 close
-          1128f6           1128f6       2e     1                 kill
-          112924           112924       1a     1                 getpid
-          11293e           11293e       25     1                 fstat
-          112963           112963       21     1                 isatty
-          112990           112990      348    16         segment.o:(.text)
-          112990           112990      21d     1                 SetCodeSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
-          112bb0           112bb0       77     1                 SetDataSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
-          112c30           112c30       67     1                 SetupSegments()
-          112ca0           112ca0       38     1                 InitializeSegment(unsigned short, unsigned short)
-          112ce0           112ce0     3e94    16         interrupt.o:(.text)
-          112ce0           112ce0      186     1                 Interrupt_1(InterruptFrame*)
-          112e70           112e70      186     1                 Interrupt_2(InterruptFrame*)
-          113000           113000      186     1                 Interrupt_4(InterruptFrame*)
-          113190           113190      186     1                 Interrupt_5(InterruptFrame*)
-          113320           113320      186     1                 Interrupt_6(InterruptFrame*)
-          1134b0           1134b0      186     1                 Interrupt_7(InterruptFrame*)
-          113640           113640      186     1                 Interrupt_8(InterruptFrame*)
-          1137d0           1137d0      186     1                 Interrupt_9(InterruptFrame*)
-          113960           113960      186     1                 Interrupt_10(InterruptFrame*)
-          113af0           113af0      186     1                 Interrupt_11(InterruptFrame*)
-          113c80           113c80      186     1                 Interrupt_15(InterruptFrame*)
-          113e10           113e10      186     1                 Interrupt_16(InterruptFrame*)
-          113fa0           113fa0      186     1                 Interrupt_17(InterruptFrame*)
-          114130           114130      186     1                 Interrupt_18(InterruptFrame*)
-          1142c0           1142c0      186     1                 Interrupt_19(InterruptFrame*)
-          114450           114450      186     1                 Interrupt_20(InterruptFrame*)
-          1145e0           1145e0      186     1                 Interrupt_21(InterruptFrame*)
-          114770           114770      186     1                 Interrupt_22(InterruptFrame*)
-          114900           114900      186     1                 Interrupt_23(InterruptFrame*)
-          114a90           114a90      186     1                 Interrupt_24(InterruptFrame*)
-          114c20           114c20      186     1                 Interrupt_25(InterruptFrame*)
-          114db0           114db0      186     1                 Interrupt_26(InterruptFrame*)
-          114f40           114f40      186     1                 Interrupt_27(InterruptFrame*)
-          1150d0           1150d0      186     1                 Interrupt_28(InterruptFrame*)
-          115260           115260      186     1                 Interrupt_29(InterruptFrame*)
-          1153f0           1153f0      186     1                 Interrupt_30(InterruptFrame*)
-          115580           115580      186     1                 Interrupt_31(InterruptFrame*)
-          115710           115710      19e     1                 BreakpointInterrupt(InterruptFrame*)
-          1158b0           1158b0      186     1                 SegFaultInterrupt(InterruptFrame*)
-          115a40           115a40      186     1                 PageFaultInterrupt(InterruptFrame*)
-          115bd0           115bd0      186     1                 GeneralProtectionInterrupt(InterruptFrame*)
-          115d60           115d60      203     1                 KeyboardInterrupt(InterruptFrame*)
-          115f70           115f70      163     1                 ShowKeycodeInterrupt(InterruptFrame*)
-          1160e0           1160e0       f9     1                 DefaultInterrupt(InterruptFrame*)
-          1161e0           1161e0       7a     1                 SetIDTEntry(InterruptDescriptor*, InterruptDescriptorAttribute, unsigned long, unsigned long)
-          116260           116260       ba     1                 InitializePIC()
-          116320           116320      854     1                 InitializeInterrupt()
-          116b80           116b80       60    16         interrupt.o:(.text._Z10isAlphabetc)
-          116b80           116b80       60     1                 isAlphabet(char)
-          116be0           116be0       af    16         interrupt.o:(.text._Z11MakeIDTAttr14DescriptorTypehbh)
-          116be0           116be0       af     1                 MakeIDTAttr(DescriptorType, unsigned char, bool, unsigned char)
-          116c90           116c90      118    16         paging.o:(.text)
-          116c90           116c90      118     1                 SetupIdentityPageTable()
-          116db0           116db0       25    16         paging.o:(.text._ZNSt3__15arrayImLm512EEixEm)
-          116db0           116db0       25     1                 std::__1::array<unsigned long, 512ul>::operator[](unsigned long)
-          116de0           116de0       14    16         paging.o:(.text._ZNKSt3__15arrayINS0_ImLm512EEELm64EE4sizeEv)
-          116de0           116de0       14     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::size() const
-          116e00           116e00       25    16         paging.o:(.text._ZNSt3__15arrayINS0_ImLm512EEELm64EEixEm)
-          116e00           116e00       25     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::operator[](unsigned long)
-          116e30           116e30       62    16         keyboard.o:(.text)
-          116e30           116e30       62     1                 InitializeKeycode()
-          116ea0           116ea0      3d9    16         input.o:(.text)
-          116ea0           116ea0      148     1                 InputBuffer::add(char)
-          116ff0           116ff0       76     1                 InputBuffer::isEnter()
-          117070           117070       76     1                 InputBuffer::pop()
-          1170f0           1170f0       5a     1                 InputBuffer::allprint()
-          117150           117150       9b     1                 InputBuffer::allpop(char*)
-          1171f0           1171f0       89     1                 GetString(char*)
-          117280           117280       27    16         input.o:(.text._ZN11InputBuffer7isInputEv)
-          117280           117280       27     1                 InputBuffer::isInput()
-          1172b0           1172b0      851    16         command.o:(.text)
-          1172b0           1172b0      27d     1                 tokenize(char*)
-          117530           117530       4b     1                 free_token(char**)
-          117580           117580       97     1                 show_token(char**)
-          117620           117620      187     1                 command(char*)
-          1177b0           1177b0      351     1                 command(char**)
-          117b10           117b10       2b    16         command.o:(.text.startup)
-          117b10           117b10       1a     1                 __cxx_global_var_init
-          117b30           117b30        b     1                 _GLOBAL__sub_I_command.cpp
-          117b40           117b40       33    16         ../lib/libc.a(libc_a-malloc.o):(.text)
-          117b40           117b40       13     1                 malloc
-          117b60           117b60       13     1                 free
-          117b80           117b80      26e    16         ../lib/libc.a(libc_a-strtol.o):(.text)
-          117b80           117b80      1bd     1                 _strtol_l.part.0
-          117d40           117d40       2e     1                 _strtol_r
-          117d70           117d70       3e     1                 strtol_l
-          117db0           117db0       3e     1                 strtol
-          117df0           117df0       39    16         ../lib/libc.a(libc_a-atoi.o):(.text)
-          117df0           117df0       19     1                 atoi
-          117e10           117e10       19     1                 _atoi_r
-          117e30           117e30      6ae    16         memory_manager.o:(.text)
-          117e30           117e30       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
-          117e30           117e30       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
-          117e80           117e80      15d     1                 BitmapMemoryManager::Allocate(unsigned long)
-          117fe0           117fe0       6e     1                 BitmapMemoryManager::GetBit(FrameID) const
-          118050           118050       74     1                 BitmapMemoryManager::MarkAllocated(FrameID, unsigned long)
-          1180d0           1180d0       90     1                 BitmapMemoryManager::Free(FrameID, unsigned long)
-          118160           118160       a8     1                 BitmapMemoryManager::SetBit(FrameID, bool)
-          118210           118210       34     1                 BitmapMemoryManager::SetMemoryRange(FrameID, FrameID)
-          118250           118250       48     1                 BitmapMemoryManager::IsAvailable(unsigned long)
-          1182a0           1182a0      167     1                 InitializeMemoryManager(BitmapMemoryManager*, MemoryMap*)
-          118410           118410       ce     1                 InitializeHeap(BitmapMemoryManager&)
-          1184e0           1184e0       2b    16         memory_manager.o:(.text.startup)
-          1184e0           1184e0       1a     1                 __cxx_global_var_init
-          118500           118500        b     1                 _GLOBAL__sub_I_memory_manager.cpp
-          118510           118510       16    16         memory_manager.o:(.text._ZNK7FrameID2IDEv)
-          118510           118510       16     1                 FrameID::ID() const
-          118530           118530       33    16         memory_manager.o:(.text._ZN5ErrorC2ENS_4CodeEPKci)
-          118530           118530       33     1                 Error::Error(Error::Code, char const*, int)
-          118570           118570       27    16         memory_manager.o:(.text._Z16AddressToFrameIDm)
-          118570           118570       27     1                 AddressToFrameID(unsigned long)
-          1185a0           1185a0       25    16         memory_manager.o:(.text._ZNKSt3__15arrayImLm524288EEixEm)
-          1185a0           1185a0       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long) const
-          1185d0           1185d0       25    16         memory_manager.o:(.text._ZNSt3__15arrayImLm524288EEixEm)
-          1185d0           1185d0       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long)
-          118600           118600       3e    16         memory_manager.o:(.text._Z11IsAvailable10MemoryType)
-          118600           118600       3e     1                 IsAvailable(MemoryType)
-          118640           118640       73    16         timer.o:(.text)
-          118640           118640       20     1                 InitializeLAPICTimer()
-          118660           118660       13     1                 StartLAPICTimer()
-          118680           118680       14     1                 LAPICTimer()
-          1186a0           1186a0       13     1                 StopLAPICTimer()
-          1196b8           1196b8       a0     8 .data.rel.ro
-          1196b8           1196b8       a0     8         kernel.o:(.data.rel.ro._ZN5Error11code_names_E)
-          1196b8           1196b8       a0     1                 Error::code_names_
-          119758           119758       20     8 .init_array
-          119758           119758        8     8         kernel.o:(.init_array)
-          119760           119760        8     8         ../lib/libc.a(libc_a-stack_protector.o):(.init_array)
-          119768           119768        8     8         command.o:(.init_array)
-          119770           119770        8     8         memory_manager.o:(.init_array)
-          119780           119780      cb0    32 .data
-          119780           119780        4     4         frame.o:(.data)
-          119780           119780        4     1                 line_len_max
-          119784           119784        0     1         ../lib/libc.a(libc_a-strcpy.o):(.data)
-          119784           119784        0     1         ../lib/libc.a(libc_a-strcat.o):(.data)
-          119784           119784        0     1         ../lib/libc.a(libc_a-strlen.o):(.data)
-          119784           119784        0     1         ../lib/libc.a(libc_a-vsprintf.o):(.data)
-          119784           119784        0     1         ../lib/libc.a(libc_a-impure.o):(.data)
-          119788           119788        8     8         ../lib/libc.a(libc_a-impure.o):(.data.rel.local)
-          119788           119788        8     1                 _impure_ptr
-          1197a0           1197a0      158    32         ../lib/libc.a(libc_a-impure.o):(.data.rel)
-          1197a0           1197a0      158     1                 _impure_data
-          1198f8           1198f8        0     1         ../lib/libc.a(libc_a-findfp.o):(.data)
-          119900           119900       18    16         ../lib/libc.a(libc_a-findfp.o):(.data.rel.local)
-          119900           119900       18     1                 __sglue
-          119918           119918        0     1         ../lib/libc.a(libc_a-fclose.o):(.data)
-          119918           119918        0     1         ../lib/libc.a(libc_a-fflush.o):(.data)
-          119918           119918        0     1         ../lib/libc.a(libc_a-freer.o):(.data)
-          119918           119918        0     1         ../lib/libc.a(libc_a-mlock.o):(.data)
-          119918           119918       10     8         ../lib/libc.a(libc_a-mallocr.o):(.data)
-          119918           119918        8     1                 __malloc_sbrk_base
-          119920           119920        8     1                 __malloc_trim_threshold
-          119940           119940      810    32         ../lib/libc.a(libc_a-mallocr.o):(.data.rel.local)
-          119940           119940      810     1                 __malloc_av_
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-sbrkr.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-reent.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-fwalk.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-memset.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-stdio.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-readr.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-writer.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-lseekr.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-closer.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-svfprintf.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-localeconv.o):(.data)
-          11a150           11a150        0     1         ../lib/libc.a(libc_a-locale.o):(.data)
-          11a160           11a160      1a8    32         ../lib/libc.a(libc_a-locale.o):(.data.rel)
-          11a160           11a160      1a8     1                 __global_locale
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-strcmp.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-wctomb_r.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-mbtowc_r.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-stack_protector.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-signal.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-signalr.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-ctype_.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-svfiprintf.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-memmove.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-memcpy.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-reallocr.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-memchr.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-dtoa.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-mprec.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-callocr.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-errno.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-assert.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-fiprintf.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-vfiprintf.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-fputwc.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-wcrtomb.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-wbuf.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-wsetup.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-makebuf.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-fstatr.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-isattyr.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-fvwrite.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-abort.o):(.data)
-          11a308           11a308        0     1         ../lib/libc.a(libc_a-sprintf.o):(.data)
-          11a308           11a308        0     1         newlib.o:(.data)
-          11a310           11a310       18    16         segment.o:(.data)
-          11a310           11a310       18     1                 gdt
-          11a328           11a328        8     4         interrupt.o:(.data)
-          11a328           11a328        8     1                 InterruptMessagePosition
-          11a330           11a330      100    16         keyboard.o:(.data)
-          11a330           11a330      100     1                 keycode
-          11a430           11a430        0     1         ../lib/libc.a(libc_a-malloc.o):(.data)
-          11a430           11a430        0     1         ../lib/libc.a(libc_a-strtol.o):(.data)
-          11a430           11a430        0     1         ../lib/libc.a(libc_a-atoi.o):(.data)
-          11a430           11a430       18     8 .got.plt
-          11a430           11a430       18     8         <internal>:(.got.plt)
+          100160           100160     1130    32 .rodata
+          100160           100160      6d8     1         <internal>:(.rodata)
+          100838           100838       68     8         <internal>:(.rodata)
+          1008a0           1008a0      190    16         ../lib/libc.a(libc_a-svfprintf.o):(.rodata)
+          100a10           100a10       10     1                 zeroes.0
+          100a20           100a20       10     1                 blanks.1
+          100a30           100a30       40    16         <internal>:(.rodata)
+          100a80           100a80      2a0    32         ../lib/libc.a(libc_a-ctype_.o):(.rodata)
+          100a80           100a80      101     1                 _ctype_
+          100ba0           100ba0      180     1                 _ctype_b
+          100d20           100d20      190    16         ../lib/libc.a(libc_a-svfiprintf.o):(.rodata)
+          100e90           100e90       10     1                 zeroes.0
+          100ea0           100ea0       10     1                 blanks.1
+          100ec0           100ec0      168    32         ../lib/libc.a(libc_a-mprec.o):(.rodata)
+          100ec0           100ec0        c     1                 p05.0
+          100ee0           100ee0       28     1                 __mprec_tinytens
+          100f20           100f20       28     1                 __mprec_bigtens
+          100f60           100f60       c8     1                 __mprec_tens
+          101028           101028       2f     8         <internal>:(.rodata)
+          101060           101060      190    16         ../lib/libc.a(libc_a-vfiprintf.o):(.rodata)
+          1011d0           1011d0       10     1                 zeroes.0
+          1011e0           1011e0       10     1                 blanks.1
+          1011f0           1011f0       87     1         newlib.o:(.rodata)
+          101278           101278       18     8         timer.o:(.rodata)
+          101278           101278        8     1                 (anonymous namespace)::divide_config
+          101280           101280        8     1                 (anonymous namespace)::lvt_timer
+          101288           101288        8     1                 (anonymous namespace)::initial_count
+          101290           101290     2df4     8 .eh_frame
+          101290           101290       d4     1         kernel.o:(.eh_frame+0x0)
+          101368           101368       3c     1         kernel.o:(.eh_frame+0xd4)
+          1013a8           1013a8       a0     1         kernel.o:(.eh_frame+0x110)
+          101448           101448      220     1         frame.o:(.eh_frame+0x18)
+          101668           101668       18     1         ../lib/libc.a(libc_a-strcpy.o):(.eh_frame+0x18)
+          101680           101680       20     1         ../lib/libc.a(libc_a-strcat.o):(.eh_frame+0x18)
+          1016a0           1016a0       18     1         ../lib/libc.a(libc_a-strlen.o):(.eh_frame+0x18)
+          1016b8           1016b8       1c     1         ../lib/libc.a(libc_a-vsprintf.o):(.eh_frame+0x18)
+          1016d8           1016d8       1c     1         ../lib/libc.a(libc_a-vsprintf.o):(.eh_frame+0x34)
+          1016f8           1016f8       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x18)
+          101710           101710       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x2c)
+          101728           101728       34     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x40)
+          101760           101760       3c     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x74)
+          1017a0           1017a0       44     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0xb0)
+          1017e8           1017e8       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0xf4)
+          101800           101800       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x108)
+          101818           101818       14     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x11c)
+          101830           101830       18     1         ../lib/libc.a(libc_a-findfp.o):(.eh_frame+0x130)
+          101848           101848       3c     1         ../lib/libc.a(libc_a-fclose.o):(.eh_frame+0x18)
+          101888           101888       14     1         ../lib/libc.a(libc_a-fclose.o):(.eh_frame+0x54)
+          1018a0           1018a0       90     1         ../lib/libc.a(libc_a-fflush.o):(.eh_frame+0x18)
+          101930           101930       3c     1         ../lib/libc.a(libc_a-freer.o):(.eh_frame+0x18)
+          101970           101970       5c     1         ../lib/libc.a(libc_a-freer.o):(.eh_frame+0x54)
+          1019d0           1019d0       14     1         ../lib/libc.a(libc_a-mlock.o):(.eh_frame+0x18)
+          1019e8           1019e8       14     1         ../lib/libc.a(libc_a-mlock.o):(.eh_frame+0x2c)
+          101a00           101a00       80     1         ../lib/libc.a(libc_a-mallocr.o):(.eh_frame+0x18)
+          101a80           101a80       20     1         ../lib/libc.a(libc_a-sbrkr.o):(.eh_frame+0x18)
+          101aa0           101aa0       40     1         ../lib/libc.a(libc_a-reent.o):(.eh_frame+0x18)
+          101ae0           101ae0       48     1         ../lib/libc.a(libc_a-fwalk.o):(.eh_frame+0x18)
+          101b28           101b28       34     1         ../lib/libc.a(libc_a-stdio.o):(.eh_frame+0x18)
+          101b60           101b60       34     1         ../lib/libc.a(libc_a-stdio.o):(.eh_frame+0x4c)
+          101b98           101b98       38     1         ../lib/libc.a(libc_a-stdio.o):(.eh_frame+0x80)
+          101bd0           101bd0       20     1         ../lib/libc.a(libc_a-readr.o):(.eh_frame+0x18)
+          101bf0           101bf0       20     1         ../lib/libc.a(libc_a-writer.o):(.eh_frame+0x18)
+          101c10           101c10       20     1         ../lib/libc.a(libc_a-lseekr.o):(.eh_frame+0x18)
+          101c30           101c30       20     1         ../lib/libc.a(libc_a-closer.o):(.eh_frame+0x18)
+          101c50           101c50       50     1         ../lib/libc.a(libc_a-svfprintf.o):(.eh_frame+0x18)
+          101ca0           101ca0       14     1         ../lib/libc.a(libc_a-localeconv.o):(.eh_frame+0x18)
+          101cb8           101cb8       14     1         ../lib/libc.a(libc_a-localeconv.o):(.eh_frame+0x2c)
+          101cd0           101cd0       18     1         ../lib/libc.a(libc_a-localeconv.o):(.eh_frame+0x40)
+          101ce8           101ce8       24     1         ../lib/libc.a(libc_a-locale.o):(.eh_frame+0x18)
+          101d10           101d10       14     1         ../lib/libc.a(libc_a-locale.o):(.eh_frame+0x3c)
+          101d28           101d28       28     1         ../lib/libc.a(libc_a-locale.o):(.eh_frame+0x50)
+          101d50           101d50       18     1         ../lib/libc.a(libc_a-strcmp.o):(.eh_frame+0x18)
+          101d68           101d68       14     1         ../lib/libc.a(libc_a-wctomb_r.o):(.eh_frame+0x18)
+          101d80           101d80       14     1         ../lib/libc.a(libc_a-wctomb_r.o):(.eh_frame+0x2c)
+          101d98           101d98       14     1         ../lib/libc.a(libc_a-mbtowc_r.o):(.eh_frame+0x18)
+          101db0           101db0       1c     1         ../lib/libc.a(libc_a-mbtowc_r.o):(.eh_frame+0x2c)
+          101dd0           101dd0       14     1         ../lib/libc.a(libc_a-stack_protector.o):(.eh_frame+0x18)
+          101de8           101de8       1c     1         ../lib/libc.a(libc_a-stack_protector.o):(.eh_frame+0x2c)
+          101e08           101e08       20     1         ../lib/libc.a(libc_a-stack_protector.o):(.eh_frame+0x48)
+          101e28           101e28       4c     1         ../lib/libc.a(libc_a-signal.o):(.eh_frame+0x18)
+          101e78           101e78      184     1         ../lib/libc.a(libc_a-signal.o):(.eh_frame+0x64)
+          102000           102000       38     1         ../lib/libc.a(libc_a-signalr.o):(.eh_frame+0x18)
+          102038           102038       4c     1         ../lib/libc.a(libc_a-svfiprintf.o):(.eh_frame+0x18)
+          102088           102088       54     1         ../lib/libc.a(libc_a-svfiprintf.o):(.eh_frame+0x64)
+          1020e0           1020e0       18     1         ../lib/libc.a(libc_a-memmove.o):(.eh_frame+0x18)
+          1020f8           1020f8       68     1         ../lib/libc.a(libc_a-reallocr.o):(.eh_frame+0x18)
+          102160           102160       18     1         ../lib/libc.a(libc_a-memchr.o):(.eh_frame+0x18)
+          102178           102178       4c     1         ../lib/libc.a(libc_a-dtoa.o):(.eh_frame+0x18)
+          1021c8           1021c8       4c     1         ../lib/libc.a(libc_a-dtoa.o):(.eh_frame+0x64)
+          102218           102218       2c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x18)
+          102248           102248       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x44)
+          102260           102260       8c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x58)
+          1022f0           1022f0       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0xe4)
+          102308           102308       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0xf8)
+          102320           102320       24     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x10c)
+          102348           102348       4c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x130)
+          102398           102398       3c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x17c)
+          1023d8           1023d8       4c     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x1b8)
+          102428           102428       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x204)
+          102440           102440       64     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x218)
+          1024a8           1024a8       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x27c)
+          1024c0           1024c0       34     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x290)
+          1024f8           1024f8       34     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x2c4)
+          102530           102530       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x2f8)
+          102548           102548       14     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x30c)
+          102560           102560       18     1         ../lib/libc.a(libc_a-mprec.o):(.eh_frame+0x320)
+          102578           102578       28     1         ../lib/libc.a(libc_a-callocr.o):(.eh_frame+0x18)
+          1025a0           1025a0       18     1         ../lib/libc.a(libc_a-errno.o):(.eh_frame+0x18)
+          1025b8           1025b8       24     1         ../lib/libc.a(libc_a-assert.o):(.eh_frame+0x18)
+          1025e0           1025e0       1c     1         ../lib/libc.a(libc_a-assert.o):(.eh_frame+0x3c)
+          102600           102600       1c     1         ../lib/libc.a(libc_a-fiprintf.o):(.eh_frame+0x18)
+          102620           102620       1c     1         ../lib/libc.a(libc_a-fiprintf.o):(.eh_frame+0x34)
+          102640           102640       4c     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0x18)
+          102690           102690       14     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0x64)
+          1026a8           1026a8       7c     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0x78)
+          102728           102728       3c     1         ../lib/libc.a(libc_a-vfiprintf.o):(.eh_frame+0xf4)
+          102768           102768       44     1         ../lib/libc.a(libc_a-fputwc.o):(.eh_frame+0x18)
+          1027b0           1027b0       14     1         ../lib/libc.a(libc_a-fputwc.o):(.eh_frame+0x5c)
+          1027c8           1027c8       28     1         ../lib/libc.a(libc_a-fputwc.o):(.eh_frame+0x70)
+          1027f0           1027f0       2c     1         ../lib/libc.a(libc_a-wcrtomb.o):(.eh_frame+0x18)
+          102820           102820       2c     1         ../lib/libc.a(libc_a-wcrtomb.o):(.eh_frame+0x44)
+          102850           102850       3c     1         ../lib/libc.a(libc_a-wbuf.o):(.eh_frame+0x18)
+          102890           102890       14     1         ../lib/libc.a(libc_a-wbuf.o):(.eh_frame+0x54)
+          1028a8           1028a8       30     1         ../lib/libc.a(libc_a-wsetup.o):(.eh_frame+0x18)
+          1028d8           1028d8       44     1         ../lib/libc.a(libc_a-makebuf.o):(.eh_frame+0x18)
+          102920           102920       34     1         ../lib/libc.a(libc_a-makebuf.o):(.eh_frame+0x5c)
+          102958           102958       20     1         ../lib/libc.a(libc_a-fstatr.o):(.eh_frame+0x18)
+          102978           102978       20     1         ../lib/libc.a(libc_a-isattyr.o):(.eh_frame+0x18)
+          102998           102998       78     1         ../lib/libc.a(libc_a-fvwrite.o):(.eh_frame+0x18)
+          102a10           102a10       20     1         ../lib/libc.a(libc_a-abort.o):(.eh_frame+0x18)
+          102a30           102a30       1c     1         ../lib/libc.a(libc_a-sprintf.o):(.eh_frame+0x18)
+          102a50           102a50       24     1         ../lib/libc.a(libc_a-sprintf.o):(.eh_frame+0x34)
+          102a78           102a78      200     1         pci.o:(.eh_frame+0x18)
+          102c78           102c78       60     1         memory_map.o:(.eh_frame+0x18)
+          102cd8           102cd8       3c     1         newlib.o:(.eh_frame+0x18)
+          102d18           102d18       1c     1         newlib.o:(.eh_frame+0x54)
+          102d38           102d38       1c     1         newlib.o:(.eh_frame+0x70)
+          102d58           102d58       1c     1         newlib.o:(.eh_frame+0x8c)
+          102d78           102d78       1c     1         newlib.o:(.eh_frame+0xa8)
+          102d98           102d98       1c     1         newlib.o:(.eh_frame+0xc4)
+          102db8           102db8       1c     1         newlib.o:(.eh_frame+0xe0)
+          102dd8           102dd8       1c     1         newlib.o:(.eh_frame+0xfc)
+          102df8           102df8       20     1         newlib.o:(.eh_frame+0x118)
+          102e18           102e18       80     1         segment.o:(.eh_frame+0x18)
+          102e98           102e98       54     1         interrupt.o:(.eh_frame+0x18)
+          102ef0           102ef0       54     1         interrupt.o:(.eh_frame+0x6c)
+          102f48           102f48       54     1         interrupt.o:(.eh_frame+0xc0)
+          102fa0           102fa0       54     1         interrupt.o:(.eh_frame+0x114)
+          102ff8           102ff8       54     1         interrupt.o:(.eh_frame+0x168)
+          103050           103050       54     1         interrupt.o:(.eh_frame+0x1bc)
+          1030a8           1030a8       54     1         interrupt.o:(.eh_frame+0x210)
+          103100           103100       54     1         interrupt.o:(.eh_frame+0x264)
+          103158           103158       54     1         interrupt.o:(.eh_frame+0x2b8)
+          1031b0           1031b0       54     1         interrupt.o:(.eh_frame+0x30c)
+          103208           103208       54     1         interrupt.o:(.eh_frame+0x360)
+          103260           103260       54     1         interrupt.o:(.eh_frame+0x3b4)
+          1032b8           1032b8       54     1         interrupt.o:(.eh_frame+0x408)
+          103310           103310       54     1         interrupt.o:(.eh_frame+0x45c)
+          103368           103368       54     1         interrupt.o:(.eh_frame+0x4b0)
+          1033c0           1033c0       54     1         interrupt.o:(.eh_frame+0x504)
+          103418           103418       54     1         interrupt.o:(.eh_frame+0x558)
+          103470           103470       54     1         interrupt.o:(.eh_frame+0x5ac)
+          1034c8           1034c8       54     1         interrupt.o:(.eh_frame+0x600)
+          103520           103520       54     1         interrupt.o:(.eh_frame+0x654)
+          103578           103578       54     1         interrupt.o:(.eh_frame+0x6a8)
+          1035d0           1035d0       54     1         interrupt.o:(.eh_frame+0x6fc)
+          103628           103628       54     1         interrupt.o:(.eh_frame+0x750)
+          103680           103680       54     1         interrupt.o:(.eh_frame+0x7a4)
+          1036d8           1036d8       54     1         interrupt.o:(.eh_frame+0x7f8)
+          103730           103730       54     1         interrupt.o:(.eh_frame+0x84c)
+          103788           103788       54     1         interrupt.o:(.eh_frame+0x8a0)
+          1037e0           1037e0       54     1         interrupt.o:(.eh_frame+0x8f4)
+          103838           103838       54     1         interrupt.o:(.eh_frame+0x948)
+          103890           103890       54     1         interrupt.o:(.eh_frame+0x99c)
+          1038e8           1038e8       54     1         interrupt.o:(.eh_frame+0x9f0)
+          103940           103940       54     1         interrupt.o:(.eh_frame+0xa44)
+          103998           103998       54     1         interrupt.o:(.eh_frame+0xa98)
+          1039f0           1039f0       74     1         interrupt.o:(.eh_frame+0xaec)
+          103a68           103a68       a0     1         interrupt.o:(.eh_frame+0xb60)
+          103b08           103b08       80     1         paging.o:(.eh_frame+0x18)
+          103b88           103b88       c4     1         input.o:(.eh_frame+0x18)
+          103c50           103c50       24     1         input.o:(.eh_frame+0xdc)
+          103c78           103c78       20     1         command.o:(.eh_frame+0x18)
+          103c98           103c98       a0     1         command.o:(.eh_frame+0x78)
+          103d38           103d38       20     1         command.o:(.eh_frame+0x138)
+          103d58           103d58       14     1         ../lib/libc.a(libc_a-malloc.o):(.eh_frame+0x18)
+          103d70           103d70       14     1         ../lib/libc.a(libc_a-malloc.o):(.eh_frame+0x2c)
+          103d88           103d88       88     1         ../lib/libc.a(libc_a-strtol.o):(.eh_frame+0x18)
+          103e10           103e10       30     1         ../lib/libc.a(libc_a-atoi.o):(.eh_frame+0x18)
+          103e40           103e40       20     1         memory_manager.o:(.eh_frame+0x18)
+          103e60           103e60      200     1         memory_manager.o:(.eh_frame+0x78)
+          104060           104060       20     1         memory_manager.o:(.eh_frame+0x2b8)
+          105090           105090    13803    16 .text
+          105090           105090      21c    16         kernel.o:(.text)
+          105090           105090        f     1                 stop()
+          1050a0           1050a0       29     1                 entry_point
+          1050d0           1050d0      1dc     1                 kernel_main
+          1052b0           1052b0       50    16         kernel.o:(.text.startup)
+          1052b0           1052b0       1a     1                 __cxx_global_var_init
+          1052d0           1052d0       12     1                 __cxx_global_var_init.1
+          1052f0           1052f0       10     1                 _GLOBAL__sub_I_kernel.cpp
+          105300           105300        b    16         kernel.o:(.text._ZNSt3__114numeric_limitsImE3maxEv)
+          105300           105300        b     1                 std::__1::numeric_limits<unsigned long>::max()
+          105310           105310       21    16         kernel.o:(.text._ZN7FrameIDC2Em)
+          105310           105310       21     1                 FrameID::FrameID(unsigned long)
+          105340           105340       4c    16         kernel.o:(.text._ZN11InputBufferC2Ev)
+          105340           105340       4c     1                 InputBuffer::InputBuffer()
+          105390           105390       1e    16         kernel.o:(.text._ZNK5ErrorcvbEv)
+          105390           105390       1e     1                 Error::operator bool() const
+          1053b0           1053b0       29    16         kernel.o:(.text._ZNK5Error4NameEv)
+          1053b0           1053b0       29     1                 Error::Name() const
+          1053e0           1053e0        d    16         kernel.o:(.text._ZNSt3__123__libcpp_numeric_limitsImLb1EE3maxEv)
+          1053e0           1053e0        d     1                 std::__1::__libcpp_numeric_limits<unsigned long, true>::max()
+          1053f0           1053f0       25    16         kernel.o:(.text._ZNKSt3__15arrayIPKcLm20EEixEm)
+          1053f0           1053f0       25     1                 std::__1::array<char const*, 20ul>::operator[](unsigned long) const
+          105420           105420      f1e    16         frame.o:(.text)
+          105420           105420       9a     1                 InitializeFrame(bootinfo_t*)
+          1054c0           1054c0       7f     1                 WritePixelRGB(Color, int, int)
+          105540           105540       7f     1                 WritePixelBGR(Color, int, int)
+          1055c0           1055c0       3d     1                 HashtoColor(unsigned char)
+          105600           105600      191     1                 HSVtoRGB(int)
+          1057a0           1057a0       f5     1                 WriteAscii(char, Color, int, int)
+          1058a0           1058a0      136     1                 WriteSquare(Vector, Vector, Color)
+          1059e0           1059e0      11b     1                 PrintLine(char const*, Vector, Color)
+          105b00           105b00       7e     1                 RegisterLine(char const*)
+          105b80           105b80      457     1                 Print
+          105fe0           105fe0       b3     1                 Printf
+          1060a0           1060a0       6c     1                 dPrint(char*, int)
+          106110           106110       6c     1                 udPrint(char*, unsigned int)
+          106180           106180       6c     1                 uxdPrint(char*, unsigned int)
+          1061f0           1061f0       c2     1                 WriteMandelbrot(int)
+          1062c0           1062c0       7e     1                 clear()
+          106340           106340      1ad    16         frame.o:(.text._Z14CalcMandelbrotiii)
+          106340           106340      1ad     1                 CalcMandelbrot(int, int, int)
+          1064f0           1064f0       85    16         ../lib/libc.a(libc_a-strcpy.o):(.text)
+          1064f0           1064f0       85     1                 strcpy
+          106580           106580       6c    16         ../lib/libc.a(libc_a-strcat.o):(.text)
+          106580           106580       6c     1                 strcat
+          1065f0           1065f0       7d    16         ../lib/libc.a(libc_a-strlen.o):(.text)
+          1065f0           1065f0       7d     1                 strlen
+          106670           106670       ed    16         ../lib/libc.a(libc_a-vsprintf.o):(.text)
+          106670           106670       7d     1                 vsprintf
+          1066f0           1066f0       6d     1                 _vsprintf_r
+          10675d           10675d        0     1         ../lib/libc.a(libc_a-impure.o):(.text)
+          106760           106760      469    16         ../lib/libc.a(libc_a-findfp.o):(.text)
+          106760           106760        7     1                 __fp_lock
+          106770           106770       1e     1                 stdio_exit_handler
+          106790           106790       52     1                 cleanup_stdio
+          1067f0           1067f0        7     1                 __fp_unlock
+          106800           106800      1d1     1                 global_stdio_init.part.0
+          1069e0           1069e0      156     1                 __sfp
+          106b40           106b40       2a     1                 __sinit
+          106b70           106b70        5     1                 __sfp_lock_acquire
+          106b80           106b80        5     1                 __sfp_lock_release
+          106b90           106b90       19     1                 __fp_lock_all
+          106bb0           106bb0       19     1                 __fp_unlock_all
+          106bd0           106bd0       f3    16         ../lib/libc.a(libc_a-fclose.o):(.text)
+          106bd0           106bd0       de     1                 _fclose_r
+          106cb0           106cb0       13     1                 fclose
+          106cd0           106cd0      321    16         ../lib/libc.a(libc_a-fflush.o):(.text)
+          106cd0           106cd0      225     1                 __sflush_r
+          106f00           106f00       5f     1                 _fflush_r
+          106f60           106f60       91     1                 fflush
+          107000           107000      47e    16         ../lib/libc.a(libc_a-freer.o):(.text)
+          107000           107000       e7     1                 _malloc_trim_r
+          1070f0           1070f0      38e     1                 _free_r
+          107480           107480       15    16         ../lib/libc.a(libc_a-mlock.o):(.text)
+          107480           107480        5     1                 __malloc_lock
+          107490           107490        5     1                 __malloc_unlock
+          1074a0           1074a0      8d4    16         ../lib/libc.a(libc_a-mallocr.o):(.text)
+          1074a0           1074a0      8d4     1                 _malloc_r
+          107d80           107d80       36    16         ../lib/libc.a(libc_a-sbrkr.o):(.text)
+          107d80           107d80       36     1                 _sbrk_r
+          107dc0           107dc0       9e    16         ../lib/libc.a(libc_a-reent.o):(.text)
+          107dc0           107dc0       9e     1                 _reclaim_reent
+          107e60           107e60       89    16         ../lib/libc.a(libc_a-fwalk.o):(.text)
+          107e60           107e60       89     1                 _fwalk_sglue
+          107ef0           107ef0       e0    16         ../lib/libc.a(libc_a-memset.o):(.text)
+          107ef0           107ef0        0     1                 memset
+          107f1e           107f1e        0     1                 quadword_aligned
+          107f40           107f40        0     1                 loop
+          107fab           107fab        0     1                 byte_set
+          107fb1           107fb1        0     1                 quadword_set
+          107fd0           107fd0       ed    16         ../lib/libc.a(libc_a-stdio.o):(.text)
+          107fd0           107fd0       30     1                 __sread
+          108000           108000        7     1                 __seofread
+          108010           108010       60     1                 __swrite
+          108070           108070       38     1                 __sseek
+          1080b0           1080b0        d     1                 __sclose
+          1080c0           1080c0       41    16         ../lib/libc.a(libc_a-readr.o):(.text)
+          1080c0           1080c0       41     1                 _read_r
+          108110           108110       41    16         ../lib/libc.a(libc_a-writer.o):(.text)
+          108110           108110       41     1                 _write_r
+          108160           108160       3e    16         ../lib/libc.a(libc_a-lseekr.o):(.text)
+          108160           108160       3e     1                 _lseek_r
+          1081a0           1081a0       2e    16         ../lib/libc.a(libc_a-closer.o):(.text)
+          1081a0           1081a0       2e     1                 _close_r
+          1081d0           1081d0     2557    16         ../lib/libc.a(libc_a-svfprintf.o):(.text)
+          1081d0           1081d0     2557     1                 _svfprintf_r
+          10a730           10a730       2c    16         ../lib/libc.a(libc_a-localeconv.o):(.text)
+          10a730           10a730        c     1                 __localeconv_l
+          10a740           10a740        c     1                 _localeconv_r
+          10a750           10a750        c     1                 localeconv
+          10a760           10a760       ea    16         ../lib/libc.a(libc_a-locale.o):(.text)
+          10a760           10a760       6a     1                 _setlocale_r
+          10a7d0           10a7d0        c     1                 __locale_mb_cur_max
+          10a7e0           10a7e0       6a     1                 setlocale
+          10a850           10a850       83    16         ../lib/libc.a(libc_a-strcmp.o):(.text)
+          10a850           10a850       83     1                 strcmp
+          10a8e0           10a8e0       43    16         ../lib/libc.a(libc_a-wctomb_r.o):(.text)
+          10a8e0           10a8e0        a     1                 _wctomb_r
+          10a8f0           10a8f0       33     1                 __ascii_wctomb
+          10a930           10a930       70    16         ../lib/libc.a(libc_a-mbtowc_r.o):(.text)
+          10a930           10a930        a     1                 _mbtowc_r
+          10a940           10a940       60     1                 __ascii_mbtowc
+          10a9a0           10a9a0       8f    16         ../lib/libc.a(libc_a-stack_protector.o):(.text)
+          10a9a0           10a9a0       7d     1                 __stack_chk_fail
+          10aa20           10aa20        f     1                 __stack_chk_fail_local
+          10aa30           10aa30       19    16         ../lib/libc.a(libc_a-stack_protector.o):(.text.startup)
+          10aa30           10aa30       19     1                 __stack_chk_init
+          10aa50           10aa50      50e    16         ../lib/libc.a(libc_a-signal.o):(.text)
+          10aa50           10aa50       59     1                 _init_signal_r
+          10aab0           10aab0       98     1                 _signal_r
+          10ab50           10ab50       ad     1                 _raise_r
+          10ac00           10ac00       ca     1                 __sigtramp_r
+          10acd0           10acd0       b7     1                 raise
+          10ad90           10ad90       98     1                 signal
+          10ae30           10ae30       59     1                 _init_signal
+          10ae90           10ae90       ce     1                 __sigtramp
+          10af60           10af60       49    16         ../lib/libc.a(libc_a-signalr.o):(.text)
+          10af60           10af60       36     1                 _kill_r
+          10afa0           10afa0        9     1                 _getpid_r
+          10afa9           10afa9        0     1         ../lib/libc.a(libc_a-ctype_.o):(.text)
+          10afb0           10afb0     1408    16         ../lib/libc.a(libc_a-svfiprintf.o):(.text)
+          10afb0           10afb0      1e9     1                 __ssprint_r
+          10b1a0           10b1a0     1218     1                 _svfiprintf_r
+          10c3c0           10c3c0      124    16         ../lib/libc.a(libc_a-memmove.o):(.text)
+          10c3c0           10c3c0      124     1                 memmove
+          10c4f0           10c4f0      12d    16         ../lib/libc.a(libc_a-memcpy.o):(.text)
+          10c4f0           10c4f0        0     1                 memcpy
+          10c515           10c515        0     1                 quadword_aligned
+          10c530           10c530        0     1                 loop
+          10c5f7           10c5f7        0     1                 byte_copy
+          10c5fd           10c5fd        0     1                 quadword_copy
+          10c620           10c620      53a    16         ../lib/libc.a(libc_a-reallocr.o):(.text)
+          10c620           10c620      53a     1                 _realloc_r
+          10cb60           10cb60       c5    16         ../lib/libc.a(libc_a-memchr.o):(.text)
+          10cb60           10cb60       c5     1                 memchr
+          10cc30           10cc30     1636    16         ../lib/libc.a(libc_a-dtoa.o):(.text)
+          10cc30           10cc30      19c     1                 quorem
+          10cdd0           10cdd0     1496     1                 _dtoa_r
+          10e270           10e270     10ba    16         ../lib/libc.a(libc_a-mprec.o):(.text)
+          10e270           10e270       9e     1                 _Balloc
+          10e310           10e310       1f     1                 _Bfree
+          10e330           10e330      101     1                 __multadd
+          10e440           10e440      139     1                 __s2b
+          10e580           10e580       56     1                 __hi0bits
+          10e5e0           10e5e0       8f     1                 __lo0bits
+          10e670           10e670       a4     1                 __i2b
+          10e720           10e720      241     1                 __multiply
+          10e970           10e970      12e     1                 __pow5mult
+          10eaa0           10eaa0      158     1                 __lshift
+          10ec00           10ec00       4e     1                 __mcmp
+          10ec50           10ec50      217     1                 __mdiff
+          10ee70           10ee70       7d     1                 __ulp
+          10eef0           10eef0       fc     1                 __b2d
+          10eff0           10eff0      158     1                 __d2b
+          10f150           10f150       c0     1                 __ratio
+          10f210           10f210       40     1                 _mprec_log10
+          10f250           10f250       60     1                 __copybits
+          10f2b0           10f2b0       7a     1                 __any_on
+          10f330           10f330       c6    16         ../lib/libc.a(libc_a-callocr.o):(.text)
+          10f330           10f330       c6     1                 _calloc_r
+          10f400           10f400        c    16         ../lib/libc.a(libc_a-errno.o):(.text)
+          10f400           10f400        c     1                 __errno
+          10f410           10f410       74    16         ../lib/libc.a(libc_a-assert.o):(.text)
+          10f410           10f410       54     1                 __assert_func
+          10f470           10f470       14     1                 __assert
+          10f490           10f490      178    16         ../lib/libc.a(libc_a-fiprintf.o):(.text)
+          10f490           10f490       b0     1                 _fiprintf_r
+          10f540           10f540       c8     1                 fiprintf
+          10f610           10f610     1750    16         ../lib/libc.a(libc_a-vfiprintf.o):(.text)
+          10f610           10f610       d7     1                 __sprint_r.part.0
+          10f6f0           10f6f0       1a     1                 __sprint_r
+          10f710           10f710     154f     1                 _vfiprintf_r
+          110c60           110c60       19     1                 vfiprintf
+          110c80           110c80       e0     1                 __sbprintf
+          110d60           110d60      1b9    16         ../lib/libc.a(libc_a-fputwc.o):(.text)
+          110d60           110d60      119     1                 __fputwc
+          110e80           110e80       23     1                 _fputwc_r
+          110eb0           110eb0       69     1                 fputwc
+          110f20           110f20      112    16         ../lib/libc.a(libc_a-wcrtomb.o):(.text)
+          110f20           110f20       7c     1                 _wcrtomb_r
+          110fa0           110fa0       92     1                 wcrtomb
+          111040           111040      135    16         ../lib/libc.a(libc_a-wbuf.o):(.text)
+          111040           111040      112     1                 __swbuf_r
+          111160           111160       15     1                 __swbuf
+          111180           111180      143    16         ../lib/libc.a(libc_a-wsetup.o):(.text)
+          111180           111180      143     1                 __swsetup_r
+          1112d0           1112d0      1e6    16         ../lib/libc.a(libc_a-makebuf.o):(.text)
+          1112d0           1112d0      139     1                 __smakebuf_r
+          111410           111410       a6     1                 __swhatbuf_r
+          1114c0           1114c0       36    16         ../lib/libc.a(libc_a-fstatr.o):(.text)
+          1114c0           1114c0       36     1                 _fstat_r
+          111500           111500       2e    16         ../lib/libc.a(libc_a-isattyr.o):(.text)
+          111500           111500       2e     1                 _isatty_r
+          111530           111530      55c    16         ../lib/libc.a(libc_a-fvwrite.o):(.text)
+          111530           111530      55c     1                 __sfvwrite_r
+          111a90           111a90       1e    16         ../lib/libc.a(libc_a-abort.o):(.text)
+          111a90           111a90       1e     1                 abort
+          111ab0           111ab0      211    16         ../lib/libc.a(libc_a-sprintf.o):(.text)
+          111ab0           111ab0       fc     1                 _sprintf_r
+          111bb0           111bb0      111     1                 sprintf
+          111cd0           111cd0       c1    16         asmfunc.o:(.text)
+          111cd0           111cd0        0     1                 IoOut32
+          111cd7           111cd7        0     1                 IoIn32
+          111cdc           111cdc        0     1                 IoIn16
+          111ce2           111ce2        0     1                 IoOut8
+          111cea           111cea        0     1                 IoIn8
+          111cef           111cef        0     1                 call_kernel_main
+          111cff           111cff        0     1                 _hlt
+          111d02           111d02        0     1                 LoadGDT
+          111d1c           111d1c        0     1                 SetDSAll
+          111d25           111d25        0     1                 SetCSSS
+          111d39           111d39        0     1                 SetCSSS.next
+          111d3e           111d3e        0     1                 SetCSSS.stop
+          111d41           111d41        0     1                 GetCS
+          111d47           111d47        0     1                 LoadIDT
+          111d61           111d61        0     1                 SetCR3
+          111d65           111d65        0     1                 NotifyEndOfInterrupt
+          111d73           111d73        0     1                 rdtsc
+          111da0           111da0      809    16         pci.o:(.text)
+          111da0           111da0       4f     1                 MakeAddr(unsigned char, unsigned char, unsigned char, unsigned char)
+          111df0           111df0       1e     1                 WriteAddr(unsigned int)
+          111e10           111e10       1e     1                 WriteData(unsigned int)
+          111e30           111e30       10     1                 ReadData()
+          111e40           111e40       4a     1                 ReadVendorId(unsigned char, unsigned char, unsigned char)
+          111e90           111e90       67     1                 ReadVendorId(Device)
+          111f00           111f00       50     1                 ReadHeaderType(unsigned char, unsigned char, unsigned char)
+          111f50           111f50       70     1                 ReadBar(Device, int)
+          111fc0           111fc0       71     1                 ReadClassCode(unsigned char, unsigned char, unsigned char)
+          112040           112040       45     1                 ReadBusNumbers(unsigned char, unsigned char, unsigned char)
+          112090           112090       af     1                 AddDevice(unsigned char, unsigned char, unsigned char, unsigned char)
+          112140           112140       28     1                 IsSingleFunctionDevice(unsigned char)
+          112170           112170      13f     1                 ScanAllBus()
+          1122b0           1122b0       b7     1                 ScanBus(unsigned char)
+          112370           112370      126     1                 ScanDevice(unsigned char, unsigned char)
+          1124a0           1124a0      109     1                 ScanFunction(unsigned char, unsigned char, unsigned char)
+          1125b0           1125b0      27f    16         memory_map.o:(.text)
+          1125b0           1125b0       83     1                 show_memdesc(int)
+          112640           112640      12d     1                 show_memory_map()
+          112770           112770       bf     1                 search_mem_type(unsigned long)
+          11282f           11282f      1c5     1         newlib.o:(.text)
+          11282f           11282f       6f     1                 sbrk
+          11289e           11289e       29     1                 read
+          1128c7           1128c7       35     1                 write
+          1128fc           1128fc       21     1                 _exit
+          11291d           11291d       28     1                 lseek
+          112945           112945       21     1                 close
+          112966           112966       2e     1                 kill
+          112994           112994       1a     1                 getpid
+          1129ae           1129ae       25     1                 fstat
+          1129d3           1129d3       21     1                 isatty
+          112a00           112a00      348    16         segment.o:(.text)
+          112a00           112a00      21d     1                 SetCodeSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
+          112c20           112c20       77     1                 SetDataSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
+          112ca0           112ca0       67     1                 SetupSegments()
+          112d10           112d10       38     1                 InitializeSegment(unsigned short, unsigned short)
+          112d50           112d50     4005    16         interrupt.o:(.text)
+          112d50           112d50      186     1                 Interrupt_1(InterruptFrame*)
+          112ee0           112ee0      186     1                 Interrupt_2(InterruptFrame*)
+          113070           113070      186     1                 Interrupt_4(InterruptFrame*)
+          113200           113200      186     1                 Interrupt_5(InterruptFrame*)
+          113390           113390      186     1                 Interrupt_6(InterruptFrame*)
+          113520           113520      186     1                 Interrupt_7(InterruptFrame*)
+          1136b0           1136b0      186     1                 Interrupt_8(InterruptFrame*)
+          113840           113840      186     1                 Interrupt_9(InterruptFrame*)
+          1139d0           1139d0      186     1                 Interrupt_10(InterruptFrame*)
+          113b60           113b60      186     1                 Interrupt_11(InterruptFrame*)
+          113cf0           113cf0      186     1                 Interrupt_15(InterruptFrame*)
+          113e80           113e80      186     1                 Interrupt_16(InterruptFrame*)
+          114010           114010      186     1                 Interrupt_17(InterruptFrame*)
+          1141a0           1141a0      186     1                 Interrupt_18(InterruptFrame*)
+          114330           114330      186     1                 Interrupt_19(InterruptFrame*)
+          1144c0           1144c0      186     1                 Interrupt_20(InterruptFrame*)
+          114650           114650      186     1                 Interrupt_21(InterruptFrame*)
+          1147e0           1147e0      186     1                 Interrupt_22(InterruptFrame*)
+          114970           114970      186     1                 Interrupt_23(InterruptFrame*)
+          114b00           114b00      186     1                 Interrupt_24(InterruptFrame*)
+          114c90           114c90      186     1                 Interrupt_25(InterruptFrame*)
+          114e20           114e20      186     1                 Interrupt_26(InterruptFrame*)
+          114fb0           114fb0      186     1                 Interrupt_27(InterruptFrame*)
+          115140           115140      186     1                 Interrupt_28(InterruptFrame*)
+          1152d0           1152d0      186     1                 Interrupt_29(InterruptFrame*)
+          115460           115460      186     1                 Interrupt_30(InterruptFrame*)
+          1155f0           1155f0      186     1                 Interrupt_31(InterruptFrame*)
+          115780           115780      12c     1                 InterruptTimer(InterruptFrame*)
+          1158b0           1158b0      19e     1                 BreakpointInterrupt(InterruptFrame*)
+          115a50           115a50      186     1                 SegFaultInterrupt(InterruptFrame*)
+          115be0           115be0      186     1                 PageFaultInterrupt(InterruptFrame*)
+          115d70           115d70      186     1                 GeneralProtectionInterrupt(InterruptFrame*)
+          115f00           115f00      203     1                 KeyboardInterrupt(InterruptFrame*)
+          116110           116110      163     1                 ShowKeycodeInterrupt(InterruptFrame*)
+          116280           116280       f9     1                 DefaultInterrupt(InterruptFrame*)
+          116380           116380       7a     1                 SetIDTEntry(InterruptDescriptor*, InterruptDescriptorAttribute, unsigned long, unsigned long)
+          116400           116400       ba     1                 InitializePIC()
+          1164c0           1164c0      895     1                 InitializeInterrupt()
+          116d60           116d60       60    16         interrupt.o:(.text._Z10isAlphabetc)
+          116d60           116d60       60     1                 isAlphabet(char)
+          116dc0           116dc0       af    16         interrupt.o:(.text._Z11MakeIDTAttr14DescriptorTypehbh)
+          116dc0           116dc0       af     1                 MakeIDTAttr(DescriptorType, unsigned char, bool, unsigned char)
+          116e70           116e70      118    16         paging.o:(.text)
+          116e70           116e70      118     1                 SetupIdentityPageTable()
+          116f90           116f90       25    16         paging.o:(.text._ZNSt3__15arrayImLm512EEixEm)
+          116f90           116f90       25     1                 std::__1::array<unsigned long, 512ul>::operator[](unsigned long)
+          116fc0           116fc0       14    16         paging.o:(.text._ZNKSt3__15arrayINS0_ImLm512EEELm64EE4sizeEv)
+          116fc0           116fc0       14     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::size() const
+          116fe0           116fe0       25    16         paging.o:(.text._ZNSt3__15arrayINS0_ImLm512EEELm64EEixEm)
+          116fe0           116fe0       25     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::operator[](unsigned long)
+          117010           117010       62    16         keyboard.o:(.text)
+          117010           117010       62     1                 InitializeKeycode()
+          117080           117080      3d9    16         input.o:(.text)
+          117080           117080      148     1                 InputBuffer::add(char)
+          1171d0           1171d0       76     1                 InputBuffer::isEnter()
+          117250           117250       76     1                 InputBuffer::pop()
+          1172d0           1172d0       5a     1                 InputBuffer::allprint()
+          117330           117330       9b     1                 InputBuffer::allpop(char*)
+          1173d0           1173d0       89     1                 GetString(char*)
+          117460           117460       27    16         input.o:(.text._ZN11InputBuffer7isInputEv)
+          117460           117460       27     1                 InputBuffer::isInput()
+          117490           117490      851    16         command.o:(.text)
+          117490           117490      27d     1                 tokenize(char*)
+          117710           117710       4b     1                 free_token(char**)
+          117760           117760       97     1                 show_token(char**)
+          117800           117800      187     1                 command(char*)
+          117990           117990      351     1                 command(char**)
+          117cf0           117cf0       2b    16         command.o:(.text.startup)
+          117cf0           117cf0       1a     1                 __cxx_global_var_init
+          117d10           117d10        b     1                 _GLOBAL__sub_I_command.cpp
+          117d20           117d20       33    16         ../lib/libc.a(libc_a-malloc.o):(.text)
+          117d20           117d20       13     1                 malloc
+          117d40           117d40       13     1                 free
+          117d60           117d60      26e    16         ../lib/libc.a(libc_a-strtol.o):(.text)
+          117d60           117d60      1bd     1                 _strtol_l.part.0
+          117f20           117f20       2e     1                 _strtol_r
+          117f50           117f50       3e     1                 strtol_l
+          117f90           117f90       3e     1                 strtol
+          117fd0           117fd0       39    16         ../lib/libc.a(libc_a-atoi.o):(.text)
+          117fd0           117fd0       19     1                 atoi
+          117ff0           117ff0       19     1                 _atoi_r
+          118010           118010      6ae    16         memory_manager.o:(.text)
+          118010           118010       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
+          118010           118010       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
+          118060           118060      15d     1                 BitmapMemoryManager::Allocate(unsigned long)
+          1181c0           1181c0       6e     1                 BitmapMemoryManager::GetBit(FrameID) const
+          118230           118230       74     1                 BitmapMemoryManager::MarkAllocated(FrameID, unsigned long)
+          1182b0           1182b0       90     1                 BitmapMemoryManager::Free(FrameID, unsigned long)
+          118340           118340       a8     1                 BitmapMemoryManager::SetBit(FrameID, bool)
+          1183f0           1183f0       34     1                 BitmapMemoryManager::SetMemoryRange(FrameID, FrameID)
+          118430           118430       48     1                 BitmapMemoryManager::IsAvailable(unsigned long)
+          118480           118480      167     1                 InitializeMemoryManager(BitmapMemoryManager*, MemoryMap*)
+          1185f0           1185f0       ce     1                 InitializeHeap(BitmapMemoryManager&)
+          1186c0           1186c0       2b    16         memory_manager.o:(.text.startup)
+          1186c0           1186c0       1a     1                 __cxx_global_var_init
+          1186e0           1186e0        b     1                 _GLOBAL__sub_I_memory_manager.cpp
+          1186f0           1186f0       16    16         memory_manager.o:(.text._ZNK7FrameID2IDEv)
+          1186f0           1186f0       16     1                 FrameID::ID() const
+          118710           118710       33    16         memory_manager.o:(.text._ZN5ErrorC2ENS_4CodeEPKci)
+          118710           118710       33     1                 Error::Error(Error::Code, char const*, int)
+          118750           118750       27    16         memory_manager.o:(.text._Z16AddressToFrameIDm)
+          118750           118750       27     1                 AddressToFrameID(unsigned long)
+          118780           118780       25    16         memory_manager.o:(.text._ZNKSt3__15arrayImLm524288EEixEm)
+          118780           118780       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long) const
+          1187b0           1187b0       25    16         memory_manager.o:(.text._ZNSt3__15arrayImLm524288EEixEm)
+          1187b0           1187b0       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long)
+          1187e0           1187e0       3e    16         memory_manager.o:(.text._Z11IsAvailable10MemoryType)
+          1187e0           1187e0       3e     1                 IsAvailable(MemoryType)
+          118820           118820       73    16         timer.o:(.text)
+          118820           118820       20     1                 InitializeLAPICTimer()
+          118840           118840       13     1                 StartLAPICTimer()
+          118860           118860       14     1                 LAPICTimer()
+          118880           118880       13     1                 StopLAPICTimer()
+          119898           119898       a0     8 .data.rel.ro
+          119898           119898       a0     8         kernel.o:(.data.rel.ro._ZN5Error11code_names_E)
+          119898           119898       a0     1                 Error::code_names_
+          119938           119938       20     8 .init_array
+          119938           119938        8     8         kernel.o:(.init_array)
+          119940           119940        8     8         ../lib/libc.a(libc_a-stack_protector.o):(.init_array)
+          119948           119948        8     8         command.o:(.init_array)
+          119950           119950        8     8         memory_manager.o:(.init_array)
+          119960           119960      cb0    32 .data
+          119960           119960        4     4         frame.o:(.data)
+          119960           119960        4     1                 line_len_max
+          119964           119964        0     1         ../lib/libc.a(libc_a-strcpy.o):(.data)
+          119964           119964        0     1         ../lib/libc.a(libc_a-strcat.o):(.data)
+          119964           119964        0     1         ../lib/libc.a(libc_a-strlen.o):(.data)
+          119964           119964        0     1         ../lib/libc.a(libc_a-vsprintf.o):(.data)
+          119964           119964        0     1         ../lib/libc.a(libc_a-impure.o):(.data)
+          119968           119968        8     8         ../lib/libc.a(libc_a-impure.o):(.data.rel.local)
+          119968           119968        8     1                 _impure_ptr
+          119980           119980      158    32         ../lib/libc.a(libc_a-impure.o):(.data.rel)
+          119980           119980      158     1                 _impure_data
+          119ad8           119ad8        0     1         ../lib/libc.a(libc_a-findfp.o):(.data)
+          119ae0           119ae0       18    16         ../lib/libc.a(libc_a-findfp.o):(.data.rel.local)
+          119ae0           119ae0       18     1                 __sglue
+          119af8           119af8        0     1         ../lib/libc.a(libc_a-fclose.o):(.data)
+          119af8           119af8        0     1         ../lib/libc.a(libc_a-fflush.o):(.data)
+          119af8           119af8        0     1         ../lib/libc.a(libc_a-freer.o):(.data)
+          119af8           119af8        0     1         ../lib/libc.a(libc_a-mlock.o):(.data)
+          119af8           119af8       10     8         ../lib/libc.a(libc_a-mallocr.o):(.data)
+          119af8           119af8        8     1                 __malloc_sbrk_base
+          119b00           119b00        8     1                 __malloc_trim_threshold
+          119b20           119b20      810    32         ../lib/libc.a(libc_a-mallocr.o):(.data.rel.local)
+          119b20           119b20      810     1                 __malloc_av_
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-sbrkr.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-reent.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-fwalk.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-memset.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-stdio.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-readr.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-writer.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-lseekr.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-closer.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-svfprintf.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-localeconv.o):(.data)
+          11a330           11a330        0     1         ../lib/libc.a(libc_a-locale.o):(.data)
+          11a340           11a340      1a8    32         ../lib/libc.a(libc_a-locale.o):(.data.rel)
+          11a340           11a340      1a8     1                 __global_locale
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-strcmp.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-wctomb_r.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-mbtowc_r.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-stack_protector.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-signal.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-signalr.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-ctype_.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-svfiprintf.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-memmove.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-memcpy.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-reallocr.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-memchr.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-dtoa.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-mprec.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-callocr.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-errno.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-assert.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-fiprintf.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-vfiprintf.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-fputwc.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-wcrtomb.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-wbuf.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-wsetup.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-makebuf.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-fstatr.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-isattyr.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-fvwrite.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-abort.o):(.data)
+          11a4e8           11a4e8        0     1         ../lib/libc.a(libc_a-sprintf.o):(.data)
+          11a4e8           11a4e8        0     1         newlib.o:(.data)
+          11a4f0           11a4f0       18    16         segment.o:(.data)
+          11a4f0           11a4f0       18     1                 gdt
+          11a508           11a508        8     4         interrupt.o:(.data)
+          11a508           11a508        8     1                 InterruptMessagePosition
+          11a510           11a510      100    16         keyboard.o:(.data)
+          11a510           11a510      100     1                 keycode
+          11a610           11a610        0     1         ../lib/libc.a(libc_a-malloc.o):(.data)
+          11a610           11a610        0     1         ../lib/libc.a(libc_a-strtol.o):(.data)
+          11a610           11a610        0     1         ../lib/libc.a(libc_a-atoi.o):(.data)
+          11a610           11a610       18     8 .got.plt
+          11a610           11a610       18     8         <internal>:(.got.plt)
           11b000           11b000   549010  4096 .bss
           11b000           11b000   500428    16         kernel.o:(.bss)
           11b000           11b000        8     1                 kNullFrame
@@ -838,7 +840,7 @@
             88f2             88f2      1eb     1         ../lib/libc.a(libc_a-atoi.o):(.debug_abbrev)
             8add             8add      4cd     1         memory_manager.o:(.debug_abbrev)
             8faa             8faa       a3     1         timer.o:(.debug_abbrev)
-               0                0    27aa1     1 .debug_info
+               0                0    27abb     1 .debug_info
                0                0     18ae     1         kernel.o:(.debug_info)
             18ae             18ae      703     1         frame.o:(.debug_info)
             1fb1             1fb1      136     1         ../lib/libc.a(libc_a-strcpy.o):(.debug_info)
@@ -897,17 +899,17 @@
            20927            20927      1d8     1         memory_map.o:(.debug_info)
            20aff            20aff      56a     1         newlib.o:(.debug_info)
            21069            21069      210     1         segment.o:(.debug_info)
-           21279            21279      63e     1         interrupt.o:(.debug_info)
-           218b7            218b7      ede     1         paging.o:(.debug_info)
-           22795            22795       67     1         keyboard.o:(.debug_info)
-           227fc            227fc      19a     1         input.o:(.debug_info)
-           22996            22996     135e     1         command.o:(.debug_info)
-           23cf4            23cf4      7c7     1         ../lib/libc.a(libc_a-malloc.o):(.debug_info)
-           244bb            244bb      ed2     1         ../lib/libc.a(libc_a-strtol.o):(.debug_info)
-           2538d            2538d      7fa     1         ../lib/libc.a(libc_a-atoi.o):(.debug_info)
-           25b87            25b87     1e6c     1         memory_manager.o:(.debug_info)
-           279f3            279f3       ae     1         timer.o:(.debug_info)
-               0                0      817     1 .debug_rnglists
+           21279            21279      658     1         interrupt.o:(.debug_info)
+           218d1            218d1      ede     1         paging.o:(.debug_info)
+           227af            227af       67     1         keyboard.o:(.debug_info)
+           22816            22816      19a     1         input.o:(.debug_info)
+           229b0            229b0     135e     1         command.o:(.debug_info)
+           23d0e            23d0e      7c7     1         ../lib/libc.a(libc_a-malloc.o):(.debug_info)
+           244d5            244d5      ed2     1         ../lib/libc.a(libc_a-strtol.o):(.debug_info)
+           253a7            253a7      7fa     1         ../lib/libc.a(libc_a-atoi.o):(.debug_info)
+           25ba1            25ba1     1e6c     1         memory_manager.o:(.debug_info)
+           27a0d            27a0d       ae     1         timer.o:(.debug_info)
+               0                0      818     1 .debug_rnglists
                0                0       35     1         kernel.o:(.debug_rnglists)
               35               35       20     1         frame.o:(.debug_rnglists)
               55               55       6b     1         ../lib/libc.a(libc_a-findfp.o):(.debug_rnglists)
@@ -930,43 +932,43 @@
              675              675       23     1         ../lib/libc.a(libc_a-makebuf.o):(.debug_rnglists)
              698              698       30     1         ../lib/libc.a(libc_a-fvwrite.o):(.debug_rnglists)
              6c8              6c8       57     1         pci.o:(.debug_rnglists)
-             71f              71f       23     1         interrupt.o:(.debug_rnglists)
-             742              742       1e     1         paging.o:(.debug_rnglists)
-             760              760       18     1         input.o:(.debug_rnglists)
-             778              778       26     1         command.o:(.debug_rnglists)
-             79e              79e       2d     1         ../lib/libc.a(libc_a-strtol.o):(.debug_rnglists)
-             7cb              7cb       4c     1         memory_manager.o:(.debug_rnglists)
-               0                0     1da0     1 .debug_str_offsets
+             71f              71f       24     1         interrupt.o:(.debug_rnglists)
+             743              743       1e     1         paging.o:(.debug_rnglists)
+             761              761       18     1         input.o:(.debug_rnglists)
+             779              779       26     1         command.o:(.debug_rnglists)
+             79f              79f       2d     1         ../lib/libc.a(libc_a-strtol.o):(.debug_rnglists)
+             7cc              7cc       4c     1         memory_manager.o:(.debug_rnglists)
+               0                0     1da8     1 .debug_str_offsets
                0                0      668     1         kernel.o:(.debug_str_offsets)
              668              668      1e8     1         frame.o:(.debug_str_offsets)
              850              850      120     1         pci.o:(.debug_str_offsets)
              970              970       bc     1         memory_map.o:(.debug_str_offsets)
              a2c              a2c       d8     1         segment.o:(.debug_str_offsets)
-             b04              b04      238     1         interrupt.o:(.debug_str_offsets)
-             d3c              d3c      390     1         paging.o:(.debug_str_offsets)
-            10cc             10cc       30     1         keyboard.o:(.debug_str_offsets)
-            10fc             10fc       6c     1         input.o:(.debug_str_offsets)
-            1168             1168      458     1         command.o:(.debug_str_offsets)
-            15c0             15c0      784     1         memory_manager.o:(.debug_str_offsets)
-            1d44             1d44       5c     1         timer.o:(.debug_str_offsets)
-               0                0     5380     1 .debug_str
-               0                0     5380     1         <internal>:(.debug_str)
-               0                0      690     1 .debug_addr
+             b04              b04      240     1         interrupt.o:(.debug_str_offsets)
+             d44              d44      390     1         paging.o:(.debug_str_offsets)
+            10d4             10d4       30     1         keyboard.o:(.debug_str_offsets)
+            1104             1104       6c     1         input.o:(.debug_str_offsets)
+            1170             1170      458     1         command.o:(.debug_str_offsets)
+            15c8             15c8      784     1         memory_manager.o:(.debug_str_offsets)
+            1d4c             1d4c       5c     1         timer.o:(.debug_str_offsets)
+               0                0     53b3     1 .debug_str
+               0                0     53b3     1         <internal>:(.debug_str)
+               0                0      698     1 .debug_addr
                0                0       a0     1         kernel.o:(.debug_addr)
               a0               a0      118     1         frame.o:(.debug_addr)
              1b8              1b8       c0     1         pci.o:(.debug_addr)
              278              278       28     1         memory_map.o:(.debug_addr)
              2a0              2a0       30     1         segment.o:(.debug_addr)
-             2d0              2d0      160     1         interrupt.o:(.debug_addr)
-             430              430       50     1         paging.o:(.debug_addr)
-             480              480       20     1         keyboard.o:(.debug_addr)
-             4a0              4a0       40     1         input.o:(.debug_addr)
-             4e0              4e0       88     1         command.o:(.debug_addr)
-             568              568       e8     1         memory_manager.o:(.debug_addr)
-             650              650       40     1         timer.o:(.debug_addr)
-               0                0       6b     1 .comment
-               0                0       6b     1         <internal>:(.comment)
-               0                0     d719     1 .debug_line
+             2d0              2d0      168     1         interrupt.o:(.debug_addr)
+             438              438       50     1         paging.o:(.debug_addr)
+             488              488       20     1         keyboard.o:(.debug_addr)
+             4a8              4a8       40     1         input.o:(.debug_addr)
+             4e8              4e8       88     1         command.o:(.debug_addr)
+             570              570       e8     1         memory_manager.o:(.debug_addr)
+             658              658       40     1         timer.o:(.debug_addr)
+               0                0       64     1 .comment
+               0                0       64     1         <internal>:(.comment)
+               0                0     d735     1 .debug_line
                0                0      2db     1         kernel.o:(.debug_line)
              2db              2db      76f     1         frame.o:(.debug_line)
              a4a              a4a       cf     1         ../lib/libc.a(libc_a-strcpy.o):(.debug_line)
@@ -1025,16 +1027,16 @@
             b7da             b7da      144     1         memory_map.o:(.debug_line)
             b91e             b91e      12e     1         newlib.o:(.debug_line)
             ba4c             ba4c      1ad     1         segment.o:(.debug_line)
-            bbf9             bbf9      7a4     1         interrupt.o:(.debug_line)
-            c39d             c39d      169     1         paging.o:(.debug_line)
-            c506             c506       7e     1         keyboard.o:(.debug_line)
-            c584             c584      26d     1         input.o:(.debug_line)
-            c7f1             c7f1      4b4     1         command.o:(.debug_line)
-            cca5             cca5       a0     1         ../lib/libc.a(libc_a-malloc.o):(.debug_line)
-            cd45             cd45      2e4     1         ../lib/libc.a(libc_a-strtol.o):(.debug_line)
-            d029             d029       96     1         ../lib/libc.a(libc_a-atoi.o):(.debug_line)
-            d0bf             d0bf      5a8     1         memory_manager.o:(.debug_line)
-            d667             d667       b2     1         timer.o:(.debug_line)
+            bbf9             bbf9      7c0     1         interrupt.o:(.debug_line)
+            c3b9             c3b9      169     1         paging.o:(.debug_line)
+            c522             c522       7e     1         keyboard.o:(.debug_line)
+            c5a0             c5a0      26d     1         input.o:(.debug_line)
+            c80d             c80d      4b4     1         command.o:(.debug_line)
+            ccc1             ccc1       a0     1         ../lib/libc.a(libc_a-malloc.o):(.debug_line)
+            cd61             cd61      2e4     1         ../lib/libc.a(libc_a-strtol.o):(.debug_line)
+            d045             d045       96     1         ../lib/libc.a(libc_a-atoi.o):(.debug_line)
+            d0db             d0db      5a8     1         memory_manager.o:(.debug_line)
+            d683             d683       b2     1         timer.o:(.debug_line)
                0                0      eb1     1 .debug_line_str
                0                0      eb1     1         <internal>:(.debug_line_str)
                0                0     d954     1 .debug_loclists
@@ -1146,9 +1148,9 @@
                0                0       f8     8 .debug_frame
                0                0       40     8         keyboard.o:(.debug_frame)
               40               40       b8     8         timer.o:(.debug_frame)
-               0                0     2838     8 .symtab
-               0                0     2838     8         <internal>:(.symtab)
+               0                0     2850     8 .symtab
+               0                0     2850     8         <internal>:(.symtab)
                0                0      105     1 .shstrtab
                0                0      105     1         <internal>:(.shstrtab)
-               0                0     1ba3     1 .strtab
-               0                0     1ba3     1         <internal>:(.strtab)
+               0                0     1bc7     1 .strtab
+               0                0     1bc7     1         <internal>:(.strtab)

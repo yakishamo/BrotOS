@@ -1,5 +1,4 @@
 run:
-	cp ~/edk2/Build/MinLoaderPkgX64/RELEASE_GCC5/X64/MinLoader.efi .
 	sudo mount -o loop disk.img mnt
 	sudo cp MinLoader.efi mnt/EFI/BOOT/BOOTX64.EFI
 	sudo cp kernel/kernel.elf mnt/
@@ -12,8 +11,10 @@ run:
 		-drive if=ide,index=0,media=disk,format=raw,file=./disk.img \
 		-device nec-usb-xhci,id=xhci \
 		-monitor stdio \
+		-display spice-app \
 		-gdb tcp::1234
 
+	#cp ~/edk2/Build/MinLoaderPkgX64/RELEASE_GCC5/X64/MinLoader.efi .
 debug:
 	cp ~/edk2/Build/MinLoaderPkgX64/RELEASE_GCC5/X64/MinLoader.efi .
 	sudo mount -o loop disk.img mnt

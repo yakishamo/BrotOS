@@ -9,8 +9,9 @@ namespace {
 }
 
 void InitializeLAPICTimer() {
-	divide_config = 0b000;
-	lvt_timer = (0b001 << 16) | 32;
+	divide_config = 0b1011;
+	lvt_timer = (0b010 << 16) | 0x41;
+	//initial_count = kCountMax;
 	return;
 }
 
