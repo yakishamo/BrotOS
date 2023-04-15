@@ -229,7 +229,7 @@ void KeyboardInterrupt(InterruptFrame* frame) {
 		isShift = true;
 		return;
 	}
-	if(data == 43 + 0x80 || data == 54 + 0x80) {
+	if(data == 42 + 0x80 || data == 54 + 0x80) {
 		isShift = false;
 		return;
 	}

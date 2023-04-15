@@ -26,7 +26,7 @@ void InitializeFrame(bootinfo_t *binfo) {
 	if(vinfo->format == RGB) WritePixel = WritePixelRGB;
 	else if(vinfo->format == BGR) WritePixel = WritePixelBGR;
 	else {
-		for(int i = 0; i < 0x1920000) vinfo->fb[i] = 0xff;
+		for(int i = 0; i < 0x1920000;i++) vinfo->fb[i] = 0xff;
 		while(1) __asm__("hlt");
 	}
 }
