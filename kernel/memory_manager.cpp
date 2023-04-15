@@ -1,3 +1,4 @@
+#include <sys/types.h>
 #include "memory_manager.hpp"
 
 extern "C" caddr_t program_break, program_break_end;

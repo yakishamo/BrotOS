@@ -1,5 +1,5 @@
 run:
-	cp ~/edk2/Build/MinLoaderPkgX64/RELEASE_GCC5/X64/MinLoader.efi .
+	cp ~/edk2/Build/MinLoaderPkgX64/DEBUG_CLANG38/X64/MinLoaderPkg/Application/MinLoader/MinLoader/DEBUG/MinLoader.efi .
 	sudo mount -o loop disk.img mnt
 	sudo cp MinLoader.efi mnt/EFI/BOOT/BOOTX64.EFI
 	sudo cp kernel/kernel.elf mnt/
@@ -11,8 +11,10 @@ run:
 		-drive if=pflash,format=raw,file=tool/OVMF_VARS.fd \
 		-drive if=ide,index=0,media=disk,format=raw,file=./disk.img \
 		-device nec-usb-xhci,id=xhci \
+		-display spice-app \
 		-monitor stdio \
 		-gdb tcp::1234
+
 
 debug:
 	cp ~/edk2/Build/MinLoaderPkgX64/RELEASE_GCC5/X64/MinLoader.efi .

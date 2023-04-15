@@ -4,6 +4,9 @@
 #include "frame.hpp"
 #include "memory_map.hpp"
 #include "memory_manager.hpp"
+#include "asmfunc.hpp"
+
+#define ISTOKEN(a,b) strcmp(tok[(a)],(b))==0
 
 extern BitmapMemoryManager* memory_manager;
 
@@ -96,7 +99,7 @@ int command(char *str) {
 int command(char **tok) {
 	if(tok[0] == NULL) {
 		return 0;
-	} else if(strcmp(tok[0], "echo") == 0) {
+	} else if(ISTOKEN(0,"echo")) {
 		int i = 1;
 		while(tok[i] != NULL) {
 			Printf("%s",tok[i]);
@@ -107,7 +110,7 @@ int command(char **tok) {
 		}
 		Printf("\n");
 		return 0;
-	} else if(strcmp(tok[0], "mandelbrot") == 0) {
+	} else if(ISTOKEN(0,"mandelbrot")) {
 		int time = 500;
 		if(tok[1] != NULL) {
 			if((time = atoi(tok[1])) == 0) {
@@ -116,12 +119,15 @@ int command(char **tok) {
 		}
 		WriteMandelbrot(time);
 		return 0;
-	} else if(strcmp(tok[0], "check") == 0) {
+	} else if(ISTOKEN(0,"clear")) {
+		clear();
+		return 0;
+	} else if(ISTOKEN(0,"check")) {
 		if(tok[1] == NULL) {
 			Printf("check: not enough arguments\n");
 			return 1;
 		}
-		if(strcmp(tok[1], "memory") == 0) {
+		if(ISTOKEN(1,"memory")) {
 			if(tok[2] != NULL) {
 				uintptr_t p = (uintptr_t)strtol(tok[2], NULL, 0);
 				Printf("%p : %d\n", p, search_mem_type(p));
@@ -134,12 +140,21 @@ int command(char **tok) {
 			Printf("check: illegal operation\n");
 			return 1;
 		}
-	} else if(strcmp(tok[0], "time") == 0) {
+	} else if(ISTOKEN(0,"clear")) {
+		clear();
+		return 0;
+	} else if(ISTOKEN(0,"time")) {
 		uint32_t time = LAPICTimer();
 		command(tok+1);
 		time = LAPICTimer() - time;
 		Printf("time : %d\n", time);
-		return 0;		
+		return 0;
+	} else if(ISTOKEN(0,"rdtsc")) {
+		uint64_t time = rdtsc();
+		command(tok+1);
+		time = rdtsc() - time;
+		Printf("rdtsc : %d\n", time);
+		return 0;
 	} else {
 		Printf("%s is not found.\n", tok[0]);
 		return 1;

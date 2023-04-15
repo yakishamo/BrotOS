@@ -7,12 +7,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-#define line_len_max 40
-
 video_info_t *vinfo;
 FONT *ascii_font;
 int line_queue_head = 0;
 int line_queue_end = 0;
+int line_len_max = 40;
 int max_line = 0;
 char line_queue[200][100];
 int (*WritePixel)(Color c, int x, int y);
@@ -26,7 +25,10 @@ void InitializeFrame(bootinfo_t *binfo) {
 	max_line = vinfo->y_axis/17;
 	if(vinfo->format == RGB) WritePixel = WritePixelRGB;
 	else if(vinfo->format == BGR) WritePixel = WritePixelBGR;
-	else while(1) __asm__("hlt");
+	else {
+		for(int i = 0; i < 0x1920000) vinfo->fb[i] = 0xff;
+		while(1) __asm__("hlt");
+	}
 }
 
 Color HashtoColor(uint8_t c) {

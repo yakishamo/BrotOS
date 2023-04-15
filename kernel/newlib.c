@@ -20,18 +20,20 @@ void* sbrk(intptr_t incr) {
 	return prev_break;
 }
 
-int read(int __fd, void *__buf, size_t __nbytes) {
+/*
+ssize_t read(int __fd, void *__buf, size_t __nbytes) {
 	Print("function read");
 	while(1) __asm__("hlt");
 	return 0;
 }
 
-int write(int fd, const void *buf, size_t __n) {
+ssize_t write(int fd, const void *buf, size_t __n) {
 	Print((char*)buf);
 	Print("function write");
 	while(1) __asm__("hlt");
 	return 0;
 }
+*/
 
 void _exit(int error_code) {
 	Print("function _exit");

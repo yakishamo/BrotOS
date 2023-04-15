@@ -108,3 +108,17 @@ NotifyEndOfInterrupt:
 	mov QWORD [rax], 0x0
 	sti
 	ret
+
+global rdtsc
+rdtsc:
+	push rbp
+	mov rbp, rsp
+	mov rax, 0
+	mov rdx, 0
+	cpuid
+	rdtsc
+	sal rdx, 32
+	add rax, rdx
+	mov rsp, rbp
+	pop rbp
+	ret
