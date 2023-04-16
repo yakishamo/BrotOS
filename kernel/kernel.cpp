@@ -19,11 +19,12 @@
 #include "command.hpp"
 #include "memory_manager.hpp"
 #include "timer.hpp"
+#include "back_buffer.hpp"
 
-extern video_info_t *vinfo;
-extern InterruptDescriptor idt[256];
-extern char keycode[0x100];
-extern MemoryMap *mmap;
+extern video_info_t *vinfo; //frame.cpp
+extern InterruptDescriptor idt[256]; //interrupt.cpp
+extern char keycode[0x100]; //keyboard.cpp
+extern MemoryMap *mmap; // memory_map.cpp
 
 alignas(16) uint8_t kernel_main_stack[1024 * 1024];
 InputBuffer Input_Buffer;
@@ -45,6 +46,7 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	SetupIdentityPageTable();
 	InitializeKeycode();
 	InitializeFrame(binfo);
+	InitializeBackBuffer(vinfo);
 	uint32_t x_axis = vinfo->x_axis;
 	uint32_t y_axis = vinfo->y_axis;
 	mmap = binfo->memory_map;

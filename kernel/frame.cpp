@@ -2,6 +2,7 @@
 #include "../boot/boot_types.h"
 #include "type.hpp"
 #include "macro.hpp"
+#include "back_buffer.hpp"
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -75,9 +76,10 @@ int WriteAscii(char c, Color color, int x, int y) {
 	for(int i = 0; i < 16; i++) {
 		for(int j = 0; j < 8; j++) {
 			if((ascii_font[c].line[i] >> 7-j) & 1)
-				WritePixel(color, x+j, y+i);
+				BB_WritePixel(color, x+j, y+i);
 		}
 	}
+	SwapBuffer();
 	return 0;
 }
 
@@ -85,9 +87,10 @@ int WriteSquare(Vector p1, Vector p2, Color c) {
 	int i, j;
 	for(i = MIN(p1.x, p2.x); i < MAX(p1.x, p2.x); i++) {
 		for(j = MIN(p1.y, p2.y); j < MAX(p1.y, p2.y); j++) {
-			WritePixel(c, i, j);
+			BB_WritePixel(c, i, j);
 		}
 	}
+	SwapBuffer();
 	return 0;
 }
 
@@ -96,11 +99,12 @@ int PrintLine(const char *str, Vector point, Color c) {
 	int i = 0;
 	while(p[i] != '\0') {
 			if(p[i] != '\n') {
-			WriteAscii(p[i], {100,100,100}, point.x+1+9*i, point.y+1); //文字の影
-			WriteAscii(p[i], c, point.x + 9*i, point.y);
+			BB_WriteAscii(p[i], {100,100,100}, point.x+1+9*i, point.y+1); //文字の影
+			BB_WriteAscii(p[i], c, point.x + 9*i, point.y);
 		}
 		i++;
 	}
+	SwapBuffer();
 	return 0;
 }
 
@@ -144,8 +148,9 @@ extern "C" int Print(const char *str) {
 		Print(next_line);
 		return 0;
 	} else if((strlen(line) - strlen(str)) != 0){
-		WriteSquare({0,y}, {9*line_len_max, y+17}, {0,0,0});
-		PrintLine(line, {0, y}, {255,255,255});
+		BB_WriteSquare({0,y}, {9*line_len_max, y+17}, {0,0,0});
+		BB_PrintLine(line, {0, y}, {255,255,255});
+		SwapBuffer();
 		if(line[strlen(line)-1] == '\n') {
 			RegisterLine(line);
 			line[0] = '\0';
@@ -154,12 +159,14 @@ extern "C" int Print(const char *str) {
 	} else {
 		y = 0;
 		for(int i = line_queue_head; i != line_queue_end; i = (i+1)%max_line) {
-			WriteSquare({0,y}, {9*line_len_max, y+17}, {0,0,0});
-			PrintLine(line_queue[i], {0,y}, {255,255,255});
+			BB_WriteSquare({0,y}, {9*line_len_max, y+17}, {0,0,0});
+			BB_PrintLine(line_queue[i], {0,y}, {255,255,255});
+			SwapBuffer();
 			y += 17;
 		}
-		WriteSquare({0,y}, {9*line_len_max, y+17}, {0,0,0});
-		PrintLine(line, {0, y}, {255,255,255});
+		BB_WriteSquare({0,y}, {9*line_len_max, y+17}, {0,0,0});
+		BB_PrintLine(line, {0, y}, {255,255,255});
+		SwapBuffer();
 		if(line[strlen(line)-1] == '\n') {
 			RegisterLine(line);
 			line[0] = '\0';
@@ -223,20 +230,22 @@ void WriteMandelbrot(int time){
 	for(int i = 0; i < vinfo->y_axis; i++) {
 		for(int j = 0; j < vinfo->x_axis; j++) {
 			color_num = CalcMandelbrot(j, i, time);
-			WritePixel({static_cast<uint8_t>(color_num*4), 0, 0},
+			BB_WritePixel({static_cast<uint8_t>(color_num*4), 0, 0},
 					vinfo->x_axis - j, i);
 		}
 	}
+	SwapBuffer();
 	return;
 }
 
 void clear() {
-	WriteSquare(
+	BB_WriteSquare(
 			{0,0},
 			{static_cast<int>(vinfo->x_axis), static_cast<int>(vinfo->y_axis)},
 			{0,0,0});
 	line_queue_head = 0;
 	line_queue_end = 0;
+	SwapBuffer();
 	return;
 }
 

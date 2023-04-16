@@ -18,12 +18,12 @@ CPPFLAGS += -g -O0 \
 						-mno-red-zone \
 						-std=c++17
 
-LDFLAGS = -Map kernel.map -e entry_point -z norelro --image-base 0x100000 -static \
-					-L$(HOME)/x86_64-elf/lib/ -lc -lc++ \
+LDFLAGS = -Map kernel.map -e entry_point -z norelro --image-base 0x100000 \
+						-static	-L$(HOME)/x86_64-elf/lib/ -lc -lc++
 
 OBJS = kernel.o frame.o asmfunc.o pci.o memory_map.o newlib.o \
 			 segment.o interrupt.o paging.o keyboard.o input.o command.o memory_manager.o \
-			 timer.o
+			 timer.o back_buffer.o
 
 .PHONY: clean
 
