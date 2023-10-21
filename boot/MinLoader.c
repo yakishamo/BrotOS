@@ -228,12 +228,19 @@ UefiMain(EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)
 	bootinfo.memory_map = &memmap;
 	
 	do {
-		status = GetMemoryMap(bootinfo.memory_map);
 		Print(L"[Loader]Getting memory map...\n");
-	} while(EFI_ERROR(status));
-	mapkey = memmap.map_key;
-
-	status = gBS->ExitBootServices(ImageHandle, mapkey);
+		status = GetMemoryMap(bootinfo.memory_map);
+		if(EFI_ERROR(status)) {
+			Print(L"[Loader]Getting memory map ERROR : %d", status);
+			while(1) __asm__("hlt");
+			continue;
+		}
+		mapkey = memmap.map_key;
+		status = gBS->ExitBootServices(ImageHandle, mapkey);
+		if(EFI_ERROR(status)) {
+			Print(L"[Loader]ExitBootServeices ERROR : %d\n", status);
+		}
+	}while(EFI_ERROR(status));
 	
 	jump_to_kernel(&bootinfo, updated_start_addr);
 
