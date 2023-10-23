@@ -38,7 +38,6 @@ ssize_t write(int fd, const void *buf, size_t __n) {
 void _exit(int error_code) {
 	Print("function _exit");
 	while(1) __asm__("hlt");
-	return;
 }
 
 __off_t lseek(int __fd, off_t __offset, int __whence) {

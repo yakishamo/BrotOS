@@ -74,7 +74,7 @@ int WritePixelBGR(Color c, int x, int y) {
 int WriteAscii(char c, Color color, int x, int y) {
 	for(int i = 0; i < 16; i++) {
 		for(int j = 0; j < 8; j++) {
-			if((ascii_font[c].line[i] >> 7-j) & 1)
+			if((ascii_font[static_cast<int>(c)].line[i] >> (7-j)) & 1)
 				WritePixel(color, x+j, y+i);
 		}
 	}
@@ -91,6 +91,7 @@ int WriteSquare(Vector p1, Vector p2, Color c) {
 	return 0;
 }
 
+__attribute__((no_caller_saved_registers))
 int PrintLine(const char *str, Vector point, Color c) {
 	const char *p = str;
 	int i = 0;
@@ -133,10 +134,9 @@ extern "C" int Print(const char *str) {
 extern "C" int Print(const char *str) {
 	static int y = 0;
 	static char line[1000];
-	static int debug = 0;
 	strcat(line, str);
 	char next_line[line_len_max+1];
-	if(strlen(line) > line_len_max) {
+	if(static_cast<int>(strlen(line)) > line_len_max) {
 		strcpy(next_line, &line[line_len_max]);
 		line[line_len_max] = '\0';
 		RegisterLine(line);
@@ -179,7 +179,8 @@ int Printf(const char *format, ...) {
 	return 0;
 }
 
-void dPrint(char *str, int a) {
+__attribute__((no_caller_saved_registers))
+void dPrint(const char *str, int a) {
 	char buf[strlen(str)+50];
 	sprintf(buf, "%s%d", str, a);
 	Print(buf);
@@ -220,8 +221,8 @@ inline int CalcMandelbrot(int x, int y, int time) {
 
 void WriteMandelbrot(int time){
 	uint8_t color_num = 0;
-	for(int i = 0; i < vinfo->y_axis; i++) {
-		for(int j = 0; j < vinfo->x_axis; j++) {
+	for(uint32_t i = 0; i < vinfo->y_axis; i++) {
+		for(uint32_t j = 0; j < vinfo->x_axis; j++) {
 			color_num = CalcMandelbrot(j, i, time);
 			WritePixel({static_cast<uint8_t>(color_num*4), 0, 0},
 					vinfo->x_axis - j, i);

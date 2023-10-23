@@ -7,8 +7,8 @@
 void InitializeFrame(bootinfo_t *binfo);
 int WriteAscii(char c, Color color, int x, int y);
 int WriteSquare(Vector p1, Vector p2, Color c); //左上、右下、塗りつぶしの色
-int PrintLine(char const *str, Vector point, Color c); //表示する文字列、位置、文字の色
-void dPrint(char *str, int a);
+int PrintLine(char const *str, Vector point, Color c) __attribute__((no_caller_saved_registers));
+void dPrint(const char *str, int a) __attribute__((no_caller_saved_registers));
 void udPrint(char *str, unsigned int a);
 void uxdPrint(char *str, unsigned int a);
 void WriteMandelbrot(int time);

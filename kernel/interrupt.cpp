@@ -13,8 +13,9 @@ Vector InterruptMessagePosition = {400, 300};
 extern char keycode[0x100];
 extern InputBuffer Input_Buffer;
 
-void stop(void);
+void stop(void) __attribute__((no_caller_saved_registers));
 
+__attribute__((no_caller_saved_registers))
 inline bool isAlphabet(char c) {
 	return (c >= 'a' && c <= 'z') || (c <= 'A' && c >= 'Z');
 }
@@ -186,7 +187,7 @@ void Interrupt_31(InterruptFrame *frame) {
 }
 __attribute__((interrupt))
 void BreakpointInterrupt(InterruptFrame* frame) {
-	Printf("\nrip : %p", frame->rip);
+	dPrint("rip : ", frame->rip);
 //	WriteMandelbrot(300);
 	PrintLine("BreakPoint", InterruptMessagePosition, {255,0,0});
 	stop();
@@ -244,21 +245,11 @@ void KeyboardInterrupt(InterruptFrame* frame) {
 	return;
 }
 
-__attribute__((interrupt))
-void ShowKeycodeInterrupt(InterruptFrame* frame) {
-	unsigned int data;
-	IoOut8(PIC0_OCW2, 0x61);
-	data = IoIn8(PORT_KEYDAT);
-	Printf("%d : %c\n", data, keycode[data]);
-	NotifyEndOfInterrupt();
-	return;
-}
-
 void DefaultInterrupt(InterruptFrame* frame) {
 //	WriteMandelbrot(300);
 	char str[100];
 	PrintLine("some interrupt", InterruptMessagePosition, {255,0,0});
-	sprintf(str, "rip : %p\n", frame->rip);
+	sprintf(str, "rip : %lx\n", frame->rip);
 	PrintLine(str, {400,317}, {255,0,0});
 	stop();
 	NotifyEndOfInterrupt();

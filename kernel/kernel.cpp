@@ -72,7 +72,6 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 
 	char str[1000];
 	char **token;
-	int i = 0;
 	Printf("Welcome to BrotOS!!\n");
 	Printf("kernel : %p\n", kernel_main);
 	Printf("kernel stack : %p\n", kernel_main_stack);

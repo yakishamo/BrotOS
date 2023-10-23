@@ -60,7 +60,6 @@ int InputBuffer::allpop(char *str) {
 }
 
 void GetString(char *str) {
-	int i = 0;
 	while(1) {
 		if(Input_Buffer.isInput()) {
 			Printf("%c", Input_Buffer.pop());

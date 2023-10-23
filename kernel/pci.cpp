@@ -64,7 +64,7 @@ int AddDevice(uint8_t bus, uint8_t device, uint8_t func, uint8_t header_type) {
 		Print((char*)"failed add device");
 		return 1;
 	}
-	devices[num_device] = Device{bus, device, func, header_type};
+	devices[num_device] = Device{bus, device, func, header_type, {0,0,0}};
 	num_device++;
 	return 0;
 }
@@ -74,7 +74,6 @@ int IsSingleFunctionDevice(uint8_t header_type) {
 }
 
 int ScanAllBus() {
-	char buf[100];
 	num_device = 0;
 
 	uint8_t header_type = ReadHeaderType(0,0,0);

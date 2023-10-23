@@ -22,529 +22,453 @@
           1010f8           1010f8        8     1                 (anonymous namespace)::divide_config
           101100           101100        8     1                 (anonymous namespace)::lvt_timer
           101108           101108        8     1                 (anonymous namespace)::initial_count
-          101110           101110     230c     8 .eh_frame
-          101110           101110       d4     1         kernel.o:(.eh_frame+0x0)
-          1011e8           1011e8       3c     1         kernel.o:(.eh_frame+0xd4)
-          101228           101228       a0     1         kernel.o:(.eh_frame+0x110)
-          1012c8           1012c8      220     1         frame.o:(.eh_frame+0x18)
-          1014e8           1014e8       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcpy.o):(.eh_frame+0x18)
-          101500           101500       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcat.o):(.eh_frame+0x18)
-          101528           101528       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strlen.o):(.eh_frame+0x18)
-          101540           101540       1c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-vsprintf.o):(.eh_frame+0x18)
-          101560           101560       1c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-vsprintf.o):(.eh_frame+0x34)
-          101580           101580       50     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfprintf.o):(.eh_frame+0x18)
-          1015d0           1015d0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-localeconv.o):(.eh_frame+0x18)
-          1015e8           1015e8       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-localeconv.o):(.eh_frame+0x2c)
-          101600           101600       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-localeconv.o):(.eh_frame+0x40)
-          101618           101618       34     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.eh_frame+0x18)
-          101650           101650       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.eh_frame+0x4c)
-          101668           101668       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.eh_frame+0x60)
-          101680           101680       24     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.eh_frame+0x74)
-          1016a8           1016a8       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcmp.o):(.eh_frame+0x18)
-          1016c0           1016c0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-wctomb_r.o):(.eh_frame+0x18)
-          1016d8           1016d8       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-wctomb_r.o):(.eh_frame+0x2c)
-          1016f0           1016f0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mbtowc_r.o):(.eh_frame+0x18)
-          101708           101708       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mbtowc_r.o):(.eh_frame+0x2c)
-          101720           101720       50     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.eh_frame+0x18)
-          101770           101770       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mlock.o):(.eh_frame+0x18)
-          101788           101788       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mlock.o):(.eh_frame+0x2c)
-          1017a0           1017a0       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sbrkr.o):(.eh_frame+0x18)
-          1017c8           1017c8       60     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reent.o):(.eh_frame+0x18)
-          101828           101828       78     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-freer.o):(.eh_frame+0x18)
-          1018a0           1018a0       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfiprintf.o):(.eh_frame+0x18)
-          1018f0           1018f0       54     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfiprintf.o):(.eh_frame+0x64)
-          101948           101948       68     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reallocr.o):(.eh_frame+0x18)
-          1019b0           1019b0       30     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memmove.o):(.eh_frame+0x18)
-          1019e0           1019e0       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memchr.o):(.eh_frame+0x18)
-          1019f8           1019f8       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-s_fpclassify.o):(.eh_frame+0x18)
-          101a10           101a10       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-dtoa.o):(.eh_frame+0x18)
-          101a60           101a60       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-dtoa.o):(.eh_frame+0x64)
-          101ab0           101ab0       2c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x18)
-          101ae0           101ae0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x44)
-          101af8           101af8       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x58)
-          101b48           101b48       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0xa4)
-          101b98           101b98       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0xf0)
-          101bb0           101bb0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x104)
-          101bc8           101bc8       74     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x118)
-          101c40           101c40       3c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x18c)
-          101c80           101c80       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x1c8)
-          101cd0           101cd0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x214)
-          101ce8           101ce8       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x228)
-          101d38           101d38       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x274)
-          101d50           101d50       24     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x288)
-          101d78           101d78       34     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x2ac)
-          101db0           101db0       3c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x2e0)
-          101df0           101df0       3c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x31c)
-          101e30           101e30       20     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-callocr.o):(.eh_frame+0x18)
-          101e50           101e50       1c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sprintf.o):(.eh_frame+0x18)
-          101e70           101e70       1c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sprintf.o):(.eh_frame+0x34)
-          101e90           101e90      200     1         pci.o:(.eh_frame+0x18)
-          102090           102090       60     1         memory_map.o:(.eh_frame+0x18)
-          1020f0           1020f0       3c     1         newlib.o:(.eh_frame+0x18)
-          102130           102130       1c     1         newlib.o:(.eh_frame+0x54)
-          102150           102150       1c     1         newlib.o:(.eh_frame+0x70)
-          102170           102170       1c     1         newlib.o:(.eh_frame+0x8c)
-          102190           102190       1c     1         newlib.o:(.eh_frame+0xa8)
-          1021b0           1021b0       1c     1         newlib.o:(.eh_frame+0xc4)
-          1021d0           1021d0       20     1         newlib.o:(.eh_frame+0xe0)
-          1021f0           1021f0       80     1         segment.o:(.eh_frame+0x18)
-          102270           102270       54     1         interrupt.o:(.eh_frame+0x18)
-          1022c8           1022c8       54     1         interrupt.o:(.eh_frame+0x6c)
-          102320           102320       54     1         interrupt.o:(.eh_frame+0xc0)
-          102378           102378       54     1         interrupt.o:(.eh_frame+0x114)
-          1023d0           1023d0       54     1         interrupt.o:(.eh_frame+0x168)
-          102428           102428       54     1         interrupt.o:(.eh_frame+0x1bc)
-          102480           102480       54     1         interrupt.o:(.eh_frame+0x210)
-          1024d8           1024d8       54     1         interrupt.o:(.eh_frame+0x264)
-          102530           102530       54     1         interrupt.o:(.eh_frame+0x2b8)
-          102588           102588       54     1         interrupt.o:(.eh_frame+0x30c)
-          1025e0           1025e0       54     1         interrupt.o:(.eh_frame+0x360)
-          102638           102638       54     1         interrupt.o:(.eh_frame+0x3b4)
-          102690           102690       54     1         interrupt.o:(.eh_frame+0x408)
-          1026e8           1026e8       54     1         interrupt.o:(.eh_frame+0x45c)
-          102740           102740       54     1         interrupt.o:(.eh_frame+0x4b0)
-          102798           102798       54     1         interrupt.o:(.eh_frame+0x504)
-          1027f0           1027f0       54     1         interrupt.o:(.eh_frame+0x558)
-          102848           102848       54     1         interrupt.o:(.eh_frame+0x5ac)
-          1028a0           1028a0       54     1         interrupt.o:(.eh_frame+0x600)
-          1028f8           1028f8       54     1         interrupt.o:(.eh_frame+0x654)
-          102950           102950       54     1         interrupt.o:(.eh_frame+0x6a8)
-          1029a8           1029a8       54     1         interrupt.o:(.eh_frame+0x6fc)
-          102a00           102a00       54     1         interrupt.o:(.eh_frame+0x750)
-          102a58           102a58       54     1         interrupt.o:(.eh_frame+0x7a4)
-          102ab0           102ab0       54     1         interrupt.o:(.eh_frame+0x7f8)
-          102b08           102b08       54     1         interrupt.o:(.eh_frame+0x84c)
-          102b60           102b60       54     1         interrupt.o:(.eh_frame+0x8a0)
-          102bb8           102bb8       54     1         interrupt.o:(.eh_frame+0x8f4)
-          102c10           102c10       54     1         interrupt.o:(.eh_frame+0x948)
-          102c68           102c68       54     1         interrupt.o:(.eh_frame+0x99c)
-          102cc0           102cc0       54     1         interrupt.o:(.eh_frame+0x9f0)
-          102d18           102d18       54     1         interrupt.o:(.eh_frame+0xa44)
-          102d70           102d70       74     1         interrupt.o:(.eh_frame+0xa98)
-          102de8           102de8       a4     1         interrupt.o:(.eh_frame+0xb0c)
-          102e90           102e90       80     1         paging.o:(.eh_frame+0x18)
-          102f10           102f10       c4     1         input.o:(.eh_frame+0x18)
-          102fd8           102fd8       24     1         input.o:(.eh_frame+0xdc)
-          103000           103000       20     1         command.o:(.eh_frame+0x18)
-          103020           103020       a0     1         command.o:(.eh_frame+0x78)
-          1030c0           1030c0       20     1         command.o:(.eh_frame+0x138)
-          1030e0           1030e0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-malloc.o):(.eh_frame+0x18)
-          1030f8           1030f8       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-malloc.o):(.eh_frame+0x2c)
-          103110           103110       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.eh_frame+0x18)
-          103128           103128       4c     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.eh_frame+0x2c)
-          103178           103178       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.eh_frame+0x78)
-          103190           103190       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.eh_frame+0x8c)
-          1031a8           1031a8       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-atoi.o):(.eh_frame+0x18)
-          1031c0           1031c0       14     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-atoi.o):(.eh_frame+0x2c)
-          1031d8           1031d8       20     1         memory_manager.o:(.eh_frame+0x18)
-          1031f8           1031f8      200     1         memory_manager.o:(.eh_frame+0x78)
-          1033f8           1033f8       20     1         memory_manager.o:(.eh_frame+0x2b8)
-          104420           104420    10123    16 .text
-          104420           104420      21c    16         kernel.o:(.text)
-          104420           104420        f     1                 stop()
-          104430           104430       29     1                 entry_point
-          104460           104460      1dc     1                 kernel_main
-          104640           104640       50    16         kernel.o:(.text.startup)
-          104640           104640       1a     1                 __cxx_global_var_init
-          104660           104660       12     1                 __cxx_global_var_init.1
-          104680           104680       10     1                 _GLOBAL__sub_I_kernel.cpp
-          104690           104690        b    16         kernel.o:(.text._ZNSt3__114numeric_limitsImE3maxEv)
-          104690           104690        b     1                 std::__1::numeric_limits<unsigned long>::max()
-          1046a0           1046a0       21    16         kernel.o:(.text._ZN7FrameIDC2Em)
-          1046a0           1046a0       21     1                 FrameID::FrameID(unsigned long)
-          1046d0           1046d0       4c    16         kernel.o:(.text._ZN11InputBufferC2Ev)
-          1046d0           1046d0       4c     1                 InputBuffer::InputBuffer()
-          104720           104720       1e    16         kernel.o:(.text._ZNK5ErrorcvbEv)
-          104720           104720       1e     1                 Error::operator bool() const
-          104740           104740       29    16         kernel.o:(.text._ZNK5Error4NameEv)
-          104740           104740       29     1                 Error::Name() const
-          104770           104770        d    16         kernel.o:(.text._ZNSt3__123__libcpp_numeric_limitsImLb1EE3maxEv)
-          104770           104770        d     1                 std::__1::__libcpp_numeric_limits<unsigned long, true>::max()
-          104780           104780       25    16         kernel.o:(.text._ZNKSt3__15arrayIPKcLm20EEixEm)
-          104780           104780       25     1                 std::__1::array<char const*, 20ul>::operator[](unsigned long) const
-          1047b0           1047b0      f5e    16         frame.o:(.text)
-          1047b0           1047b0       d5     1                 InitializeFrame(bootinfo_t*)
-          104890           104890       7f     1                 WritePixelRGB(Color, int, int)
-          104910           104910       7f     1                 WritePixelBGR(Color, int, int)
-          104990           104990       3d     1                 HashtoColor(unsigned char)
-          1049d0           1049d0      191     1                 HSVtoRGB(int)
-          104b70           104b70       f5     1                 WriteAscii(char, Color, int, int)
-          104c70           104c70      136     1                 WriteSquare(Vector, Vector, Color)
-          104db0           104db0      11a     1                 PrintLine(char const*, Vector, Color)
-          104ed0           104ed0       7e     1                 RegisterLine(char const*)
-          104f50           104f50      456     1                 Print
-          1053b0           1053b0       b3     1                 Printf
-          105470           105470       6c     1                 dPrint(char*, int)
-          1054e0           1054e0       6c     1                 udPrint(char*, unsigned int)
-          105550           105550       6c     1                 uxdPrint(char*, unsigned int)
-          1055c0           1055c0       c2     1                 WriteMandelbrot(int)
-          105690           105690       7e     1                 clear()
-          105710           105710      1ad    16         frame.o:(.text._Z14CalcMandelbrotiii)
-          105710           105710      1ad     1                 CalcMandelbrot(int, int, int)
-          1058c0           1058c0       83    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcpy.o):(.text)
-          1058c0           1058c0       83     1                 strcpy
-          105950           105950       6a    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcat.o):(.text)
-          105950           105950       6a     1                 strcat
-          1059c0           1059c0       d1    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strlen.o):(.text)
-          1059c0           1059c0       d1     1                 strlen
-          105aa0           105aa0       a2    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-vsprintf.o):(.text)
-          105aa0           105aa0       55     1                 vsprintf
-          105b00           105b00       42     1                 _vsprintf_r
-          105b44           105b44        0     4         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-impure.o):(.text)
-          105b50           105b50     2154    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfprintf.o):(.text)
-          105b50           105b50     2154     1                 _svfprintf_r
-          107cb0           107cb0       61    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-localeconv.o):(.text)
-          107cb0           107cb0        8     1                 __localeconv_l
-          107cc0           107cc0       21     1                 _localeconv_r
-          107cf0           107cf0       21     1                 localeconv
-          107d20           107d20      10f    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.text)
-          107d20           107d20       4f     1                 _setlocale_r
-          107d70           107d70       24     1                 __locale_mb_cur_max
-          107da0           107da0        8     1                 __locale_ctype_ptr_l
-          107db0           107db0       24     1                 __locale_ctype_ptr
-          107de0           107de0       4f     1                 setlocale
-          107e30           107e30       7f    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcmp.o):(.text)
-          107e30           107e30       7f     1                 strcmp
-          107eb0           107eb0       54    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-wctomb_r.o):(.text)
-          107eb0           107eb0       23     1                 _wctomb_r
-          107ee0           107ee0       24     1                 __ascii_wctomb
-          107f10           107f10       5d    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mbtowc_r.o):(.text)
-          107f10           107f10       23     1                 _mbtowc_r
-          107f40           107f40       2d     1                 __ascii_mbtowc
-          107f70           107f70        0     4         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-ctype_.o):(.text)
-          107f70           107f70      803    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.text)
-          107f70           107f70      803     1                 _malloc_r
-          108780           108780       11    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mlock.o):(.text)
-          108780           108780        1     1                 __malloc_lock
-          108790           108790        1     1                 __malloc_unlock
-          1087a0           1087a0       33    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sbrkr.o):(.text)
-          1087a0           1087a0       33     1                 _sbrk_r
-          1087e0           1087e0      124    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reent.o):(.text)
-          1087e0           1087e0       2c     1                 cleanup_glue
-          108810           108810       f4     1                 _reclaim_reent
-          108910           108910      361    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-freer.o):(.text)
-          108910           108910      278     1                 _free_r
-          108b90           108b90       e1     1                 _malloc_trim_r
-          108c80           108c80     11c2    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfiprintf.o):(.text)
-          108c80           108c80      1b4     1                 __ssprint_r
-          108e40           108e40     1002     1                 _svfiprintf_r
-          109e50           109e50      624    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reallocr.o):(.text)
-          109e50           109e50      624     1                 _realloc_r
-          10a480           10a480      5cf    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memmove.o):(.text)
-          10a480           10a480      5cf     1                 memmove
-          10aa50           10aa50      12d    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memcpy.o):(.text)
-          10aa50           10aa50        0     1                 memcpy
-          10aa75           10aa75        0     1                 quadword_aligned
-          10aa90           10aa90        0     1                 loop
-          10ab57           10ab57        0     1                 byte_copy
-          10ab5d           10ab5d        0     1                 quadword_copy
-          10ab80           10ab80      180    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memchr.o):(.text)
-          10ab80           10ab80      180     1                 memchr
-          10ad00           10ad00       5d    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-s_fpclassify.o):(.text)
-          10ad00           10ad00       5d     1                 __fpclassifyd
-          10ad60           10ad60     1379    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-dtoa.o):(.text)
-          10ad60           10ad60     11d0     1                 _dtoa_r
-          10bf30           10bf30      1a9     1                 quorem
-          10c0e0           10c0e0     17b8    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.text)
-          10c0e0           10c0e0       85     1                 _Balloc
-          10c170           10c170       19     1                 _Bfree
-          10c190           10c190      151     1                 __multadd
-          10c2f0           10c2f0      15e     1                 __s2b
-          10c450           10c450       69     1                 __hi0bits
-          10c4c0           10c4c0       84     1                 __lo0bits
-          10c550           10c550       83     1                 __i2b
-          10c5e0           10c5e0      350     1                 __multiply
-          10c930           10c930      13f     1                 __pow5mult
-          10ca70           10ca70      34a     1                 __lshift
-          10cdc0           10cdc0       42     1                 __mcmp
-          10ce10           10ce10      222     1                 __mdiff
-          10d040           10d040       63     1                 __ulp
-          10d0b0           10d0b0      11a     1                 __b2d
-          10d1d0           10d1d0      320     1                 __d2b
-          10d4f0           10d4f0       96     1                 __ratio
-          10d590           10d590       99     1                 _mprec_log10
-          10d630           10d630      205     1                 __copybits
-          10d840           10d840       58     1                 __any_on
-          10d8a0           10d8a0       7f    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-callocr.o):(.text)
-          10d8a0           10d8a0       7f     1                 _calloc_r
-          10d920           10d920       e0    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memset.o):(.text)
-          10d920           10d920        0     1                 memset
-          10d94e           10d94e        0     1                 quadword_aligned
-          10d970           10d970        0     1                 loop
-          10d9db           10d9db        0     1                 byte_set
-          10d9e1           10d9e1        0     1                 quadword_set
-          10da00           10da00      1ab    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sprintf.o):(.text)
-          10da00           10da00       c9     1                 _sprintf_r
-          10dad0           10dad0       db     1                 sprintf
-          10dbb0           10dbb0       c1    16         asmfunc.o:(.text)
-          10dbb0           10dbb0        0     1                 IoOut32
-          10dbb7           10dbb7        0     1                 IoIn32
-          10dbbc           10dbbc        0     1                 IoIn16
-          10dbc2           10dbc2        0     1                 IoOut8
-          10dbca           10dbca        0     1                 IoIn8
-          10dbcf           10dbcf        0     1                 call_kernel_main
-          10dbdf           10dbdf        0     1                 _hlt
-          10dbe2           10dbe2        0     1                 LoadGDT
-          10dbfc           10dbfc        0     1                 SetDSAll
-          10dc05           10dc05        0     1                 SetCSSS
-          10dc19           10dc19        0     1                 SetCSSS.next
-          10dc1e           10dc1e        0     1                 SetCSSS.stop
-          10dc21           10dc21        0     1                 GetCS
-          10dc27           10dc27        0     1                 LoadIDT
-          10dc41           10dc41        0     1                 SetCR3
-          10dc45           10dc45        0     1                 NotifyEndOfInterrupt
-          10dc53           10dc53        0     1                 rdtsc
-          10dc80           10dc80      809    16         pci.o:(.text)
-          10dc80           10dc80       4f     1                 MakeAddr(unsigned char, unsigned char, unsigned char, unsigned char)
-          10dcd0           10dcd0       1e     1                 WriteAddr(unsigned int)
-          10dcf0           10dcf0       1e     1                 WriteData(unsigned int)
-          10dd10           10dd10       10     1                 ReadData()
-          10dd20           10dd20       4a     1                 ReadVendorId(unsigned char, unsigned char, unsigned char)
-          10dd70           10dd70       67     1                 ReadVendorId(Device)
-          10dde0           10dde0       50     1                 ReadHeaderType(unsigned char, unsigned char, unsigned char)
-          10de30           10de30       70     1                 ReadBar(Device, int)
-          10dea0           10dea0       71     1                 ReadClassCode(unsigned char, unsigned char, unsigned char)
-          10df20           10df20       45     1                 ReadBusNumbers(unsigned char, unsigned char, unsigned char)
-          10df70           10df70       af     1                 AddDevice(unsigned char, unsigned char, unsigned char, unsigned char)
-          10e020           10e020       28     1                 IsSingleFunctionDevice(unsigned char)
-          10e050           10e050      13f     1                 ScanAllBus()
-          10e190           10e190       b7     1                 ScanBus(unsigned char)
-          10e250           10e250      126     1                 ScanDevice(unsigned char, unsigned char)
-          10e380           10e380      109     1                 ScanFunction(unsigned char, unsigned char, unsigned char)
-          10e490           10e490      27f    16         memory_map.o:(.text)
-          10e490           10e490       83     1                 show_memdesc(int)
-          10e520           10e520      12d     1                 show_memory_map()
-          10e650           10e650       bf     1                 search_mem_type(unsigned long)
-          10e710           10e710      18d    16         newlib.o:(.text)
-          10e710           10e710       7e     1                 sbrk
-          10e790           10e790       1d     1                 _exit
-          10e7b0           10e7b0       24     1                 lseek
-          10e7e0           10e7e0       1d     1                 close
-          10e800           10e800       2d     1                 kill
-          10e830           10e830       16     1                 getpid
-          10e850           10e850       21     1                 fstat
-          10e880           10e880       1d     1                 isatty
-          10e8a0           10e8a0      348    16         segment.o:(.text)
-          10e8a0           10e8a0      21d     1                 SetCodeSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
-          10eac0           10eac0       77     1                 SetDataSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
-          10eb40           10eb40       67     1                 SetupSegments()
-          10ebb0           10ebb0       38     1                 InitializeSegment(unsigned short, unsigned short)
-          10ebf0           10ebf0     3e94    16         interrupt.o:(.text)
-          10ebf0           10ebf0      186     1                 Interrupt_1(InterruptFrame*)
-          10ed80           10ed80      186     1                 Interrupt_2(InterruptFrame*)
-          10ef10           10ef10      186     1                 Interrupt_4(InterruptFrame*)
-          10f0a0           10f0a0      186     1                 Interrupt_5(InterruptFrame*)
-          10f230           10f230      186     1                 Interrupt_6(InterruptFrame*)
-          10f3c0           10f3c0      186     1                 Interrupt_7(InterruptFrame*)
-          10f550           10f550      186     1                 Interrupt_8(InterruptFrame*)
-          10f6e0           10f6e0      186     1                 Interrupt_9(InterruptFrame*)
-          10f870           10f870      186     1                 Interrupt_10(InterruptFrame*)
-          10fa00           10fa00      186     1                 Interrupt_11(InterruptFrame*)
-          10fb90           10fb90      186     1                 Interrupt_15(InterruptFrame*)
-          10fd20           10fd20      186     1                 Interrupt_16(InterruptFrame*)
-          10feb0           10feb0      186     1                 Interrupt_17(InterruptFrame*)
-          110040           110040      186     1                 Interrupt_18(InterruptFrame*)
-          1101d0           1101d0      186     1                 Interrupt_19(InterruptFrame*)
-          110360           110360      186     1                 Interrupt_20(InterruptFrame*)
-          1104f0           1104f0      186     1                 Interrupt_21(InterruptFrame*)
-          110680           110680      186     1                 Interrupt_22(InterruptFrame*)
-          110810           110810      186     1                 Interrupt_23(InterruptFrame*)
-          1109a0           1109a0      186     1                 Interrupt_24(InterruptFrame*)
-          110b30           110b30      186     1                 Interrupt_25(InterruptFrame*)
-          110cc0           110cc0      186     1                 Interrupt_26(InterruptFrame*)
-          110e50           110e50      186     1                 Interrupt_27(InterruptFrame*)
-          110fe0           110fe0      186     1                 Interrupt_28(InterruptFrame*)
-          111170           111170      186     1                 Interrupt_29(InterruptFrame*)
-          111300           111300      186     1                 Interrupt_30(InterruptFrame*)
-          111490           111490      186     1                 Interrupt_31(InterruptFrame*)
-          111620           111620      19e     1                 BreakpointInterrupt(InterruptFrame*)
-          1117c0           1117c0      186     1                 SegFaultInterrupt(InterruptFrame*)
-          111950           111950      186     1                 PageFaultInterrupt(InterruptFrame*)
-          111ae0           111ae0      186     1                 GeneralProtectionInterrupt(InterruptFrame*)
-          111c70           111c70      203     1                 KeyboardInterrupt(InterruptFrame*)
-          111e80           111e80      163     1                 ShowKeycodeInterrupt(InterruptFrame*)
-          111ff0           111ff0       f9     1                 DefaultInterrupt(InterruptFrame*)
-          1120f0           1120f0       7a     1                 SetIDTEntry(InterruptDescriptor*, InterruptDescriptorAttribute, unsigned long, unsigned long)
-          112170           112170       ba     1                 InitializePIC()
-          112230           112230      854     1                 InitializeInterrupt()
-          112a90           112a90       60    16         interrupt.o:(.text._Z10isAlphabetc)
-          112a90           112a90       60     1                 isAlphabet(char)
-          112af0           112af0       af    16         interrupt.o:(.text._Z11MakeIDTAttr14DescriptorTypehbh)
-          112af0           112af0       af     1                 MakeIDTAttr(DescriptorType, unsigned char, bool, unsigned char)
-          112ba0           112ba0      118    16         paging.o:(.text)
-          112ba0           112ba0      118     1                 SetupIdentityPageTable()
-          112cc0           112cc0       25    16         paging.o:(.text._ZNSt3__15arrayImLm512EEixEm)
-          112cc0           112cc0       25     1                 std::__1::array<unsigned long, 512ul>::operator[](unsigned long)
-          112cf0           112cf0       14    16         paging.o:(.text._ZNKSt3__15arrayINS0_ImLm512EEELm64EE4sizeEv)
-          112cf0           112cf0       14     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::size() const
-          112d10           112d10       25    16         paging.o:(.text._ZNSt3__15arrayINS0_ImLm512EEELm64EEixEm)
-          112d10           112d10       25     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::operator[](unsigned long)
-          112d40           112d40       62    16         keyboard.o:(.text)
-          112d40           112d40       62     1                 InitializeKeycode()
-          112db0           112db0      3d9    16         input.o:(.text)
-          112db0           112db0      148     1                 InputBuffer::add(char)
-          112f00           112f00       76     1                 InputBuffer::isEnter()
-          112f80           112f80       76     1                 InputBuffer::pop()
-          113000           113000       5a     1                 InputBuffer::allprint()
-          113060           113060       9b     1                 InputBuffer::allpop(char*)
-          113100           113100       89     1                 GetString(char*)
-          113190           113190       27    16         input.o:(.text._ZN11InputBuffer7isInputEv)
-          113190           113190       27     1                 InputBuffer::isInput()
-          1131c0           1131c0      851    16         command.o:(.text)
-          1131c0           1131c0      27d     1                 tokenize(char*)
-          113440           113440       4b     1                 free_token(char**)
-          113490           113490       97     1                 show_token(char**)
-          113530           113530      187     1                 command(char*)
-          1136c0           1136c0      351     1                 command(char**)
-          113a20           113a20       2b    16         command.o:(.text.startup)
-          113a20           113a20       1a     1                 __cxx_global_var_init
-          113a40           113a40        b     1                 _GLOBAL__sub_I_command.cpp
-          113a50           113a50       32    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-malloc.o):(.text)
-          113a50           113a50       12     1                 malloc
-          113a70           113a70       12     1                 free
-          113a90           113a90      207    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.text)
-          113a90           113a90       1c     1                 _strtol_r
-          113ab0           113ab0      19c     1                 _strtol_l
-          113c50           113c50       1a     1                 strtol_l
-          113c70           113c70       27     1                 strtol
-          113ca0           113ca0       1c    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-atoi.o):(.text)
-          113ca0           113ca0        c     1                 atoi
-          113cb0           113cb0        c     1                 _atoi_r
-          113cc0           113cc0      6ae    16         memory_manager.o:(.text)
-          113cc0           113cc0       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
-          113cc0           113cc0       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
-          113d10           113d10      15d     1                 BitmapMemoryManager::Allocate(unsigned long)
-          113e70           113e70       6e     1                 BitmapMemoryManager::GetBit(FrameID) const
-          113ee0           113ee0       74     1                 BitmapMemoryManager::MarkAllocated(FrameID, unsigned long)
-          113f60           113f60       90     1                 BitmapMemoryManager::Free(FrameID, unsigned long)
-          113ff0           113ff0       a8     1                 BitmapMemoryManager::SetBit(FrameID, bool)
-          1140a0           1140a0       34     1                 BitmapMemoryManager::SetMemoryRange(FrameID, FrameID)
-          1140e0           1140e0       48     1                 BitmapMemoryManager::IsAvailable(unsigned long)
-          114130           114130      167     1                 InitializeMemoryManager(BitmapMemoryManager*, MemoryMap*)
-          1142a0           1142a0       ce     1                 InitializeHeap(BitmapMemoryManager&)
-          114370           114370       2b    16         memory_manager.o:(.text.startup)
-          114370           114370       1a     1                 __cxx_global_var_init
-          114390           114390        b     1                 _GLOBAL__sub_I_memory_manager.cpp
-          1143a0           1143a0       16    16         memory_manager.o:(.text._ZNK7FrameID2IDEv)
-          1143a0           1143a0       16     1                 FrameID::ID() const
-          1143c0           1143c0       33    16         memory_manager.o:(.text._ZN5ErrorC2ENS_4CodeEPKci)
-          1143c0           1143c0       33     1                 Error::Error(Error::Code, char const*, int)
-          114400           114400       27    16         memory_manager.o:(.text._Z16AddressToFrameIDm)
-          114400           114400       27     1                 AddressToFrameID(unsigned long)
-          114430           114430       25    16         memory_manager.o:(.text._ZNKSt3__15arrayImLm524288EEixEm)
-          114430           114430       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long) const
-          114460           114460       25    16         memory_manager.o:(.text._ZNSt3__15arrayImLm524288EEixEm)
-          114460           114460       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long)
-          114490           114490       3e    16         memory_manager.o:(.text._Z11IsAvailable10MemoryType)
-          114490           114490       3e     1                 IsAvailable(MemoryType)
-          1144d0           1144d0       73    16         timer.o:(.text)
-          1144d0           1144d0       20     1                 InitializeLAPICTimer()
-          1144f0           1144f0       13     1                 StartLAPICTimer()
-          114510           114510       14     1                 LAPICTimer()
-          114530           114530       13     1                 StopLAPICTimer()
-          115548           115548       a8     8 .data.rel.ro
-          115548           115548       a0     8         kernel.o:(.data.rel.ro._ZN5Error11code_names_E)
-          115548           115548       a0     1                 Error::code_names_
-          1155e8           1155e8        8     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-impure.o):(.data.rel.ro)
-          1155e8           1155e8        8     1                 _global_impure_ptr
-          1155f0           1155f0       18     8 .init_array
-          1155f0           1155f0        8     8         kernel.o:(.init_array)
-          1155f8           1155f8        8     8         command.o:(.init_array)
-          115600           115600        8     8         memory_manager.o:(.init_array)
-          115610           115610     1240    16 .data
-          115610           115610        4     4         frame.o:(.data)
-          115610           115610        4     1                 line_len_max
-          115618           115618      750     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-impure.o):(.data)
-          115618           115618        8     1                 _impure_ptr
-          115620           115620      748     1                 impure_data
-          115d68           115d68      1a8     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.data)
-          115d68           115d68      1a8     1                 __global_locale
-          115f10           115f10      820    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.data)
-          115f10           115f10      810     1                 __malloc_av_
-          116720           116720        8     1                 __malloc_trim_threshold
-          116728           116728        8     1                 __malloc_sbrk_base
-          116730           116730       18    16         segment.o:(.data)
-          116730           116730       18     1                 gdt
-          116748           116748        8     4         interrupt.o:(.data)
-          116748           116748        8     1                 InterruptMessagePosition
-          116750           116750      100    16         keyboard.o:(.data)
-          116750           116750      100     1                 keycode
-          117000           117000   549010  4096 .bss
-          117000           117000   500428    16         kernel.o:(.bss)
-          117000           117000        8     1                 kNullFrame
-          117010           117010   100000     1                 kernel_main_stack
-          217010           217010      400     1                 Input_Buffer
-          217410           217410   400010     1                 memory_manager_buf
-          617420           617420        8     1                 memory_manager
-          617430           617430     5628    16         frame.o:(.bss)
-          617430           617430        8     1                 vinfo
-          617438           617438        8     1                 ascii_font
-          617440           617440        4     1                 line_queue_head
-          617444           617444        4     1                 line_queue_end
-          617448           617448        4     1                 max_line
-          617450           617450     4e20     1                 line_queue
-          61c270           61c270        8     1                 WritePixel
-          61c278           61c278        4     1                 Print::y
-          61c280           61c280      3e8     1                 Print::line
-          61c668           61c668        4     1                 Print::debug
-          61c670           61c670      3e8     1                 Printf::str_for_Printf
-          61ca58           61ca58        8     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.bss)
-          61ca58           61ca58        8     1                 _PathLocale
-          61ca60           61ca60       40     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.bss)
-          61ca60           61ca60        8     1                 __malloc_top_pad
-          61ca68           61ca68        8     1                 __malloc_max_sbrked_mem
-          61ca70           61ca70        8     1                 __malloc_max_total_mem
-          61ca78           61ca78       28     1                 __malloc_current_mallinfo
-          61caa0           61caa0        4     4         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reent.o):(.bss)
-          61caa0           61caa0        4     1                 errno
-          61cab0           61cab0       f0    16         pci.o:(.bss)
-          61cab0           61cab0        4     1                 num_device
-          61cab4           61cab4        4     1                 invdev
-          61cac0           61cac0       e0     1                 devices
-          61cba0           61cba0        8     8         memory_map.o:(.bss)
-          61cba0           61cba0        8     1                 mmap
-          61cba8           61cba8       10     8         newlib.o:(.bss)
-          61cba8           61cba8        8     1                 program_break
-          61cbb0           61cbb0        8     1                 program_break_end
-          61cbc0           61cbc0     1001    16         interrupt.o:(.bss)
-          61cbc0           61cbc0     1000     1                 idt
-          61dbc0           61dbc0        1     1                 KeyboardInterrupt(InterruptFrame*)::isShift
-          61e000           61e000    42000  4096         paging.o:(.bss)
-          61e000           61e000     1000     1                 (anonymous namespace)::pdp_table
-          61f000           61f000     1000     1                 (anonymous namespace)::pml4_table
-          620000           620000    40000     1                 (anonymous namespace)::page_directory
-          660000           660000        8     8         command.o:(.bss)
-          660000           660000        8     1                 kNullFrame
-          660008           660008        8     8         memory_manager.o:(.bss)
-          660008           660008        8     1                 kNullFrame
-               0                0     18c2     1 .debug_abbrev
-               0                0      4af     1         kernel.o:(.debug_abbrev)
-             4af              4af      1c7     1         frame.o:(.debug_abbrev)
-             676              676      115     1         pci.o:(.debug_abbrev)
-             78b              78b       fd     1         memory_map.o:(.debug_abbrev)
-             888              888      10a     1         newlib.o:(.debug_abbrev)
-             992              992       f8     1         segment.o:(.debug_abbrev)
-             a8a              a8a      1bb     1         interrupt.o:(.debug_abbrev)
-             c45              c45      20f     1         paging.o:(.debug_abbrev)
-             e54              e54       7c     1         keyboard.o:(.debug_abbrev)
-             ed0              ed0      124     1         input.o:(.debug_abbrev)
-             ff4              ff4      368     1         command.o:(.debug_abbrev)
-            135c             135c      4c3     1         memory_manager.o:(.debug_abbrev)
-            181f             181f       a3     1         timer.o:(.debug_abbrev)
-               0                0     81d7     1 .debug_info
-               0                0     1c58     1         kernel.o:(.debug_info)
-            1c58             1c58      719     1         frame.o:(.debug_info)
-            2371             2371      59c     1         pci.o:(.debug_info)
-            290d             290d      232     1         memory_map.o:(.debug_info)
-            2b3f             2b3f      341     1         newlib.o:(.debug_info)
-            2e80             2e80      22f     1         segment.o:(.debug_info)
-            30af             30af      806     1         interrupt.o:(.debug_info)
-            38b5             38b5      eca     1         paging.o:(.debug_info)
-            477f             477f       67     1         keyboard.o:(.debug_info)
-            47e6             47e6      1d7     1         input.o:(.debug_info)
-            49bd             49bd     1720     1         command.o:(.debug_info)
-            60dd             60dd     2044     1         memory_manager.o:(.debug_info)
-            8121             8121       b6     1         timer.o:(.debug_info)
+          101110           101110     1c6c     8 .eh_frame
+          101110           101110      1b0     1         kernel.o:(.eh_frame+0x0)
+          1012c0           1012c0      288     1         frame.o:(.eh_frame+0x18)
+          101548           101548       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcpy.o):(.eh_frame+0x18)
+          101560           101560       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcat.o):(.eh_frame+0x18)
+          101588           101588       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strlen.o):(.eh_frame+0x18)
+          1015a0           1015a0       38     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-vsprintf.o):(.eh_frame+0x18)
+          1015d8           1015d8       50     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfprintf.o):(.eh_frame+0x18)
+          101628           101628       40     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-localeconv.o):(.eh_frame+0x18)
+          101668           101668       80     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.eh_frame+0x18)
+          1016e8           1016e8       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcmp.o):(.eh_frame+0x18)
+          101700           101700       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-wctomb_r.o):(.eh_frame+0x18)
+          101728           101728       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mbtowc_r.o):(.eh_frame+0x18)
+          101750           101750       50     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.eh_frame+0x18)
+          1017a0           1017a0       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mlock.o):(.eh_frame+0x18)
+          1017c8           1017c8       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sbrkr.o):(.eh_frame+0x18)
+          1017f0           1017f0       60     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reent.o):(.eh_frame+0x18)
+          101850           101850       78     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-freer.o):(.eh_frame+0x18)
+          1018c8           1018c8       a0     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfiprintf.o):(.eh_frame+0x18)
+          101968           101968       68     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reallocr.o):(.eh_frame+0x18)
+          1019d0           1019d0       30     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memmove.o):(.eh_frame+0x18)
+          101a00           101a00       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memchr.o):(.eh_frame+0x18)
+          101a18           101a18       18     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-s_fpclassify.o):(.eh_frame+0x18)
+          101a30           101a30       98     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-dtoa.o):(.eh_frame+0x18)
+          101ac8           101ac8      340     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.eh_frame+0x18)
+          101e08           101e08       20     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-callocr.o):(.eh_frame+0x18)
+          101e28           101e28       38     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sprintf.o):(.eh_frame+0x18)
+          101e60           101e60      200     1         pci.o:(.eh_frame+0x18)
+          102060           102060       60     1         memory_map.o:(.eh_frame+0x18)
+          1020c0           1020c0       e8     1         newlib.o:(.eh_frame+0x18)
+          1021a8           1021a8       80     1         segment.o:(.eh_frame+0x18)
+          102228           102228      5f0     1         interrupt.o:(.eh_frame+0x18)
+          102818           102818       80     1         paging.o:(.eh_frame+0x18)
+          102898           102898       e8     1         input.o:(.eh_frame+0x18)
+          102980           102980       20     1         command.o:(.eh_frame+0x18)
+          1029a0           1029a0       a0     1         command.o:(.eh_frame+0x78)
+          102a40           102a40       20     1         command.o:(.eh_frame+0x138)
+          102a60           102a60       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-malloc.o):(.eh_frame+0x18)
+          102a88           102a88       88     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.eh_frame+0x18)
+          102b10           102b10       28     1         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-atoi.o):(.eh_frame+0x18)
+          102b38           102b38       20     1         memory_manager.o:(.eh_frame+0x18)
+          102b58           102b58      200     1         memory_manager.o:(.eh_frame+0x78)
+          102d58           102d58       20     1         memory_manager.o:(.eh_frame+0x2b8)
+          103d80           103d80     df83    16 .text
+          103d80           103d80      212    16         kernel.o:(.text)
+          103d80           103d80        f     1                 stop()
+          103d90           103d90       29     1                 entry_point
+          103dc0           103dc0      1d2     1                 kernel_main
+          103fa0           103fa0       50    16         kernel.o:(.text.startup)
+          103fa0           103fa0       1a     1                 __cxx_global_var_init
+          103fc0           103fc0       12     1                 __cxx_global_var_init.1
+          103fe0           103fe0       10     1                 _GLOBAL__sub_I_kernel.cpp
+          103ff0           103ff0        b    16         kernel.o:(.text._ZNSt3__114numeric_limitsImE3maxEv)
+          103ff0           103ff0        b     1                 std::__1::numeric_limits<unsigned long>::max()
+          104000           104000       21    16         kernel.o:(.text._ZN7FrameIDC2Em)
+          104000           104000       21     1                 FrameID::FrameID(unsigned long)
+          104030           104030       4c    16         kernel.o:(.text._ZN11InputBufferC2Ev)
+          104030           104030       4c     1                 InputBuffer::InputBuffer()
+          104080           104080       1e    16         kernel.o:(.text._ZNK5ErrorcvbEv)
+          104080           104080       1e     1                 Error::operator bool() const
+          1040a0           1040a0       29    16         kernel.o:(.text._ZNK5Error4NameEv)
+          1040a0           1040a0       29     1                 Error::Name() const
+          1040d0           1040d0        d    16         kernel.o:(.text._ZNSt3__123__libcpp_numeric_limitsImLb1EE3maxEv)
+          1040d0           1040d0        d     1                 std::__1::__libcpp_numeric_limits<unsigned long, true>::max()
+          1040e0           1040e0       25    16         kernel.o:(.text._ZNKSt3__15arrayIPKcLm20EEixEm)
+          1040e0           1040e0       25     1                 std::__1::array<char const*, 20ul>::operator[](unsigned long) const
+          104110           104110     11fe    16         frame.o:(.text)
+          104110           104110       d5     1                 InitializeFrame(bootinfo_t*)
+          1041f0           1041f0       7f     1                 WritePixelRGB(Color, int, int)
+          104270           104270       7f     1                 WritePixelBGR(Color, int, int)
+          1042f0           1042f0       3d     1                 HashtoColor(unsigned char)
+          104330           104330      191     1                 HSVtoRGB(int)
+          1044d0           1044d0       f7     1                 WriteAscii(char, Color, int, int)
+          1045d0           1045d0      136     1                 WriteSquare(Vector, Vector, Color)
+          104710           104710      292     1                 PrintLine(char const*, Vector, Color)
+          1049b0           1049b0       7e     1                 RegisterLine(char const*)
+          104a30           104a30      452     1                 Print
+          104e90           104e90       b3     1                 Printf
+          104f50           104f50      186     1                 dPrint(char const*, int)
+          1050e0           1050e0       6c     1                 udPrint(char*, unsigned int)
+          105150           105150       6c     1                 uxdPrint(char*, unsigned int)
+          1051c0           1051c0       c2     1                 WriteMandelbrot(int)
+          105290           105290       7e     1                 clear()
+          105310           105310      1ad    16         frame.o:(.text._Z14CalcMandelbrotiii)
+          105310           105310      1ad     1                 CalcMandelbrot(int, int, int)
+          1054c0           1054c0       83    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcpy.o):(.text)
+          1054c0           1054c0       83     1                 strcpy
+          105550           105550       6a    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcat.o):(.text)
+          105550           105550       6a     1                 strcat
+          1055c0           1055c0       d1    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strlen.o):(.text)
+          1055c0           1055c0       d1     1                 strlen
+          1056a0           1056a0       a2    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-vsprintf.o):(.text)
+          1056a0           1056a0       55     1                 vsprintf
+          105700           105700       42     1                 _vsprintf_r
+          105744           105744        0     4         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-impure.o):(.text)
+          105750           105750     2154    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfprintf.o):(.text)
+          105750           105750     2154     1                 _svfprintf_r
+          1078b0           1078b0       61    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-localeconv.o):(.text)
+          1078b0           1078b0        8     1                 __localeconv_l
+          1078c0           1078c0       21     1                 _localeconv_r
+          1078f0           1078f0       21     1                 localeconv
+          107920           107920      10f    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.text)
+          107920           107920       4f     1                 _setlocale_r
+          107970           107970       24     1                 __locale_mb_cur_max
+          1079a0           1079a0        8     1                 __locale_ctype_ptr_l
+          1079b0           1079b0       24     1                 __locale_ctype_ptr
+          1079e0           1079e0       4f     1                 setlocale
+          107a30           107a30       7f    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strcmp.o):(.text)
+          107a30           107a30       7f     1                 strcmp
+          107ab0           107ab0       54    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-wctomb_r.o):(.text)
+          107ab0           107ab0       23     1                 _wctomb_r
+          107ae0           107ae0       24     1                 __ascii_wctomb
+          107b10           107b10       5d    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mbtowc_r.o):(.text)
+          107b10           107b10       23     1                 _mbtowc_r
+          107b40           107b40       2d     1                 __ascii_mbtowc
+          107b70           107b70        0     4         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-ctype_.o):(.text)
+          107b70           107b70      803    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.text)
+          107b70           107b70      803     1                 _malloc_r
+          108380           108380       11    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mlock.o):(.text)
+          108380           108380        1     1                 __malloc_lock
+          108390           108390        1     1                 __malloc_unlock
+          1083a0           1083a0       33    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sbrkr.o):(.text)
+          1083a0           1083a0       33     1                 _sbrk_r
+          1083e0           1083e0      124    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reent.o):(.text)
+          1083e0           1083e0       2c     1                 cleanup_glue
+          108410           108410       f4     1                 _reclaim_reent
+          108510           108510      361    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-freer.o):(.text)
+          108510           108510      278     1                 _free_r
+          108790           108790       e1     1                 _malloc_trim_r
+          108880           108880     11c2    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-svfiprintf.o):(.text)
+          108880           108880      1b4     1                 __ssprint_r
+          108a40           108a40     1002     1                 _svfiprintf_r
+          109a50           109a50      624    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reallocr.o):(.text)
+          109a50           109a50      624     1                 _realloc_r
+          10a080           10a080      5cf    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memmove.o):(.text)
+          10a080           10a080      5cf     1                 memmove
+          10a650           10a650      12d    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memcpy.o):(.text)
+          10a650           10a650        0     1                 memcpy
+          10a675           10a675        0     1                 quadword_aligned
+          10a690           10a690        0     1                 loop
+          10a757           10a757        0     1                 byte_copy
+          10a75d           10a75d        0     1                 quadword_copy
+          10a780           10a780      180    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memchr.o):(.text)
+          10a780           10a780      180     1                 memchr
+          10a900           10a900       5d    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-s_fpclassify.o):(.text)
+          10a900           10a900       5d     1                 __fpclassifyd
+          10a960           10a960     1379    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-dtoa.o):(.text)
+          10a960           10a960     11d0     1                 _dtoa_r
+          10bb30           10bb30      1a9     1                 quorem
+          10bce0           10bce0     17b8    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mprec.o):(.text)
+          10bce0           10bce0       85     1                 _Balloc
+          10bd70           10bd70       19     1                 _Bfree
+          10bd90           10bd90      151     1                 __multadd
+          10bef0           10bef0      15e     1                 __s2b
+          10c050           10c050       69     1                 __hi0bits
+          10c0c0           10c0c0       84     1                 __lo0bits
+          10c150           10c150       83     1                 __i2b
+          10c1e0           10c1e0      350     1                 __multiply
+          10c530           10c530      13f     1                 __pow5mult
+          10c670           10c670      34a     1                 __lshift
+          10c9c0           10c9c0       42     1                 __mcmp
+          10ca10           10ca10      222     1                 __mdiff
+          10cc40           10cc40       63     1                 __ulp
+          10ccb0           10ccb0      11a     1                 __b2d
+          10cdd0           10cdd0      320     1                 __d2b
+          10d0f0           10d0f0       96     1                 __ratio
+          10d190           10d190       99     1                 _mprec_log10
+          10d230           10d230      205     1                 __copybits
+          10d440           10d440       58     1                 __any_on
+          10d4a0           10d4a0       7f    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-callocr.o):(.text)
+          10d4a0           10d4a0       7f     1                 _calloc_r
+          10d520           10d520       e0    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-memset.o):(.text)
+          10d520           10d520        0     1                 memset
+          10d54e           10d54e        0     1                 quadword_aligned
+          10d570           10d570        0     1                 loop
+          10d5db           10d5db        0     1                 byte_set
+          10d5e1           10d5e1        0     1                 quadword_set
+          10d600           10d600      1ab    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-sprintf.o):(.text)
+          10d600           10d600       c9     1                 _sprintf_r
+          10d6d0           10d6d0       db     1                 sprintf
+          10d7b0           10d7b0       c1    16         asmfunc.o:(.text)
+          10d7b0           10d7b0        0     1                 IoOut32
+          10d7b7           10d7b7        0     1                 IoIn32
+          10d7bc           10d7bc        0     1                 IoIn16
+          10d7c2           10d7c2        0     1                 IoOut8
+          10d7ca           10d7ca        0     1                 IoIn8
+          10d7cf           10d7cf        0     1                 call_kernel_main
+          10d7df           10d7df        0     1                 _hlt
+          10d7e2           10d7e2        0     1                 LoadGDT
+          10d7fc           10d7fc        0     1                 SetDSAll
+          10d805           10d805        0     1                 SetCSSS
+          10d819           10d819        0     1                 SetCSSS.next
+          10d81e           10d81e        0     1                 SetCSSS.stop
+          10d821           10d821        0     1                 GetCS
+          10d827           10d827        0     1                 LoadIDT
+          10d841           10d841        0     1                 SetCR3
+          10d845           10d845        0     1                 NotifyEndOfInterrupt
+          10d853           10d853        0     1                 rdtsc
+          10d880           10d880      809    16         pci.o:(.text)
+          10d880           10d880       4f     1                 MakeAddr(unsigned char, unsigned char, unsigned char, unsigned char)
+          10d8d0           10d8d0       1e     1                 WriteAddr(unsigned int)
+          10d8f0           10d8f0       1e     1                 WriteData(unsigned int)
+          10d910           10d910       10     1                 ReadData()
+          10d920           10d920       4a     1                 ReadVendorId(unsigned char, unsigned char, unsigned char)
+          10d970           10d970       67     1                 ReadVendorId(Device)
+          10d9e0           10d9e0       50     1                 ReadHeaderType(unsigned char, unsigned char, unsigned char)
+          10da30           10da30       70     1                 ReadBar(Device, int)
+          10daa0           10daa0       71     1                 ReadClassCode(unsigned char, unsigned char, unsigned char)
+          10db20           10db20       45     1                 ReadBusNumbers(unsigned char, unsigned char, unsigned char)
+          10db70           10db70       af     1                 AddDevice(unsigned char, unsigned char, unsigned char, unsigned char)
+          10dc20           10dc20       28     1                 IsSingleFunctionDevice(unsigned char)
+          10dc50           10dc50      139     1                 ScanAllBus()
+          10dd90           10dd90       b7     1                 ScanBus(unsigned char)
+          10de50           10de50      126     1                 ScanDevice(unsigned char, unsigned char)
+          10df80           10df80      109     1                 ScanFunction(unsigned char, unsigned char, unsigned char)
+          10e090           10e090      262    16         memory_map.o:(.text)
+          10e090           10e090       83     1                 show_memdesc(int)
+          10e120           10e120      106     1                 show_memory_map()
+          10e230           10e230       c2     1                 search_mem_type(unsigned long)
+          10e300           10e300      18d    16         newlib.o:(.text)
+          10e300           10e300       7e     1                 sbrk
+          10e380           10e380       1d     1                 _exit
+          10e3a0           10e3a0       24     1                 lseek
+          10e3d0           10e3d0       1d     1                 close
+          10e3f0           10e3f0       2d     1                 kill
+          10e420           10e420       16     1                 getpid
+          10e440           10e440       21     1                 fstat
+          10e470           10e470       1d     1                 isatty
+          10e490           10e490      348    16         segment.o:(.text)
+          10e490           10e490      21d     1                 SetCodeSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
+          10e6b0           10e6b0       77     1                 SetDataSegment(SegmentDescriptor*, DescriptorType, unsigned int, unsigned int, unsigned int)
+          10e730           10e730       67     1                 SetupSegments()
+          10e7a0           10e7a0       38     1                 InitializeSegment(unsigned short, unsigned short)
+          10e7e0           10e7e0     1a54    16         interrupt.o:(.text)
+          10e7e0           10e7e0       6c     1                 Interrupt_1(InterruptFrame*)
+          10e850           10e850       6c     1                 Interrupt_2(InterruptFrame*)
+          10e8c0           10e8c0       6c     1                 Interrupt_4(InterruptFrame*)
+          10e930           10e930       6c     1                 Interrupt_5(InterruptFrame*)
+          10e9a0           10e9a0       6c     1                 Interrupt_6(InterruptFrame*)
+          10ea10           10ea10       6c     1                 Interrupt_7(InterruptFrame*)
+          10ea80           10ea80       6c     1                 Interrupt_8(InterruptFrame*)
+          10eaf0           10eaf0       6c     1                 Interrupt_9(InterruptFrame*)
+          10eb60           10eb60       6c     1                 Interrupt_10(InterruptFrame*)
+          10ebd0           10ebd0       6c     1                 Interrupt_11(InterruptFrame*)
+          10ec40           10ec40       6c     1                 Interrupt_15(InterruptFrame*)
+          10ecb0           10ecb0       6c     1                 Interrupt_16(InterruptFrame*)
+          10ed20           10ed20       6c     1                 Interrupt_17(InterruptFrame*)
+          10ed90           10ed90       6c     1                 Interrupt_18(InterruptFrame*)
+          10ee00           10ee00       6c     1                 Interrupt_19(InterruptFrame*)
+          10ee70           10ee70       6c     1                 Interrupt_20(InterruptFrame*)
+          10eee0           10eee0       6c     1                 Interrupt_21(InterruptFrame*)
+          10ef50           10ef50       6c     1                 Interrupt_22(InterruptFrame*)
+          10efc0           10efc0       6c     1                 Interrupt_23(InterruptFrame*)
+          10f030           10f030       6c     1                 Interrupt_24(InterruptFrame*)
+          10f0a0           10f0a0       6c     1                 Interrupt_25(InterruptFrame*)
+          10f110           10f110       6c     1                 Interrupt_26(InterruptFrame*)
+          10f180           10f180       6c     1                 Interrupt_27(InterruptFrame*)
+          10f1f0           10f1f0       6c     1                 Interrupt_28(InterruptFrame*)
+          10f260           10f260       6c     1                 Interrupt_29(InterruptFrame*)
+          10f2d0           10f2d0       6c     1                 Interrupt_30(InterruptFrame*)
+          10f340           10f340       6c     1                 Interrupt_31(InterruptFrame*)
+          10f3b0           10f3b0       7e     1                 BreakpointInterrupt(InterruptFrame*)
+          10f430           10f430       6c     1                 SegFaultInterrupt(InterruptFrame*)
+          10f4a0           10f4a0       6c     1                 PageFaultInterrupt(InterruptFrame*)
+          10f510           10f510       6c     1                 GeneralProtectionInterrupt(InterruptFrame*)
+          10f580           10f580      217     1                 KeyboardInterrupt(InterruptFrame*)
+          10f7a0           10f7a0       f9     1                 DefaultInterrupt(InterruptFrame*)
+          10f8a0           10f8a0       7a     1                 SetIDTEntry(InterruptDescriptor*, InterruptDescriptorAttribute, unsigned long, unsigned long)
+          10f920           10f920       ba     1                 InitializePIC()
+          10f9e0           10f9e0      854     1                 InitializeInterrupt()
+          110240           110240       6b    16         interrupt.o:(.text._Z10isAlphabetc)
+          110240           110240       6b     1                 isAlphabet(char)
+          1102b0           1102b0       af    16         interrupt.o:(.text._Z11MakeIDTAttr14DescriptorTypehbh)
+          1102b0           1102b0       af     1                 MakeIDTAttr(DescriptorType, unsigned char, bool, unsigned char)
+          110360           110360      119    16         paging.o:(.text)
+          110360           110360      119     1                 SetupIdentityPageTable()
+          110480           110480       25    16         paging.o:(.text._ZNSt3__15arrayImLm512EEixEm)
+          110480           110480       25     1                 std::__1::array<unsigned long, 512ul>::operator[](unsigned long)
+          1104b0           1104b0       14    16         paging.o:(.text._ZNKSt3__15arrayINS0_ImLm512EEELm64EE4sizeEv)
+          1104b0           1104b0       14     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::size() const
+          1104d0           1104d0       25    16         paging.o:(.text._ZNSt3__15arrayINS0_ImLm512EEELm64EEixEm)
+          1104d0           1104d0       25     1                 std::__1::array<std::__1::array<unsigned long, 512ul>, 64ul>::operator[](unsigned long)
+          110500           110500       62    16         keyboard.o:(.text)
+          110500           110500       62     1                 InitializeKeycode()
+          110570           110570      3d2    16         input.o:(.text)
+          110570           110570      148     1                 InputBuffer::add(char)
+          1106c0           1106c0       76     1                 InputBuffer::isEnter()
+          110740           110740       76     1                 InputBuffer::pop()
+          1107c0           1107c0       5a     1                 InputBuffer::allprint()
+          110820           110820       9b     1                 InputBuffer::allpop(char*)
+          1108c0           1108c0       82     1                 GetString(char*)
+          110950           110950       27    16         input.o:(.text._ZN11InputBuffer7isInputEv)
+          110950           110950       27     1                 InputBuffer::isInput()
+          110980           110980      851    16         command.o:(.text)
+          110980           110980      27d     1                 tokenize(char*)
+          110c00           110c00       4b     1                 free_token(char**)
+          110c50           110c50       97     1                 show_token(char**)
+          110cf0           110cf0      187     1                 command(char*)
+          110e80           110e80      351     1                 command(char**)
+          1111e0           1111e0       2b    16         command.o:(.text.startup)
+          1111e0           1111e0       1a     1                 __cxx_global_var_init
+          111200           111200        b     1                 _GLOBAL__sub_I_command.cpp
+          111210           111210       32    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-malloc.o):(.text)
+          111210           111210       12     1                 malloc
+          111230           111230       12     1                 free
+          111250           111250      207    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-strtol.o):(.text)
+          111250           111250       1c     1                 _strtol_r
+          111270           111270      19c     1                 _strtol_l
+          111410           111410       1a     1                 strtol_l
+          111430           111430       27     1                 strtol
+          111460           111460       1c    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-atoi.o):(.text)
+          111460           111460        c     1                 atoi
+          111470           111470        c     1                 _atoi_r
+          111480           111480      6ae    16         memory_manager.o:(.text)
+          111480           111480       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
+          111480           111480       4f     1                 BitmapMemoryManager::BitmapMemoryManager()
+          1114d0           1114d0      15d     1                 BitmapMemoryManager::Allocate(unsigned long)
+          111630           111630       6e     1                 BitmapMemoryManager::GetBit(FrameID) const
+          1116a0           1116a0       74     1                 BitmapMemoryManager::MarkAllocated(FrameID, unsigned long)
+          111720           111720       90     1                 BitmapMemoryManager::Free(FrameID, unsigned long)
+          1117b0           1117b0       a8     1                 BitmapMemoryManager::SetBit(FrameID, bool)
+          111860           111860       34     1                 BitmapMemoryManager::SetMemoryRange(FrameID, FrameID)
+          1118a0           1118a0       48     1                 BitmapMemoryManager::IsAvailable(unsigned long)
+          1118f0           1118f0      167     1                 InitializeMemoryManager(BitmapMemoryManager*, MemoryMap*)
+          111a60           111a60       ce     1                 InitializeHeap(BitmapMemoryManager&)
+          111b30           111b30       2b    16         memory_manager.o:(.text.startup)
+          111b30           111b30       1a     1                 __cxx_global_var_init
+          111b50           111b50        b     1                 _GLOBAL__sub_I_memory_manager.cpp
+          111b60           111b60       16    16         memory_manager.o:(.text._ZNK7FrameID2IDEv)
+          111b60           111b60       16     1                 FrameID::ID() const
+          111b80           111b80       33    16         memory_manager.o:(.text._ZN5ErrorC2ENS_4CodeEPKci)
+          111b80           111b80       33     1                 Error::Error(Error::Code, char const*, int)
+          111bc0           111bc0       27    16         memory_manager.o:(.text._Z16AddressToFrameIDm)
+          111bc0           111bc0       27     1                 AddressToFrameID(unsigned long)
+          111bf0           111bf0       25    16         memory_manager.o:(.text._ZNKSt3__15arrayImLm524288EEixEm)
+          111bf0           111bf0       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long) const
+          111c20           111c20       25    16         memory_manager.o:(.text._ZNSt3__15arrayImLm524288EEixEm)
+          111c20           111c20       25     1                 std::__1::array<unsigned long, 524288ul>::operator[](unsigned long)
+          111c50           111c50       3e    16         memory_manager.o:(.text._Z11IsAvailable10MemoryType)
+          111c50           111c50       3e     1                 IsAvailable(MemoryType)
+          111c90           111c90       73    16         timer.o:(.text)
+          111c90           111c90       20     1                 InitializeLAPICTimer()
+          111cb0           111cb0       13     1                 StartLAPICTimer()
+          111cd0           111cd0       14     1                 LAPICTimer()
+          111cf0           111cf0       13     1                 StopLAPICTimer()
+          112d08           112d08       a8     8 .data.rel.ro
+          112d08           112d08       a0     8         kernel.o:(.data.rel.ro._ZN5Error11code_names_E)
+          112d08           112d08       a0     1                 Error::code_names_
+          112da8           112da8        8     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-impure.o):(.data.rel.ro)
+          112da8           112da8        8     1                 _global_impure_ptr
+          112db0           112db0       18     8 .init_array
+          112db0           112db0        8     8         kernel.o:(.init_array)
+          112db8           112db8        8     8         command.o:(.init_array)
+          112dc0           112dc0        8     8         memory_manager.o:(.init_array)
+          112dd0           112dd0     1240    16 .data
+          112dd0           112dd0        4     4         frame.o:(.data)
+          112dd0           112dd0        4     1                 line_len_max
+          112dd8           112dd8      750     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-impure.o):(.data)
+          112dd8           112dd8        8     1                 _impure_ptr
+          112de0           112de0      748     1                 impure_data
+          113528           113528      1a8     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.data)
+          113528           113528      1a8     1                 __global_locale
+          1136d0           1136d0      820    16         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.data)
+          1136d0           1136d0      810     1                 __malloc_av_
+          113ee0           113ee0        8     1                 __malloc_trim_threshold
+          113ee8           113ee8        8     1                 __malloc_sbrk_base
+          113ef0           113ef0       18    16         segment.o:(.data)
+          113ef0           113ef0       18     1                 gdt
+          113f08           113f08        8     4         interrupt.o:(.data)
+          113f08           113f08        8     1                 InterruptMessagePosition
+          113f10           113f10      100    16         keyboard.o:(.data)
+          113f10           113f10      100     1                 keycode
+          115000           115000   549010  4096 .bss
+          115000           115000   500428    16         kernel.o:(.bss)
+          115000           115000        8     1                 kNullFrame
+          115010           115010   100000     1                 kernel_main_stack
+          215010           215010      400     1                 Input_Buffer
+          215410           215410   400010     1                 memory_manager_buf
+          615420           615420        8     1                 memory_manager
+          615430           615430     5628    16         frame.o:(.bss)
+          615430           615430        8     1                 vinfo
+          615438           615438        8     1                 ascii_font
+          615440           615440        4     1                 line_queue_head
+          615444           615444        4     1                 line_queue_end
+          615448           615448        4     1                 max_line
+          615450           615450     4e20     1                 line_queue
+          61a270           61a270        8     1                 WritePixel
+          61a278           61a278        4     1                 Print::y
+          61a280           61a280      3e8     1                 Print::line
+          61a670           61a670      3e8     1                 Printf::str_for_Printf
+          61aa58           61aa58        8     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-locale.o):(.bss)
+          61aa58           61aa58        8     1                 _PathLocale
+          61aa60           61aa60       40     8         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-mallocr.o):(.bss)
+          61aa60           61aa60        8     1                 __malloc_top_pad
+          61aa68           61aa68        8     1                 __malloc_max_sbrked_mem
+          61aa70           61aa70        8     1                 __malloc_max_total_mem
+          61aa78           61aa78       28     1                 __malloc_current_mallinfo
+          61aaa0           61aaa0        4     4         /home/yakishamo/x86_64-elf/lib/libc.a(lib_a-reent.o):(.bss)
+          61aaa0           61aaa0        4     1                 errno
+          61aab0           61aab0       f0    16         pci.o:(.bss)
+          61aab0           61aab0        4     1                 num_device
+          61aab4           61aab4        4     1                 invdev
+          61aac0           61aac0       e0     1                 devices
+          61aba0           61aba0        8     8         memory_map.o:(.bss)
+          61aba0           61aba0        8     1                 mmap
+          61aba8           61aba8       10     8         newlib.o:(.bss)
+          61aba8           61aba8        8     1                 program_break
+          61abb0           61abb0        8     1                 program_break_end
+          61abc0           61abc0     1001    16         interrupt.o:(.bss)
+          61abc0           61abc0     1000     1                 idt
+          61bbc0           61bbc0        1     1                 KeyboardInterrupt(InterruptFrame*)::isShift
+          61c000           61c000    42000  4096         paging.o:(.bss)
+          61c000           61c000     1000     1                 (anonymous namespace)::pdp_table
+          61d000           61d000     1000     1                 (anonymous namespace)::pml4_table
+          61e000           61e000    40000     1                 (anonymous namespace)::page_directory
+          65e000           65e000        8     8         command.o:(.bss)
+          65e000           65e000        8     1                 kNullFrame
+          65e008           65e008        8     8         memory_manager.o:(.bss)
+          65e008           65e008        8     1                 kNullFrame
+               0                0     18e3     1 .debug_abbrev
+               0                0      4be     1         kernel.o:(.debug_abbrev)
+             4be              4be      1c7     1         frame.o:(.debug_abbrev)
+             685              685      115     1         pci.o:(.debug_abbrev)
+             79a              79a      106     1         memory_map.o:(.debug_abbrev)
+             8a0              8a0      10a     1         newlib.o:(.debug_abbrev)
+             9aa              9aa       f4     1         segment.o:(.debug_abbrev)
+             a9e              a9e      1aa     1         interrupt.o:(.debug_abbrev)
+             c48              c48      20f     1         paging.o:(.debug_abbrev)
+             e57              e57       7c     1         keyboard.o:(.debug_abbrev)
+             ed3              ed3      124     1         input.o:(.debug_abbrev)
+             ff7              ff7      377     1         command.o:(.debug_abbrev)
+            136e             136e      4d2     1         memory_manager.o:(.debug_abbrev)
+            1840             1840       a3     1         timer.o:(.debug_abbrev)
+               0                0     80fb     1 .debug_info
+               0                0     1c4c     1         kernel.o:(.debug_info)
+            1c4c             1c4c      70e     1         frame.o:(.debug_info)
+            235a             235a      581     1         pci.o:(.debug_info)
+            28db             28db      207     1         memory_map.o:(.debug_info)
+            2ae2             2ae2      341     1         newlib.o:(.debug_info)
+            2e23             2e23      215     1         segment.o:(.debug_info)
+            3038             3038      7a9     1         interrupt.o:(.debug_info)
+            37e1             37e1      eca     1         paging.o:(.debug_info)
+            46ab             46ab       67     1         keyboard.o:(.debug_info)
+            4712             4712      1cc     1         input.o:(.debug_info)
+            48de             48de     1721     1         command.o:(.debug_info)
+            5fff             5fff     2046     1         memory_manager.o:(.debug_info)
+            8045             8045       b6     1         timer.o:(.debug_info)
                0                0      177     1 .debug_rnglists
                0                0       35     1         kernel.o:(.debug_rnglists)
               35               35       20     1         frame.o:(.debug_rnglists)
@@ -554,62 +478,62 @@
               ed               ed       18     1         input.o:(.debug_rnglists)
              105              105       26     1         command.o:(.debug_rnglists)
              12b              12b       4c     1         memory_manager.o:(.debug_rnglists)
-               0                0     2150     1 .debug_str_offsets
-               0                0      718     1         kernel.o:(.debug_str_offsets)
-             718              718      1e4     1         frame.o:(.debug_str_offsets)
-             8fc              8fc      12c     1         pci.o:(.debug_str_offsets)
-             a28              a28       b4     1         memory_map.o:(.debug_str_offsets)
-             adc              adc      12c     1         newlib.o:(.debug_str_offsets)
-             c08              c08       e8     1         segment.o:(.debug_str_offsets)
-             cf0              cf0      248     1         interrupt.o:(.debug_str_offsets)
-             f38              f38      3c8     1         paging.o:(.debug_str_offsets)
-            1300             1300       30     1         keyboard.o:(.debug_str_offsets)
-            1330             1330       7c     1         input.o:(.debug_str_offsets)
-            13ac             13ac      514     1         command.o:(.debug_str_offsets)
-            18c0             18c0      830     1         memory_manager.o:(.debug_str_offsets)
-            20f0             20f0       60     1         timer.o:(.debug_str_offsets)
-               0                0     40ab     1 .debug_str
-               0                0     40ab     1         <internal>:(.debug_str)
-               0                0      ab8     1 .debug_addr
+               0                0     2130     1 .debug_str_offsets
+               0                0      714     1         kernel.o:(.debug_str_offsets)
+             714              714      1dc     1         frame.o:(.debug_str_offsets)
+             8f0              8f0      128     1         pci.o:(.debug_str_offsets)
+             a18              a18       ac     1         memory_map.o:(.debug_str_offsets)
+             ac4              ac4      12c     1         newlib.o:(.debug_str_offsets)
+             bf0              bf0       e8     1         segment.o:(.debug_str_offsets)
+             cd8              cd8      240     1         interrupt.o:(.debug_str_offsets)
+             f18              f18      3c8     1         paging.o:(.debug_str_offsets)
+            12e0             12e0       30     1         keyboard.o:(.debug_str_offsets)
+            1310             1310       7c     1         input.o:(.debug_str_offsets)
+            138c             138c      514     1         command.o:(.debug_str_offsets)
+            18a0             18a0      830     1         memory_manager.o:(.debug_str_offsets)
+            20d0             20d0       60     1         timer.o:(.debug_str_offsets)
+               0                0     4058     1 .debug_str
+               0                0     4058     1         <internal>:(.debug_str)
+               0                0      ab0     1 .debug_addr
                0                0      170     1         kernel.o:(.debug_addr)
-             170              170      130     1         frame.o:(.debug_addr)
-             2a0              2a0      130     1         pci.o:(.debug_addr)
-             3d0              3d0       60     1         memory_map.o:(.debug_addr)
+             170              170      128     1         frame.o:(.debug_addr)
+             298              298      130     1         pci.o:(.debug_addr)
+             3c8              3c8       68     1         memory_map.o:(.debug_addr)
              430              430       90     1         newlib.o:(.debug_addr)
              4c0              4c0       30     1         segment.o:(.debug_addr)
-             4f0              4f0      278     1         interrupt.o:(.debug_addr)
-             768              768       50     1         paging.o:(.debug_addr)
-             7b8              7b8       20     1         keyboard.o:(.debug_addr)
-             7d8              7d8       50     1         input.o:(.debug_addr)
-             828              828      160     1         command.o:(.debug_addr)
-             988              988       f0     1         memory_manager.o:(.debug_addr)
-             a78              a78       40     1         timer.o:(.debug_addr)
-               0                0       29     1 .comment
-               0                0       29     1         <internal>:(.comment)
-               0                0     29c1     1 .debug_line
-               0                0      2dd     1         kernel.o:(.debug_line)
-             2dd              2dd      77e     1         frame.o:(.debug_line)
-             a5b              a5b      428     1         pci.o:(.debug_line)
-             e83              e83      137     1         memory_map.o:(.debug_line)
-             fba              fba      180     1         newlib.o:(.debug_line)
-            113a             113a      1c2     1         segment.o:(.debug_line)
-            12fc             12fc      748     1         interrupt.o:(.debug_line)
-            1a44             1a44      16b     1         paging.o:(.debug_line)
-            1baf             1baf       7e     1         keyboard.o:(.debug_line)
-            1c2d             1c2d      25b     1         input.o:(.debug_line)
-            1e88             1e88      4c5     1         command.o:(.debug_line)
-            234d             234d      5ad     1         memory_manager.o:(.debug_line)
-            28fa             28fa       c7     1         timer.o:(.debug_line)
-               0                0      470     1 .debug_line_str
-               0                0      470     1         <internal>:(.debug_line_str)
-               0                0       5f     1 .debug_loclists
-               0                0       5f     1         frame.o:(.debug_loclists)
+             4f0              4f0      270     1         interrupt.o:(.debug_addr)
+             760              760       50     1         paging.o:(.debug_addr)
+             7b0              7b0       20     1         keyboard.o:(.debug_addr)
+             7d0              7d0       50     1         input.o:(.debug_addr)
+             820              820      160     1         command.o:(.debug_addr)
+             980              980       f0     1         memory_manager.o:(.debug_addr)
+             a70              a70       40     1         timer.o:(.debug_addr)
+               0                0       3e     1 .comment
+               0                0       3e     1         <internal>:(.comment)
+               0                0     29d5     1 .debug_line
+               0                0      2e7     1         kernel.o:(.debug_line)
+             2e7              2e7      7be     1         frame.o:(.debug_line)
+             aa5              aa5      449     1         pci.o:(.debug_line)
+             eee              eee      13c     1         memory_map.o:(.debug_line)
+            102a             102a      184     1         newlib.o:(.debug_line)
+            11ae             11ae      1c8     1         segment.o:(.debug_line)
+            1376             1376      69f     1         interrupt.o:(.debug_line)
+            1a15             1a15      171     1         paging.o:(.debug_line)
+            1b86             1b86       7f     1         keyboard.o:(.debug_line)
+            1c05             1c05      266     1         input.o:(.debug_line)
+            1e6b             1e6b      4d4     1         command.o:(.debug_line)
+            233f             233f      5cb     1         memory_manager.o:(.debug_line)
+            290a             290a       cb     1         timer.o:(.debug_line)
+               0                0      46c     1 .debug_line_str
+               0                0      46c     1         <internal>:(.debug_line_str)
+               0                0       60     1 .debug_loclists
+               0                0       60     1         frame.o:(.debug_loclists)
                0                0       f8     8 .debug_frame
                0                0       40     8         keyboard.o:(.debug_frame)
               40               40       b8     8         timer.o:(.debug_frame)
-               0                0     1fb0     8 .symtab
-               0                0     1fb0     8         <internal>:(.symtab)
+               0                0     1f80     8 .symtab
+               0                0     1f80     8         <internal>:(.symtab)
                0                0       ed     1 .shstrtab
                0                0       ed     1         <internal>:(.shstrtab)
-               0                0     1818     1 .strtab
-               0                0     1818     1         <internal>:(.strtab)
+               0                0     17de     1 .strtab
+               0                0     17de     1         <internal>:(.strtab)

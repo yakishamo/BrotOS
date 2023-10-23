@@ -12,8 +12,6 @@ void show_memdesc(int i) {
 }
 
 void show_memory_map() {
-	char str[200];
-	char buf[20];
 	int i = 0;
 
 	Printf("map size : %d\n", mmap->map_size);
@@ -33,9 +31,7 @@ void show_memory_map() {
 }
 
 uint32_t search_mem_type(uintptr_t ptr) {
-	int i;
-	
-	for(i = 0; i < mmap->map_size/mmap->descriptor_size; i++) {
+	for(uint64_t i = 0; i < mmap->map_size/mmap->descriptor_size; i++) {
 		if(DESC(i)->physical_start >= ptr) return DESC(i-1)->type;
 	}
 	return 0x15;
