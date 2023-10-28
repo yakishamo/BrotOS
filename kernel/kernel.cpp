@@ -77,10 +77,19 @@ extern "C" void kernel_main(bootinfo_t *binfo)
 	Printf("kernel stack : %p\n", kernel_main_stack);
 	while(1) { //main loop
 		Printf("Enter command >");
-		GetString(str);
+    Printf("hogehoge\n");
+		/*
+    GetString(str);
 		token = tokenize(str);
 		command(token);
 		free_token(token);
+    */
+    while(1) {
+      if(Input_Buffer.isInput()) {
+        char c = Input_Buffer.pop();
+        Printf("%c", c);
+      }
+    }
 	}
 	stop();
 }
